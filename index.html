@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrigurukrupa Surgical - Surgical Products & Equipment</title>
+    <meta name="description" content="Premium surgical products and medical equipment for healthcare professionals">
+    <meta name="keywords" content="surgical products, medical equipment, surgical instruments, healthcare supplies">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Shrigurukrupa Surgical - Surgical Products & Equipment">
+    <meta property="og:description" content="Premium surgical products and medical equipment for healthcare professionals">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Shrigurukrupa Surgical">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shrigurukrupa Surgical - Surgical Products & Equipment">
+    <meta name="twitter:description" content="Premium surgical products and medical equipment for healthcare professionals">
+    <meta name="twitter:image" content="assets/og-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Shrigurukrupa Surgical",
+        "url": "https://shrigurukrupa-surgical.com",
+        "logo": "assets/logo.png",
+        "description": "Premium surgical products and medical equipment for healthcare professionals",
+        "telephone": "+91-804-807-4046",
+        "email": "shrigurukrupa@yahoo.co.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "postalCode": "380021",
+            "addressCountry": "IN"
+        },
+        "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+        "priceRange": "$$",
+        "category": [
+            "Surgical Instruments",
+            "Medical Equipment",
+            "Healthcare Supplies"
+        ],
+        "hasCredential": "ISO Certified Medical Equipment Supplier"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="javascript:void(0)" onclick="showPage('home')" class="logo-link">
+                            <div class="logo-wrapper">
+                                <div class="logo-symbol">
+                                    <div class="logo-icon-bg">
+                                        <div class="medical-cross"></div>
+                                    </div>
+                                </div>
+                                <div class="logo-brand">
+                                    <div class="brand-name" data-translate="brand.name">Shri Gurukrupa</div>
+                                    <div class="brand-type" data-translate="brand.type">SURGICAL</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="nav-menu" id="navMenu">
+                        <ul>
+                            <li><a href="javascript:void(0)" onclick="showPage('home')" data-translate="nav.home">
+                                <div class="nav-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <span>Home</span>
+                            </a></li>
+                            <li><a href="javascript:void(0)" onclick="showPage('about')" data-translate="nav.about">
+                                <div class="nav-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </div>
+                                <span>About</span>
+                            </a></li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" onclick="showPage('products')" data-translate="nav.products">
+                                    <div class="nav-icon">
+                                        <i class="fas fa-boxes"></i>
+                                    </div>
+                                    <span>Products</span>
+                                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)" onclick="showPage('infusion-transfusion')" data-translate="nav.infusionTransfusion">
+                                        <i class="fas fa-tint"></i>Infusion & Transfusion
+                                    </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)" onclick="showPage('downloads')" data-translate="nav.downloads">
+                                <div class="nav-icon">
+                                    <i class="fas fa-download"></i>
+                                </div>
+                                <span>Downloads</span>
+                            </a></li>
+                            <li><a href="javascript:void(0)" onclick="showPage('enquiry')" data-translate="nav.enquiry">
+                                <div class="nav-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <span>Enquiry</span>
+                            </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-right">
+                        <div class="search-box">
+                            <input type="text" id="searchInput" placeholder="Search..." data-translate-placeholder="search.placeholder">
+                            <button onclick="performSearch()"><i class="fas fa-search"></i></button>
+                        </div>
+                        <button class="appointment-btn" onclick="showPage('contact')" data-translate="nav.contactUs">
+                            <i class="fas fa-envelope"></i>Contact Us
+                        </button>
+                        <div class="language-selector-nav">
+                            <select id="languageSelector" onchange="changeLanguage()">
+                                <option value="en">English</option>
+                                <option value="hi">Hindi</option>
+                                <option value="gu">Gujarati</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                                <option value="de">German</option>
+                            </select>
+                        </div>
+                        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-translate="footer.products">Our Products</h3>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="showPage('infusion-transfusion')" data-translate="nav.infusionTransfusion">Infusion & Transfusion</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-translate="footer.quickLinks">Quick Links</h3>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="showPage('about')" data-translate="nav.about">About Us</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPage('products')" data-translate="nav.products">Our Products</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPage('downloads')" data-translate="nav.downloads">Downloads</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPage('contact')" data-translate="nav.contact">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" onclick="showPage('enquiry')" data-translate="nav.enquiry">Enquiry</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 data-translate="footer.contact">Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-translate="footer.address">Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 (804) 807-4046</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>shrigurukrupa@yahoo.co.uk</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-facebook"></i>
+                        <span><a href="https://facebook.com/shrigurukrupasurgical" target="_blank" rel="noopener">Facebook</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span><a href="https://linkedin.com/company/shrigurukrupa-surgical" target="_blank" rel="noopener">LinkedIn</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shrigurukrupa Surgical. <span data-translate="footer.rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" onclick="scrollToTop()" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/translations.js"></script>
+
+    <!-- Page Modules -->
+    <script src="pages/home.js"></script>
+    <script src="pages/about.js"></script>
+    <script src="pages/products.js"></script>
+    <script src="pages/contact.js"></script>
+    <script src="pages/downloads.js"></script>
+    <script src="pages/enquiry.js"></script>
+    <script src="pages/infusion-transfusion.js"></script>
+
+    <script src="js/router.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
