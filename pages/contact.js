@@ -93,7 +93,7 @@ class ContactPage {
                                         <i class="fab fa-linkedin-in"></i>
                                         <span>LinkedIn</span>
                                     </a>
-                                    <a href="https://instagram.com/shrigurukrupasurgical" target="_blank" class="social-link instagram">
+                                    <a href="https://www.instagram.com/shrigurukrupasurgical" target="_blank" rel="noopener" class="social-link instagram">
                                         <i class="fab fa-instagram"></i>
                                         <span>Instagram</span>
                                     </a>

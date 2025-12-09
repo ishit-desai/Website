@@ -203,7 +203,16 @@ class Router {
         this.addRoute('contact', () => this.loadPage('contact'));
         this.addRoute('downloads', () => this.loadPage('downloads'));
         this.addRoute('enquiry', () => this.loadPage('enquiry'));
-        this.addRoute('infusion-transfusion', () => this.loadPage('infusion-transfusion'));
+
+        // Product category routes
+        this.addRoute('infusion-therapy', () => this.loadPage('infusion-therapy'));
+        this.addRoute('anaesthesia', () => this.loadPage('anaesthesia'));
+        this.addRoute('urology', () => this.loadPage('urology'));
+        this.addRoute('dialysis', () => this.loadPage('dialysis'));
+        this.addRoute('gastroenterology', () => this.loadPage('gastroenterology'));
+        this.addRoute('surgery', () => this.loadPage('surgery'));
+        this.addRoute('face-mask', () => this.loadPage('face-mask'));
+        this.addRoute('general', () => this.loadPage('general'));
     }
 
     // Load page content
@@ -254,7 +263,14 @@ class Router {
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,
-            'infusion-transfusion': window.InfusionTransfusionPage
+            'infusion-therapy': window.InfusionTherapyPage,
+            'anaesthesia': window.AnaesthesiaPage,
+            'urology': window.UrologyPage,
+            'dialysis': window.DialysisPage,
+            'gastroenterology': window.GastroenterologyPage,
+            'surgery': window.SurgeryPage,
+            'face-mask': window.FaceMaskPage,
+            'general': window.GeneralPage
         };
 
         if (pageClasses[page]) {
@@ -274,7 +290,14 @@ class Router {
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,
-            'infusion-transfusion': window.InfusionTransfusionPage
+            'infusion-therapy': window.InfusionTherapyPage,
+            'anaesthesia': window.AnaesthesiaPage,
+            'urology': window.UrologyPage,
+            'dialysis': window.DialysisPage,
+            'gastroenterology': window.GastroenterologyPage,
+            'surgery': window.SurgeryPage,
+            'face-mask': window.FaceMaskPage,
+            'general': window.GeneralPage
         };
 
         if (pageClasses[page]) {
