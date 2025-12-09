@@ -34,7 +34,14 @@ class ContactPage {
                                     </div>
                                     <div class="contact-content">
                                         <h3 data-translate="contact.office">${t.contact?.office || 'Our Office'}</h3>
-                                        <p data-translate="footer.address">Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021</p>
+                                        <p class="address-formatted">
+                                            4, Amardeep Estate,<br>
+                                            Opposite Anupam Cinema,<br>
+                                            Besides Bhagar Dhana Dal Estate,<br>
+                                            Khokhara Road,<br>
+                                            Ahmedabad - 380021,<br>
+                                            Gujarat, India
+                                        </p>
                                     </div>
                                 </div>
 
@@ -44,7 +51,7 @@ class ContactPage {
                                     </div>
                                     <div class="contact-content">
                                         <h3 data-translate="contact.callUs">${t.contact?.callUs || 'Call Us'}</h3>
-                                        <p><a href="tel:+918048074046" style="color: inherit; text-decoration: none;">+91 (804) 807-4046</a></p>
+                                        <p><a href="tel:+919825048962" style="color: inherit; text-decoration: none;">+91 (982) 504-8962</a></p>
                                     </div>
                                 </div>
 
@@ -78,13 +85,17 @@ class ContactPage {
                                         <i class="fab fa-facebook-f"></i>
                                         <span>Facebook</span>
                                     </a>
-                                    <a href="https://wa.me/918048074046" target="_blank" class="social-link whatsapp">
+                                    <a href="https://wa.me/919825048962" target="_blank" class="social-link whatsapp">
                                         <i class="fab fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
                                     <a href="https://www.linkedin.com/company/shrigurukrupa-surgical" target="_blank" class="social-link linkedin">
                                         <i class="fab fa-linkedin-in"></i>
                                         <span>LinkedIn</span>
+                                    </a>
+                                    <a href="https://instagram.com/shrigurukrupasurgical" target="_blank" class="social-link instagram">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
                                     </a>
                                 </div>
                             </div>
@@ -103,17 +114,18 @@ class ContactPage {
                             <h2 data-translate="contact.findUsHere">${t.contact?.findUsHere || 'Find Us Here'}</h2>
                             <div class="map-container">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8374825!2d72.6284235!3d23.0258748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84c6f09b5bd5%3A0x789abc123def4567!2sKhokhra%20Rd%2C%20Amraiwadi%2C%20Ahmedabad%2C%20Gujarat%20380021%2C%20India!5e0!3m2!1sen!2sus!4v1733425678901!5m2!1sen!2sus"
+                                    src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=4%20Amardeep%20Estate%2C%20Opposite%20Anupam%20Cinema%2C%20Khokhara%20Road%2C%20Ahmedabad%2C%20Gujarat%20380021%2C%20India&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                                     width="100%"
                                     height="450"
                                     style="border:0; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);"
                                     allowfullscreen=""
                                     loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Shrigurukrupa Surgical Location">
                                 </iframe>
                             </div>
                             <div class="map-directions">
-                                <a href="https://maps.google.com/?q=Amardeep+Estate+4+Khokhra+Rd+Amraiwadi+Ahmedabad+Gujarat+380021" target="_blank" class="btn btn-primary">
+                                <a href="https://www.google.com/maps/dir//4+Amardeep+Estate,+Opposite+Anupam+Cinema,+Besides+Bhagar+Dhana+Dal+Estate,+Khokhara+Road,+Ahmedabad,+Gujarat+380021,+India/@23.0225,72.5714,17z" target="_blank" class="btn btn-primary">
                                     <i class="fas fa-directions"></i>
                                     <span data-translate="contact.getDirections">${t.contact?.getDirections || 'Get Directions'}</span>
                                 </a>
@@ -151,7 +163,6 @@ class ContactPage {
 
     // Initialize contact page
     init() {
-        console.log('Contact page initialized');
         this.initInteractiveFeatures();
     }
 
@@ -233,7 +244,7 @@ class ContactPage {
 
     // Cleanup when leaving contact page
     destroy() {
-        console.log('Contact page destroyed');
+        // Cleanup complete
     }
 }
 

@@ -40,7 +40,7 @@ class DownloadsPage {
                                         <span class="file-size">PDF • 2.5 MB</span>
                                         <span class="last-updated" data-translate="downloads.updated">${t.downloads?.updated || 'Updated: Dec 2024'}</span>
                                     </div>
-                                    <a href="assets/catalogues/shrigurukrupa-catalogue.pdf" target="_blank" class="btn btn-primary download-btn">
+                                    <a href="javascript:void(0)" onclick="alert('Catalogue will be available soon. Please contact us for more information.')" class="btn btn-primary download-btn">
                                         <i class="fas fa-download"></i>
                                         <span data-translate="downloads.download">${t.downloads?.download || 'Download PDF'}</span>
                                     </a>
@@ -58,7 +58,7 @@ class DownloadsPage {
                                         <span class="file-size">PDF • 1.8 MB</span>
                                         <span class="last-updated" data-translate="downloads.updated">${t.downloads?.updated || 'Updated: Dec 2024'}</span>
                                     </div>
-                                    <a href="assets/catalogues/infusion-transfusion-catalogue.pdf" target="_blank" class="btn btn-primary download-btn">
+                                    <a href="javascript:void(0)" onclick="alert('Catalogue will be available soon. Please contact us for more information.')" class="btn btn-primary download-btn">
                                         <i class="fas fa-download"></i>
                                         <span data-translate="downloads.download">${t.downloads?.download || 'Download PDF'}</span>
                                     </a>
@@ -76,7 +76,7 @@ class DownloadsPage {
                                         <span class="file-size">PDF • 0.8 MB</span>
                                         <span class="last-updated" data-translate="downloads.updated">${t.downloads?.updated || 'Updated: Dec 2024'}</span>
                                     </div>
-                                    <a href="assets/catalogues/certifications.pdf" target="_blank" class="btn btn-primary download-btn">
+                                    <a href="javascript:void(0)" onclick="alert('Certifications will be available soon. Please contact us for more information.')" class="btn btn-primary download-btn">
                                         <i class="fas fa-download"></i>
                                         <span data-translate="downloads.download">${t.downloads?.download || 'Download PDF'}</span>
                                     </a>
@@ -117,7 +117,6 @@ class DownloadsPage {
 
     // Initialize downloads page
     init() {
-        console.log('Downloads page initialized');
         this.initDownloadTracking();
     }
 
@@ -152,7 +151,7 @@ class DownloadsPage {
 
     // Cleanup when leaving downloads page
     destroy() {
-        console.log('Downloads page destroyed');
+        // Cleanup complete
     }
 }
 

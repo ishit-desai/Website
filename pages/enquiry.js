@@ -100,7 +100,6 @@ class EnquiryPage {
 
     // Initialize enquiry form
     init() {
-        console.log('Enquiry page initialized');
         this.initForm();
     }
 
@@ -182,7 +181,7 @@ This enquiry was submitted from the Shrigurukrupa Surgical website.
 
     // Cleanup when leaving enquiry page
     destroy() {
-        console.log('Enquiry page destroyed');
+        // Cleanup complete
     }
 }
 

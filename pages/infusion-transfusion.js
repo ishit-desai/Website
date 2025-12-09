@@ -94,12 +94,12 @@ class InfusionTransfusionPage {
 
     // Initialize infusion transfusion page
     init() {
-        console.log('Infusion & Transfusion page initialized');
+        // Page initialization complete
     }
 
     // Cleanup when leaving page
     destroy() {
-        console.log('Infusion & Transfusion page destroyed');
+        // Cleanup complete
     }
 }
 

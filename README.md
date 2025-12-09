@@ -1,14 +1,14 @@
-# Shrigurukrupa Surgical - Medical Products Website
+# Shri Gurukrupa Surgical - Medical Products Website
 
-A professional, multilingual website for Shrigurukrupa Surgical, specializing in surgical products and medical equipment. Built with modern web technologies and featuring a comprehensive modular architecture optimized for healthcare professionals and medical institutions.
+A professional, multilingual website for Shri Gurukrupa Surgical, specializing in surgical products and medical equipment. Built with modern web technologies and featuring a comprehensive modular architecture optimized for healthcare professionals and medical institutions.
 
-## 🏥 About Shrigurukrupa Surgical
+## 🏥 About Shri Gurukrupa Surgical
 
-Shrigurukrupa Surgical is a leading supplier of premium surgical products and medical equipment, serving healthcare professionals across India and internationally. Located in Ahmedabad, Gujarat, we specialize in infusion & transfusion equipment, surgical instruments, and comprehensive medical supplies.
+Shri Gurukrupa Surgical is a leading supplier of premium surgical products and medical equipment, serving healthcare professionals across India and internationally. Located in Ahmedabad, Gujarat, we specialize in infusion & transfusion equipment, surgical instruments, and comprehensive medical supplies.
 
 **Company Details:**
-- **Address**: Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021
-- **Phone**: +91 (804) 807-4046
+- **Address**: 4, Amardeep Estate, Opposite Anupam Cinema, Besides Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India
+- **Phone**: +91 (982) 504-8962
 - **Email**: shrigurukrupa@yahoo.co.uk
 - **Certifications**: ISO Certified Medical Equipment Supplier
 
@@ -88,8 +88,8 @@ medical-website/
 │   └── infusion-transfusion.js # Specialized product category
 └── assets/
     ├── favicon.ico            # Website favicon
-    ├── logo.png              # Company logo
-    └── og-image.jpg          # Social media preview image
+    ├── logo.jpeg             # Company logo (main)
+    └── logo.svg              # Company logo (SVG fallback)
 ```
 
 ## 🚀 Getting Started
@@ -403,8 +403,8 @@ async function submitForm(formData) {
 
 ### Business Contact
 - **Company**: Shrigurukrupa Surgical
-- **Address**: Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021
-- **Phone**: +91 (804) 807-4046
+- **Address**: 4, Amardeep Estate, Opposite Anupam Cinema, Besides Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India
+- **Phone**: +91 (982) 504-8962
 - **Email**: shrigurukrupa@yahoo.co.uk
 - **Social**: Facebook, WhatsApp, LinkedIn (links in contact page)
 

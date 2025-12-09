@@ -39,12 +39,12 @@ class ProductsPage {
 
     // Initialize products page
     init() {
-        console.log('Products page initialized');
+        // Products page initialization complete
     }
 
     // Cleanup when leaving products page
     destroy() {
-        console.log('Products page destroyed');
+        // Cleanup complete
     }
 }
 

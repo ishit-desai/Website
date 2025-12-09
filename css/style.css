@@ -107,17 +107,98 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 4px 8px;
+    border-radius: 8px;
+    position: relative;
 }
 
 .logo-link:hover {
-    transform: scale(1.02);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(147, 197, 253, 0.05));
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.1);
+}
+
+.logo-link:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Logo Responsive Design */
+@media (max-width: 768px) {
+    .logo-image {
+        max-height: 44px;
+        max-width: 44px;
+        padding: 3px;
+    }
+
+    .logo-link {
+        padding: 3px 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        max-height: 40px;
+        max-width: 40px;
+        padding: 2px;
+    }
+
+    .logo-link {
+        padding: 2px 4px;
+    }
 }
 
 .logo-container {
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+/* Logo Image Styling - Optimized for Medical Cross Design */
+.logo-image {
+    max-height: 75px;
+    width: auto;
+    max-width: 75px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
+    border-radius: 6px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06));
+    backdrop-filter: blur(8px);
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: logoEntrance 0.8s ease-out;
+    /* SVG optimization */
+    image-rendering: crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+/* Special styling for SVG logos */
+.logo-image[src$=".svg"] {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.1));
+    /* Enhanced readability for SVG text */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    shape-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+}
+
+@keyframes logoEntrance {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.logo-image:hover {
+    transform: scale(1.05) translateY(-1px);
+    filter: drop-shadow(0 4px 15px rgba(59, 130, 246, 0.4)) contrast(1.2) brightness(1.1);
+    border-color: rgba(59, 130, 246, 0.4);
 }
 
 /* Professional Logo - Clean MediPlus Style */
@@ -336,6 +417,27 @@ body {
 .contact-item a:hover {
     color: #2563eb;
     text-decoration: underline;
+}
+
+/* Formatted address styling */
+.address-formatted {
+    line-height: 1.6;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+/* Social media layout in footer - 2 per line */
+.footer-section .contact-item:nth-child(n+4) {
+    width: 48%;
+    display: inline-flex;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+.footer-section .contact-item:nth-child(6n),
+.footer-section .contact-item:nth-child(8n) {
+    margin-right: 0;
 }
 
 /* Legacy nav icon styles - removed for new structure */
@@ -1471,6 +1573,10 @@ textarea:focus {
     color: white;
 }
 
+.social-link.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
 
 .social-link:hover {
     transform: translateY(-2px);
@@ -1500,12 +1606,31 @@ textarea:focus {
     gap: 8px;
 }
 
-/* Enhanced Social Media Links */
+/* Enhanced Social Media Links - removed duplicate */
 
-.social-media-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+/* Hide Google Maps "View larger map" link */
+.map-container {
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+}
+
+.map-container iframe {
+    pointer-events: auto;
+    height: 470px !important;
+    margin-bottom: -20px;
+}
+
+/* Hide any text links that might appear in Google Maps */
+.map-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: white;
+    pointer-events: none;
 }
 
 /* Enquiry CTA Section */

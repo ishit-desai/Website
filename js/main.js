@@ -203,14 +203,9 @@ function initDropdownMenus() {
 
 // Mobile menu functionality
 function initMobileMenu() {
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.getElementById('navMenu');
 
-    if (mobileMenuToggle && navMenu) {
-        mobileMenuToggle.addEventListener('click', function() {
-            toggleMobileMenu();
-        });
-
+    if (navMenu) {
         // Close menu when clicking on a link
         const navLinks = navMenu.querySelectorAll('a');
         navLinks.forEach(link => {

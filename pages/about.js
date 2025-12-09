@@ -16,8 +16,8 @@ class AboutPage {
         return `
             <div class="page-header">
                 <div class="container">
-                    <h1 data-translate="about.title">${t.about?.title || 'About Shrigurukrupa Surgical'}</h1>
-                    <p data-translate="about.subtitle">${t.about?.subtitle || 'Excellence in Surgical Products Since 1995'}</p>
+                    <h1 data-translate="about.title">${t.about?.title || 'About Shri Gurukrupa Surgical'}</h1>
+                    <p data-translate="about.subtitle">${t.about?.subtitle || 'A Legacy of Quality Since 1992'}</p>
                 </div>
             </div>
             <section class="page-section">
@@ -25,7 +25,7 @@ class AboutPage {
                     <div class="about-content">
                         <div class="about-text">
                             <h2 data-translate="about.story">${t.about?.story || 'Our Story'}</h2>
-                            <p data-translate="about.description1">${t.about?.description1 || 'Shrigurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.'}</p>
+                            <p data-translate="about.description1">${t.about?.description1 || 'Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.'}</p>
                             <p data-translate="about.description2">${t.about?.description2 || 'Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.'}</p>
 
                             <h2 data-translate="about.mission">${t.about?.mission || 'Our Mission'}</h2>
@@ -42,7 +42,13 @@ class AboutPage {
                             </div>
                         </div>
                         <div class="about-image">
-                            <img src="assets/about-image.jpg" alt="Shrigurukrupa Surgical" onerror="this.src='https://via.placeholder.com/500x400/3b82f6/ffffff?text=Shrigurukrupa+Surgical'">
+                            <img src="assets/about-image.jpg" alt="Shri Gurukrupa Surgical" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" style="max-width: 100%; border-radius: 15px;">
+                            <div class="image-fallback" style="display: none; background: linear-gradient(135deg, #3b82f6, #1e40af); color: white; height: 400px; border-radius: 15px; align-items: center; justify-content: center; font-size: 24px; font-weight: 600; text-align: center;">
+                                <div>
+                                    <i class="fas fa-user-md" style="font-size: 48px; margin-bottom: 20px; display: block;"></i>
+                                    Shri Gurukrupa<br>Surgical
+                                </div>
+                            </div>
 
                             <div style="margin-top: 30px; background: #f8fafc; padding: 30px; border-radius: 12px; border-left: 4px solid #3b82f6;">
                                 <h3 style="color: #1e40af; margin-bottom: 20px;" data-translate="about.whyChoose">${t.about?.whyChoose || 'Why Choose Us?'}</h3>
@@ -78,12 +84,12 @@ class AboutPage {
 
     // Initialize about page
     init() {
-        console.log('About page initialized');
+        // Page initialization complete
     }
 
     // Cleanup when leaving about page
     destroy() {
-        console.log('About page destroyed');
+        // Cleanup complete
     }
 }
 

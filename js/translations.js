@@ -19,7 +19,7 @@ const translations = {
             placeholder: "Search..."
         },
         home: {
-            title: "Welcome to Shrigurukrupa Surgical",
+            title: "Welcome to Shri Gurukrupa Surgical",
             subtitle: "Your Trusted Partner in Quality Surgical Products & Equipment"
         },
         hero: {
@@ -37,9 +37,9 @@ const translations = {
             }
         },
         about: {
-            title: "About Shrigurukrupa Surgical",
-            subtitle: "Excellence in Surgical Products Since 1995",
-            description1: "Shrigurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.",
+            title: "About Shri Gurukrupa Surgical",
+            subtitle: "A Legacy of Quality Since 1992",
+            description1: "Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.",
             description2: "Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.",
             learnMore: "Learn More",
             story: "Our Story",
@@ -184,6 +184,31 @@ const translations = {
             infoItem4: "For bulk orders, please contact us for special pricing",
             downloadStarted: "Download started successfully!"
         },
+        contact: {
+            title: "Contact Us",
+            subtitle: "Get in touch with us for any queries or business inquiries",
+            getInTouch: "Get In Touch",
+            description: "We'd love to hear from you. Contact us through any of the following ways:",
+            office: "Our Office",
+            callUs: "Call Us",
+            emailUs: "Email Us",
+            businessHours: "Business Hours",
+            hours: "Monday - Friday: 9:00 AM - 6:00 PM",
+            saturday: "Saturday: 9:00 AM - 2:00 PM",
+            sunday: "Sunday: Closed",
+            followUs: "Follow Us",
+            needQuote: "Need a Quote?",
+            quoteText: "Submit a detailed enquiry for specific product requirements and pricing.",
+            submitEnquiry: "Submit Enquiry",
+            findUsHere: "Find Us Here",
+            getDirections: "Get Directions",
+            fastDelivery: "Fast Delivery",
+            deliveryText: "Quick shipping across India and international locations.",
+            support247: "24/7 Support",
+            supportText: "Round-the-clock customer support for all your queries.",
+            qualityAssured: "Quality Assured",
+            qualityText: "ISO certified products with international quality standards."
+        },
         common: {
             getQuote: "Get Quote",
             viewProducts: "View Products",
@@ -192,12 +217,12 @@ const translations = {
             pageNotFoundText: "The page you're looking for doesn't exist."
         },
         footer: {
-            about: "About Shrigurukrupa Surgical",
+            about: "About Shri Gurukrupa Surgical",
             description: "We supply premium surgical products and medical equipment to healthcare professionals worldwide.",
             products: "Our Products",
             quickLinks: "Quick Links",
             contact: "Contact Information",
-            address: "Amardeep Estate, 4, Khokhra Rd, opposite Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021",
+            address: "4, Amardeep Estate, Opposite Anupam Cinema, Besides Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India",
             rights: "All rights reserved."
         }
     },
@@ -246,19 +271,44 @@ const translations = {
             }
         },
         about: {
-            title: "Acerca de Shrigurukrupa Surgical",
-            subtitle: "Excelencia en Productos Quirúrgicos Desde 1995",
-            description1: "Shrigurukrupa Surgical ha sido un proveedor confiable de productos quirúrgicos premium por más de 25 años, comprometido a apoyar a profesionales de la salud con equipos e instrumentos de calidad.",
+            title: "Acerca de Shri Gurukrupa Surgical",
+            subtitle: "Un Legado de Calidad Desde 1992",
+            description1: "Shri Gurukrupa Surgical ha sido un proveedor confiable de productos quirúrgicos premium por más de 25 años, comprometido a apoyar a profesionales de la salud con equipos e instrumentos de calidad.",
             description2: "Nuestra instalación de fabricación de vanguardia está equipada con la última tecnología, y nuestro equipo de profesionales experimentados se dedica a mantener los más altos estándares de calidad para todos nuestros productos.",
             learnMore: "Saber Más"
         },
+        contact: {
+            title: "Contáctanos",
+            subtitle: "Ponte en contacto con nosotros para cualquier consulta o consultas comerciales",
+            getInTouch: "Ponte en Contacto",
+            description: "Nos encantaría saber de ti. Contáctanos a través de cualquiera de las siguientes formas:",
+            office: "Nuestra Oficina",
+            callUs: "Llámanos",
+            emailUs: "Envíanos un Email",
+            businessHours: "Horario de Atención",
+            hours: "Lunes - Viernes: 9:00 AM - 6:00 PM",
+            saturday: "Sábado: 9:00 AM - 2:00 PM",
+            sunday: "Domingo: Cerrado",
+            followUs: "Síguenos",
+            needQuote: "¿Necesitas una Cotización?",
+            quoteText: "Envía una consulta detallada para requisitos específicos del producto y precios.",
+            submitEnquiry: "Enviar Consulta",
+            findUsHere: "Encuéntranos Aquí",
+            getDirections: "Obtener Direcciones",
+            fastDelivery: "Entrega Rápida",
+            deliveryText: "Envío rápido en toda India y ubicaciones internacionales.",
+            support247: "Soporte 24/7",
+            supportText: "Atención al cliente las 24 horas del día para todas sus consultas.",
+            qualityAssured: "Calidad Garantizada",
+            qualityText: "Productos certificados ISO con estándares de calidad internacional."
+        },
         footer: {
-            about: "Acerca de Shrigurukrupa Surgical",
+            about: "Acerca de Shri Gurukrupa Surgical",
             description: "Suministramos productos quirúrgicos y equipos médicos de alta calidad a profesionales de la salud en todo el mundo.",
             products: "Nuestros Productos",
             quickLinks: "Enlaces Rápidos",
             contact: "Información de Contacto",
-            address: "Amardeep Estate, 4, Khokhra Rd, frente a Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021",
+            address: "4, Amardeep Estate, Frente a Anupam Cinema, Junto a Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India",
             rights: "Todos los derechos reservados."
         }
     },
@@ -303,19 +353,44 @@ const translations = {
             }
         },
         about: {
-            title: "À propos de Shrigurukrupa Surgical",
-            subtitle: "Excellence en Produits Chirurgicaux Depuis 1995",
-            description1: "Shrigurukrupa Surgical est un fournisseur de confiance de produits chirurgicaux premium depuis plus de 25 ans, engagé à soutenir les professionnels de la santé avec des équipements et instruments de qualité.",
+            title: "À propos de Shri Gurukrupa Surgical",
+            subtitle: "Un Héritage de Qualité Depuis 1992",
+            description1: "Shri Gurukrupa Surgical est un fournisseur de confiance de produits chirurgicaux premium depuis plus de 25 ans, engagé à soutenir les professionnels de la santé avec des équipements et instruments de qualité.",
             description2: "Notre installation de fabrication de pointe est équipée de la dernière technologie, et notre équipe de professionnels expérimentés se consacre à maintenir les plus hauts standards de qualité pour tous nos produits.",
             learnMore: "En Savoir Plus"
         },
+        contact: {
+            title: "Nous Contacter",
+            subtitle: "Contactez-nous pour toute question ou demande commerciale",
+            getInTouch: "Entrer en Contact",
+            description: "Nous aimerions avoir de vos nouvelles. Contactez-nous par l'un des moyens suivants:",
+            office: "Notre Bureau",
+            callUs: "Appelez-nous",
+            emailUs: "Envoyez-nous un Email",
+            businessHours: "Heures d'Ouverture",
+            hours: "Lundi - Vendredi: 9h00 - 18h00",
+            saturday: "Samedi: 9h00 - 14h00",
+            sunday: "Dimanche: Fermé",
+            followUs: "Suivez-nous",
+            needQuote: "Besoin d'un Devis?",
+            quoteText: "Soumettez une demande détaillée pour des exigences spécifiques du produit et des prix.",
+            submitEnquiry: "Soumettre une Demande",
+            findUsHere: "Trouvez-nous Ici",
+            getDirections: "Obtenir des Directions",
+            fastDelivery: "Livraison Rapide",
+            deliveryText: "Expédition rapide dans toute l'Inde et les emplacements internationaux.",
+            support247: "Support 24/7",
+            supportText: "Support client 24h/24 et 7j/7 pour toutes vos questions.",
+            qualityAssured: "Qualité Assurée",
+            qualityText: "Produits certifiés ISO avec des normes de qualité internationales."
+        },
         footer: {
-            about: "À propos de Shrigurukrupa Surgical",
+            about: "À propos de Shri Gurukrupa Surgical",
             description: "Nous fournissons des produits chirurgicaux et des équipements médicaux de qualité supérieure aux professionnels de la santé du monde entier.",
             products: "Nos Produits",
             quickLinks: "Liens Rapides",
             contact: "Informations de Contact",
-            address: "Amardeep Estate, 4, Khokhra Rd, en face de Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021",
+            address: "4, Amardeep Estate, En face d'Anupam Cinema, À côté de Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India",
             rights: "Tous droits réservés."
         }
     },
@@ -360,19 +435,44 @@ const translations = {
             }
         },
         about: {
-            title: "Über Shrigurukrupa Surgical",
-            subtitle: "Exzellenz in Chirurgischen Produkten Seit 1995",
-            description1: "Shrigurukrupa Surgical ist seit über 25 Jahren ein vertrauenswürdiger Lieferant von Premium-Chirurgieprodukten, der sich dafür einsetzt, Gesundheitsfachkräfte mit hochwertigen Geräten und Instrumenten zu unterstützen.",
+            title: "Über Shri Gurukrupa Surgical",
+            subtitle: "Ein Vermächtnis der Qualität Seit 1992",
+            description1: "Shri Gurukrupa Surgical ist seit über 25 Jahren ein vertrauenswürdiger Lieferant von Premium-Chirurgieprodukten, der sich dafür einsetzt, Gesundheitsfachkräfte mit hochwertigen Geräten und Instrumenten zu unterstützen.",
             description2: "Unsere hochmoderne Produktionsanlage ist mit der neuesten Technologie ausgestattet, und unser Team erfahrener Fachkräfte widmet sich der Aufrechterhaltung höchster Qualitätsstandards für alle unsere Produkte.",
             learnMore: "Mehr Erfahren"
         },
+        contact: {
+            title: "Kontakt Aufnehmen",
+            subtitle: "Kontaktieren Sie uns für Anfragen oder Geschäftsanfragen",
+            getInTouch: "In Kontakt Treten",
+            description: "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns auf eine der folgenden Arten:",
+            office: "Unser Büro",
+            callUs: "Rufen Sie uns an",
+            emailUs: "Senden Sie uns eine E-Mail",
+            businessHours: "Geschäftszeiten",
+            hours: "Montag - Freitag: 9:00 - 18:00 Uhr",
+            saturday: "Samstag: 9:00 - 14:00 Uhr",
+            sunday: "Sonntag: Geschlossen",
+            followUs: "Folgen Sie uns",
+            needQuote: "Benötigen Sie ein Angebot?",
+            quoteText: "Senden Sie eine detaillierte Anfrage für spezifische Produktanforderungen und Preise.",
+            submitEnquiry: "Anfrage Senden",
+            findUsHere: "Finden Sie uns Hier",
+            getDirections: "Wegbeschreibung",
+            fastDelivery: "Schnelle Lieferung",
+            deliveryText: "Schneller Versand in ganz Indien und international.",
+            support247: "24/7 Support",
+            supportText: "Rund-um-die-Uhr-Kundensupport für alle Ihre Fragen.",
+            qualityAssured: "Qualität Gesichert",
+            qualityText: "ISO-zertifizierte Produkte mit internationalen Qualitätsstandards."
+        },
         footer: {
-            about: "Über Shrigurukrupa Surgical",
+            about: "Über Shri Gurukrupa Surgical",
             description: "Wir liefern hochwertige chirurgische Produkte und medizinische Geräte an Gesundheitsfachkräfte weltweit.",
             products: "Unsere Produkte",
             quickLinks: "Schnelle Links",
             contact: "Kontaktinformationen",
-            address: "Amardeep Estate, 4, Khokhra Rd, gegenüber Anupam Cinema Road, Amraiwadi, Ahmedabad, Gujarat 380021",
+            address: "4, Amardeep Estate, Gegenüber Anupam Cinema, Neben Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India",
             rights: "Alle Rechte vorbehalten."
         }
     },
@@ -421,9 +521,9 @@ const translations = {
             }
         },
         about: {
-            title: "श्रीगुरुकृपा सर्जिकल के बारे में",
-            subtitle: "1995 से सर्जिकल उत्पादों में उत्कृष्टता",
-            description1: "श्रीगुरुकृपा सर्जिकल 25 से अधिक वर्षों से प्रीमियम सर्जिकल उत्पादों का एक विश्वसनीय आपूर्तिकर्ता है, जो स्वास्थ्य सेवा पेशेवरों को गुणवत्तापूर्ण उपकरण और उपकरण प्रदान करने के लिए प्रतिबद्ध है।",
+            title: "श्री गुरुकृपा सर्जिकल के बारे में",
+            subtitle: "1992 से गुणवत्ता की विरासत",
+            description1: "श्री गुरुकृपा सर्जिकल 25 से अधिक वर्षों से प्रीमियम सर्जिकल उत्पादों का एक विश्वसनीय आपूर्तिकर्ता है, जो स्वास्थ्य सेवा पेशेवरों को गुणवत्तापूर्ण उपकरण और उपकरण प्रदान करने के लिए प्रतिबद्ध है।",
             description2: "हमारी अत्याधुनिक विनिर्माण सुविधा नवीनतम तकनीक से लैस है, और हमारे अनुभवी पेशेवरों की टीम हमारे सभी उत्पादों के लिए उच्चतम गुणवत्ता मानकों को बनाए रखने के लिए समर्पित है।",
             learnMore: "और जानें",
             story: "हमारी कहानी",
@@ -489,12 +589,12 @@ const translations = {
             pageNotFoundText: "आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।"
         },
         footer: {
-            about: "श्रीगुरुकृपा सर्जिकल के बारे में",
+            about: "श्री गुरुकृपा सर्जिकल के बारे में",
             description: "हम दुनिया भर के स्वास्थ्य सेवा पेशेवरों को प्रीमियम सर्जिकल उत्पाद और मेडिकल उपकरण की आपूर्ति करते हैं।",
             products: "हमारे उत्पाद",
             quickLinks: "त्वरित लिंक",
             contact: "संपर्क जानकारी",
-            address: "अमरदीप एस्टेट, 4, खोखरा रोड, अनुपम सिनेमा रोड के सामने, अमरईवाड़ी, अहमदाबाद, गुजरात 380021",
+            address: "4, अमरदीप एस्टेट, अनुपम सिनेमा के सामने, भगर धाना दाल एस्टेट के पास, खोखरा रोड, अहमदाबाद - 380021, गुजरात, भारत",
             rights: "सभी अधिकार सुरक्षित।"
         }
     },
@@ -543,19 +643,19 @@ const translations = {
             }
         },
         about: {
-            title: "શ્રીગુરુકૃપા સર્જિકલ વિશે",
-            subtitle: "1995 થી સર્જિકલ ઉત્પાદનોમાં ઉત્કૃષ્ટતા",
-            description1: "શ્રીગુરુકૃપા સર્જિકલ 25 વર્ષથી વધુ સમયથી પ્રીમિયમ સર્જિકલ ઉત્પાદનોના વિશ્વસનીય પૂરવઠાકર્તા છે, જે આરોગ્ય સેવા વ્યાવસાયિકોને ગુણવત્તાયુક્ત સાધનો અને સાધનો પ્રદાન કરવા માટે પ્રતિબદ્ધ છે.",
+            title: "શ્રી ગુરુકૃપા સર્જિકલ વિશે",
+            subtitle: "1992 થી ગુણવત્તાનો વારસો",
+            description1: "શ્રી ગુરુકૃપા સર્જિકલ 25 વર્ષથી વધુ સમયથી પ્રીમિયમ સર્જિકલ ઉત્પાદનોના વિશ્વસનીય પૂરવઠાકર્તા છે, જે આરોગ્ય સેવા વ્યાવસાયિકોને ગુણવત્તાયુક્ત સાધનો અને સાધનો પ્રદાન કરવા માટે પ્રતિબદ્ધ છે.",
             description2: "અમારી અત્યાધુનિક ઉત્પાદન સુવિધા નવીનતમ તકનીકથી સજ્જ છે, અને અમારી અનુભવી વ્યાવસાયિકોની ટીમ અમારા તમામ ઉત્પાદનો માટે સર્વોચ્ચ ગુણવત્તા ધોરણો જાળવવા માટે સમર્પિત છે.",
             learnMore: "વધુ જાણો"
         },
         footer: {
-            about: "શ્રીગુરુકૃપા સર્જિકલ વિશે",
+            about: "શ્રી ગુરુકૃપા સર્જિકલ વિશે",
             description: "અમે વિશ્વભરના આરોગ્ય સેવા વ્યાવસાયિકોને પ્રીમિયમ સર્જિકલ ઉત્પાદનો અને મેડિકલ સાધનો પૂરા પાડીએ છીએ.",
             products: "અમારા ઉત્પાદનો",
             quickLinks: "ઝડપી લિંક્સ",
             contact: "સંપર્ક માહિતી",
-            address: "અમરદીપ એસ્ટેટ, 4, ખોખરા રોડ, અનુપમ સિનેમા રોડની સામે, અમરાઈવાડી, અમદાવાદ, ગુજરાત 380021",
+            address: "4, અમરદીપ એસ્ટેટ, અનુપમ સિનેમાની સામે, ભગર ધાના દાલ એસ્ટેટની બાજુમાં, ખોખરા રોડ, અમદાવાદ - 380021, ગુજરાત, ભારત",
             rights: "તમામ અધિકારો સુરક્ષિત."
         }
     }
