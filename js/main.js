@@ -91,12 +91,13 @@ function activateHomeTab() {
     return false;
 }
 
-// Header scroll effects
+// Header scroll effects with throttling for better performance
 function initHeaderScroll() {
     const header = document.querySelector('.header');
     let lastScrollY = window.scrollY;
+    let ticking = false;
 
-    window.addEventListener('scroll', () => {
+    function updateHeader() {
         const currentScrollY = window.scrollY;
 
         if (currentScrollY > 50) {
@@ -106,7 +107,17 @@ function initHeaderScroll() {
         }
 
         lastScrollY = currentScrollY;
-    });
+        ticking = false;
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(updateHeader);
+            ticking = true;
+        }
+    }
+
+    window.addEventListener('scroll', requestTick, { passive: true });
 }
 
 // Enhanced Dropdown Menu functionality - Click + Hover like MediPlus
@@ -238,7 +249,7 @@ function closeMobileMenu() {
     }
 }
 
-// Smooth scrolling for anchor links
+// Enhanced smooth scrolling for anchor links
 function initSmoothScrolling() {
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
@@ -255,16 +266,41 @@ function initSmoothScrolling() {
 
             const target = document.querySelector(href);
             if (target) {
-                const headerHeight = document.querySelector('.header').offsetHeight;
+                const headerHeight = document.querySelector('.header')?.offsetHeight || 90;
                 const targetPosition = target.offsetTop - headerHeight - 20;
 
+                // Enhanced smooth scroll with better timing
                 window.scrollTo({
-                    top: targetPosition,
+                    top: Math.max(0, targetPosition),
                     behavior: 'smooth'
                 });
+
+                // Close mobile menu if open
+                closeMobileMenu();
             }
         });
     });
+
+    // Add global smooth scroll optimization
+    if (CSS.supports('scroll-behavior', 'smooth')) {
+        document.documentElement.style.scrollBehavior = 'smooth';
+    }
+}
+
+// Enhanced scroll-to-top with better mobile support
+function scrollToTop() {
+    // More reliable scroll to top
+    if (window.scrollY > 0) {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        // Fallback for older browsers
+        if (window.scrollY > 0) {
+            window.scrollTo(0, 0);
+        }
+    }
 }
 
 // Lazy loading for images
@@ -292,26 +328,39 @@ function initLazyLoading() {
     }
 }
 
-// Scroll to top functionality
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
 
-// Show/hide scroll to top button based on scroll position
-window.addEventListener('scroll', function() {
-    const scrollToTopBtn = document.querySelector('.scroll-to-top');
+// Show/hide scroll to top button based on scroll position with throttling
+(function() {
+    let ticking = false;
 
-    if (scrollToTopBtn) {
-        if (window.pageYOffset > 300) {
-            scrollToTopBtn.style.display = 'block';
-        } else {
-            scrollToTopBtn.style.display = 'none';
+    function updateScrollToTopButton() {
+        const scrollToTopBtn = document.querySelector('.scroll-to-top');
+
+        if (scrollToTopBtn) {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.style.display = 'flex';
+                scrollToTopBtn.style.opacity = '1';
+            } else {
+                scrollToTopBtn.style.opacity = '0';
+                setTimeout(() => {
+                    if (window.pageYOffset <= 300) {
+                        scrollToTopBtn.style.display = 'none';
+                    }
+                }, 300);
+            }
+        }
+        ticking = false;
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(updateScrollToTopButton);
+            ticking = true;
         }
     }
-});
+
+    window.addEventListener('scroll', requestTick, { passive: true });
+})();
 
 // Form validation helper
 function validateForm(formElement) {
@@ -360,25 +409,7 @@ function isValidEmail(email) {
     return emailRegex.test(email);
 }
 
-// Phone number formatting helper
-function formatPhoneNumber(phoneNumberString) {
-    const cleaned = ('' + phoneNumberString).replace(/\D/g, '');
-    const match = cleaned.match(/^(\d{3})(\d{3})(\d{4})$/);
-    if (match) {
-        return '(' + match[1] + ') ' + match[2] + '-' + match[3];
-    }
-    return phoneNumberString;
-}
-
-// Date formatting helper
-function formatDate(date, locale = 'en-US') {
-    const options = {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    };
-    return new Date(date).toLocaleDateString(locale, options);
-}
+// Removed unused formatPhoneNumber and formatDate functions
 
 // Show notification/alert
 function showNotification(message, type = 'info', duration = 5000) {
@@ -432,49 +463,7 @@ function setLoadingState(element, isLoading) {
     }
 }
 
-// Cookie helper functions
-function setCookie(name, value, days = 30) {
-    const expires = new Date();
-    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
-}
-
-function getCookie(name) {
-    const nameEQ = name + "=";
-    const ca = document.cookie.split(';');
-
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-}
-
-function deleteCookie(name) {
-    document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
-
-// Local storage helper with error handling
-function setLocalStorage(key, value) {
-    try {
-        localStorage.setItem(key, JSON.stringify(value));
-        return true;
-    } catch (e) {
-        console.warn('Could not save to localStorage:', e);
-        return false;
-    }
-}
-
-function getLocalStorage(key, defaultValue = null) {
-    try {
-        const item = localStorage.getItem(key);
-        return item ? JSON.parse(item) : defaultValue;
-    } catch (e) {
-        console.warn('Could not read from localStorage:', e);
-        return defaultValue;
-    }
-}
+// Removed unused cookie and localStorage helper functions
 
 // Debounce function for search and other input handlers
 function debounce(func, wait, immediate) {
@@ -545,15 +534,10 @@ window.closeMobileMenu = closeMobileMenu;
 window.scrollToTop = scrollToTop;
 window.validateForm = validateForm;
 window.isValidEmail = isValidEmail;
-window.formatPhoneNumber = formatPhoneNumber;
-window.formatDate = formatDate;
+// Removed unused function exports
 window.showNotification = showNotification;
 window.setLoadingState = setLoadingState;
-window.setCookie = setCookie;
-window.getCookie = getCookie;
-window.deleteCookie = deleteCookie;
-window.setLocalStorage = setLocalStorage;
-window.getLocalStorage = getLocalStorage;
+// Removed exports for deleted cookie/localStorage functions
 window.debounce = debounce;
 window.throttle = throttle;
 window.trackEvent = trackEvent;

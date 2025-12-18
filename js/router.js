@@ -148,6 +148,8 @@ class Router {
             'home': 'nav.home',
             'products': 'nav.products',
             'about': 'nav.about',
+            'infrastructure': 'nav.infrastructure',
+            'achievements': 'nav.achievements',
             'contact': 'nav.contact',
             'downloads': 'nav.downloads',
             'enquiry': 'nav.enquiry'
@@ -184,7 +186,10 @@ class Router {
             home: 'Shrigurukrupa Surgical - Surgical Products & Equipment',
             products: 'Our Products - Shrigurukrupa Surgical',
             about: 'About Us - Shrigurukrupa Surgical',
+            infrastructure: 'Our Infrastructure - Shrigurukrupa Surgical',
+            achievements: 'Our Achievements - Shrigurukrupa Surgical',
             contact: 'Contact Us - Shrigurukrupa Surgical',
+            downloads: 'Downloads - Shrigurukrupa Surgical',
             enquiry: 'Product Enquiry - Shrigurukrupa Surgical',
             'surgical-instruments': 'Surgical Instruments - Shrigurukrupa Surgical',
             'medical-equipment': 'Medical Equipment - Shrigurukrupa Surgical',
@@ -200,6 +205,8 @@ class Router {
         this.addRoute('home', () => this.loadPage('home'));
         this.addRoute('products', () => this.loadPage('products'));
         this.addRoute('about', () => this.loadPage('about'));
+        this.addRoute('infrastructure', () => this.loadPage('infrastructure'));
+        this.addRoute('achievements', () => this.loadPage('achievements'));
         this.addRoute('contact', () => this.loadPage('contact'));
         this.addRoute('downloads', () => this.loadPage('downloads'));
         this.addRoute('enquiry', () => this.loadPage('enquiry'));
@@ -260,6 +267,8 @@ class Router {
             'home': window.HomePage,
             'products': window.ProductsPage,
             'about': window.AboutPage,
+            'infrastructure': window.InfrastructurePage,
+            'achievements': window.AchievementsPage,
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,
@@ -287,6 +296,8 @@ class Router {
             'home': window.HomePage,
             'products': window.ProductsPage,
             'about': window.AboutPage,
+            'infrastructure': window.InfrastructurePage,
+            'achievements': window.AchievementsPage,
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,

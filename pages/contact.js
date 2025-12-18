@@ -85,7 +85,7 @@ class ContactPage {
                                         <i class="fab fa-facebook-f"></i>
                                         <span>Facebook</span>
                                     </a>
-                                    <a href="https://wa.me/919825048962" target="_blank" class="social-link whatsapp">
+                                    <a href="https://wa.me/919925648962" target="_blank" class="social-link whatsapp">
                                         <i class="fab fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>

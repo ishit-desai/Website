@@ -88,8 +88,7 @@ medical-website/
 │   └── infusion-transfusion.js # Specialized product category
 └── assets/
     ├── favicon.ico            # Website favicon
-    ├── logo.jpeg             # Company logo (main)
-    └── logo.svg              # Company logo (SVG fallback)
+    └── Latest_logo.jpeg      # Company logo (main)
 ```
 
 ## 🚀 Getting Started

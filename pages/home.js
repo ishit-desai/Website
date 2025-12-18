@@ -18,7 +18,7 @@ class HomePage {
             <div class="page-header">
                 <div class="container">
                     <h1 data-translate="home.title">${t.home?.title || 'Welcome to Shri Gurukrupa Surgical'}</h1>
-                    <p data-translate="home.subtitle">${t.home?.subtitle || 'Your Trusted Partner in Quality Surgical Products & Equipment'}</p>
+                    <p data-translate="home.subtitle">${t.home?.subtitle || 'A Legacy of Quality Since 1992'}</p>
                 </div>
             </div>
 
@@ -28,7 +28,6 @@ class HomePage {
                     <div class="about-content">
                         <div class="about-text">
                             <h2 data-translate="about.title">About Shri Gurukrupa Surgical</h2>
-                            <h3 data-translate="about.subtitle">A Legacy of Quality Since 1992</h3>
                             <p data-translate="about.description1">Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.</p>
                             <p data-translate="about.description2">Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.</p>
 

@@ -5,6 +5,8 @@ const translations = {
             home: "Home",
             products: "Products",
             about: "About",
+            infrastructure: "Infrastructure",
+            achievements: "Achievements",
             contact: "Contact Us",
             downloads: "Downloads",
             enquiry: "Enquiry",
@@ -20,7 +22,7 @@ const translations = {
         },
         home: {
             title: "Welcome to Shri Gurukrupa Surgical",
-            subtitle: "Your Trusted Partner in Quality Surgical Products & Equipment"
+            subtitle: "A Legacy of Quality Since 1992"
         },
         hero: {
             title: "Quality Surgical Products for Healthcare Excellence",
@@ -423,6 +425,86 @@ const translations = {
             needQuote: "Need a Quote?",
             contactForPricing: "Contact us for detailed pricing information and bulk orders."
         },
+        infrastructure: {
+            title: "Our Infrastructure",
+            subtitle: "State-of-the-art facilities and advanced manufacturing capabilities",
+            overview: "Infrastructure Overview",
+            description: "Shri Gurukrupa Surgical operates from a modern manufacturing facility equipped with cutting-edge technology and advanced production systems. Our infrastructure is designed to maintain the highest quality standards while ensuring efficient production and timely delivery.",
+            manufacturing: "Manufacturing Facility",
+            manufacturingDesc: "Modern 50,000 sq ft manufacturing facility with advanced machinery and automated production lines for precision manufacturing.",
+            qualityLab: "Quality Control Laboratory",
+            qualityLabDesc: "Fully equipped quality control laboratory with latest testing equipment to ensure all products meet international standards.",
+            warehouse: "Warehouse & Storage",
+            warehouseDesc: "Climate-controlled warehouse with advanced inventory management systems for optimal storage and quick dispatch.",
+            cleanroom: "Clean Room Facilities",
+            cleanroomDesc: "ISO-certified clean room environments for sterile product manufacturing with controlled air filtration systems.",
+            machinery: "Advanced Machinery",
+            machineryDesc: "Latest German and Japanese machinery for precision manufacturing, injection molding, and automated assembly processes.",
+            team: "Skilled Workforce",
+            teamDesc: "Highly trained technical team and skilled workforce with extensive experience in medical device manufacturing.",
+            features: "Key Features",
+            feature1: "ISO 9001:2015 Certified Facility",
+            feature2: "24/7 Production Capability",
+            feature3: "Automated Quality Control Systems",
+            feature4: "Environment-Friendly Processes",
+            feature5: "Real-time Production Monitoring",
+            feature6: "Advanced Safety & Security Systems",
+            ctaText: "Get in touch to learn more about our manufacturing capabilities and how we can support your requirements."
+        },
+        achievements: {
+            title: "Our Achievements",
+            subtitle: "Recognitions, certifications, and milestones that define our excellence",
+            overview: "Our Journey of Excellence",
+            description: "Over the years, Shri Gurukrupa Surgical has achieved significant milestones and earned prestigious certifications that reflect our commitment to quality, innovation, and customer satisfaction. Our achievements stand as testimony to our dedication to excellence in the medical industry.",
+            yearsExperience: "30+",
+            yearsLabel: "Years of Excellence",
+            productsRange: "500+",
+            productsLabel: "Medical Products",
+            clientsServed: "1000+",
+            clientsLabel: "Satisfied Clients",
+            countriesReach: "25+",
+            countriesLabel: "Countries Served",
+            iso: "ISO 9001:2015 Certification",
+            isoDesc: "Internationally recognized quality management system certification ensuring consistent quality in all our processes.",
+            isoYear: "Certified since 2018",
+            exportExcellence: "Export Excellence Award",
+            exportDesc: "Recognition for outstanding export performance and quality products in international markets.",
+            exportYear: "Received 2023",
+            ce: "CE Marking Compliance",
+            ceDesc: "European Conformity marking for medical devices ensuring compliance with EU safety and health requirements.",
+            ceYear: "Approved 2020",
+            quality: "Best Quality Supplier",
+            qualityDesc: "Awarded by major healthcare institutions for consistent quality and reliable supply chain management.",
+            qualityYear: "2019-2024",
+            global: "Global Market Presence",
+            globalDesc: "Successfully expanded operations to serve clients across multiple continents with consistent quality standards.",
+            globalYear: "Ongoing since 2015",
+            green: "Green Manufacturing Initiative",
+            greenDesc: "Recognition for implementing sustainable and environment-friendly manufacturing processes.",
+            greenYear: "Implemented 2022",
+            milestones: "Key Milestones",
+            milestone1: "Company Established",
+            milestone1Desc: "Founded Shri Gurukrupa Surgical with a vision to provide quality medical products.",
+            milestone2: "Manufacturing Facility Expansion",
+            milestone2Desc: "Expanded manufacturing capabilities to meet growing demand.",
+            milestone3: "International Export Launch",
+            milestone3Desc: "Started exporting products to international markets.",
+            milestone4: "ISO Certification Achieved",
+            milestone4Desc: "Obtained ISO 9001:2015 certification for quality management.",
+            milestone5: "Digital Transformation",
+            milestone5Desc: "Launched digital platform and modernized operations for enhanced customer experience.",
+            ctaText: "Partner with an award-winning company committed to excellence in medical products and services."
+        },
+        chat: {
+            title: "Medical Support",
+            status: "Online Now",
+            typing: "Support is typing...",
+            inputPlaceholder: "Type your message...",
+            quickProducts: "Our Products",
+            quickQuote: "Get Quote",
+            quickContact: "Contact Info",
+            quickHelp: "Help"
+        },
         footer: {
             about: "About Shri Gurukrupa Surgical",
             description: "We supply premium surgical products and medical equipment to healthcare professionals worldwide.",
@@ -438,6 +520,8 @@ const translations = {
             home: "Inicio",
             products: "Productos",
             about: "Acerca de",
+            infrastructure: "Infraestructura",
+            achievements: "Logros",
             contact: "Contáctanos",
             downloads: "Descargas",
             enquiry: "Consulta",
@@ -450,6 +534,10 @@ const translations = {
         },
         search: {
             placeholder: "Buscar..."
+        },
+        home: {
+            title: "Bienvenido a Shri Gurukrupa Surgical",
+            subtitle: "Un Legado de Calidad Desde 1992"
         },
         hero: {
             title: "Productos Quirúrgicos de Calidad para la Excelencia en el Cuidado de la Salud",
@@ -667,6 +755,10 @@ const translations = {
         search: {
             placeholder: "Rechercher..."
         },
+        home: {
+            title: "Bienvenue chez Shri Gurukrupa Surgical",
+            subtitle: "Un Héritage de Qualité Depuis 1992"
+        },
         hero: {
             title: "Votre Santé est Notre Priorité",
             subtitle: "Fournir des services de santé complets avec des installations de pointe et des professionnels médicaux expérimentés.",
@@ -882,6 +974,10 @@ const translations = {
         },
         search: {
             placeholder: "Suchen..."
+        },
+        home: {
+            title: "Willkommen bei Shri Gurukrupa Surgical",
+            subtitle: "Ein Vermächtnis der Qualität Seit 1992"
         },
         hero: {
             title: "Ihre Gesundheit ist Unsere Priorität",
@@ -1103,6 +1199,10 @@ const translations = {
         search: {
             placeholder: "खोजें..."
         },
+        home: {
+            title: "श्री गुरुकृपा सर्जिकल में आपका स्वागत है",
+            subtitle: "1992 से गुणवत्ता की विरासत"
+        },
         hero: {
             title: "स्वास्थ्य सेवा में उत्कृष्टता के लिए गुणवत्तापूर्ण सर्जिकल उत्पाद",
             subtitle: "विश्वभर के स्वास्थ्य सेवा पेशेवरों को बेजोड़ गुणवत्ता मानकों के साथ प्रीमियम सर्जिकल उपकरण और मेडिकल उपकरण प्रदान करना।",
@@ -1227,6 +1327,10 @@ const translations = {
         },
         search: {
             placeholder: "શોધો..."
+        },
+        home: {
+            title: "શ્રી ગુરુકૃપા સર્જિકલમાં આપનું સ્વાગત છે",
+            subtitle: "1992 થી ગુણવત્તાનો વારસો"
         },
         hero: {
             title: "આરોગ્ય સેવામાં ઉત્કૃષ્ટતા માટે ગુણવત્તાયુક્ત સર્જિકલ ઉત્પાદનો",
