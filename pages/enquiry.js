@@ -155,7 +155,6 @@ This enquiry was submitted from the Shrigurukrupa Surgical website.
             `;
 
             // In a real application, this would send to your email service
-            console.log('Enquiry submitted:', emailContent);
 
             // Show success message
             this.showNotification(t.enquiry?.thankYou || 'Thank you for your enquiry! We will get back to you within 24 hours.', 'success');

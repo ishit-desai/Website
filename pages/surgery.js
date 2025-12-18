@@ -65,7 +65,7 @@ class SurgeryPage {
         return `
             <div class="product-item">
                 <div class="product-image">
-                    <img src="${product.image}" alt="${name}" onerror="this.src='assets/products/placeholder.svg'">
+                    <img src="${product.image}" alt="${name}" onerror="this.src='assets/products/medical-placeholder.svg'">
                     <div class="product-overlay">
                         <button class="btn btn-primary" onclick="showPage('enquiry')" data-translate="common.getQuote">Get Quote</button>
                     </div>

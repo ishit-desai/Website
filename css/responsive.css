@@ -63,6 +63,75 @@ html, body {
         justify-content: space-between;
     }
 
+    /* Footer Certifications Mobile Styles */
+    .footer-certifications {
+        padding: 20px 0;
+    }
+
+    .certifications-content h4 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .badges-container {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .certification-badge {
+        min-width: 200px;
+        min-height: 70px;
+        padding: 12px 16px;
+    }
+
+    .make-in-india-logo {
+        height: 50px;
+    }
+
+    .iso-badge, .quality-badge {
+        font-size: 0.8rem;
+    }
+
+    /* Product Category Pages Mobile Styles */
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .category-title {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .product-item-card {
+        margin-bottom: 20px;
+    }
+
+    .product-image-container {
+        height: 180px;
+    }
+
+    .product-content {
+        padding: 15px;
+    }
+
+    .product-name {
+        font-size: 1.1rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .product-specifications li {
+        font-size: 0.8rem;
+    }
+
+    .product-enquiry-btn {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+
     .logo-image {
         max-height: 55px;
         max-width: 55px;

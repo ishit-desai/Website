@@ -212,14 +212,10 @@ class Router {
         this.addRoute('enquiry', () => this.loadPage('enquiry'));
 
         // Product category routes
-        this.addRoute('infusion-therapy', () => this.loadPage('infusion-therapy'));
-        this.addRoute('anaesthesia', () => this.loadPage('anaesthesia'));
-        this.addRoute('urology', () => this.loadPage('urology'));
-        this.addRoute('dialysis', () => this.loadPage('dialysis'));
-        this.addRoute('gastroenterology', () => this.loadPage('gastroenterology'));
-        this.addRoute('surgery', () => this.loadPage('surgery'));
-        this.addRoute('face-mask', () => this.loadPage('face-mask'));
-        this.addRoute('general', () => this.loadPage('general'));
+        this.addRoute('infusion-transfusion', () => this.loadPage('infusion-transfusion'));
+        this.addRoute('anesthesia-respiratory', () => this.loadPage('anesthesia-respiratory'));
+        this.addRoute('urology-gastroenterology', () => this.loadPage('urology-gastroenterology'));
+        this.addRoute('miscellaneous', () => this.loadPage('miscellaneous'));
     }
 
     // Load page content
@@ -272,14 +268,10 @@ class Router {
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,
-            'infusion-therapy': window.InfusionTherapyPage,
-            'anaesthesia': window.AnaesthesiaPage,
-            'urology': window.UrologyPage,
-            'dialysis': window.DialysisPage,
-            'gastroenterology': window.GastroenterologyPage,
-            'surgery': window.SurgeryPage,
-            'face-mask': window.FaceMaskPage,
-            'general': window.GeneralPage
+            'infusion-transfusion': window.InfusionTransfusionPage,
+            'anesthesia-respiratory': window.AnesthesiaRespiratoryPage,
+            'urology-gastroenterology': window.UrologyGastroenterologyPage,
+            'miscellaneous': window.MiscellaneousPage
         };
 
         if (pageClasses[page]) {
@@ -301,14 +293,10 @@ class Router {
             'contact': window.ContactPage,
             'downloads': window.DownloadsPage,
             'enquiry': window.EnquiryPage,
-            'infusion-therapy': window.InfusionTherapyPage,
-            'anaesthesia': window.AnaesthesiaPage,
-            'urology': window.UrologyPage,
-            'dialysis': window.DialysisPage,
-            'gastroenterology': window.GastroenterologyPage,
-            'surgery': window.SurgeryPage,
-            'face-mask': window.FaceMaskPage,
-            'general': window.GeneralPage
+            'infusion-transfusion': window.InfusionTransfusionPage,
+            'anesthesia-respiratory': window.AnesthesiaRespiratoryPage,
+            'urology-gastroenterology': window.UrologyGastroenterologyPage,
+            'miscellaneous': window.MiscellaneousPage
         };
 
         if (pageClasses[page]) {

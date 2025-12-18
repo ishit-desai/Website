@@ -198,7 +198,6 @@ class ContactPage {
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         phoneLinks.forEach(link => {
             link.addEventListener('click', () => {
-                console.log('Phone contact attempted');
                 if (window.trackEvent) {
                     window.trackEvent('contact_phone_click', { method: 'phone' });
                 }
@@ -209,7 +208,6 @@ class ContactPage {
         const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
         emailLinks.forEach(link => {
             link.addEventListener('click', () => {
-                console.log('Email contact attempted');
                 if (window.trackEvent) {
                     window.trackEvent('contact_email_click', { method: 'email' });
                 }
@@ -223,7 +221,6 @@ class ContactPage {
                 const platform = e.currentTarget.className.split(' ').find(c =>
                     ['facebook', 'whatsapp', 'linkedin'].includes(c)
                 );
-                console.log(`Social media click: ${platform}`);
                 if (window.trackEvent) {
                     window.trackEvent('social_media_click', { platform });
                 }
@@ -234,7 +231,6 @@ class ContactPage {
         const mapIframe = document.querySelector('.map-container iframe');
         if (mapIframe) {
             mapIframe.addEventListener('load', () => {
-                console.log('Map loaded successfully');
                 if (window.trackEvent) {
                     window.trackEvent('map_loaded');
                 }

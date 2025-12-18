@@ -79,20 +79,8 @@ class DownloadsPage {
 
     // Download SGS Catalogue function
     downloadSGSCatalogue() {
-        // Open PDF in new tab and trigger download
-        const link = document.createElement('a');
-        link.href = 'Catalogue SGS Ahmedabad.pdf';
-        link.download = 'SGS Products Catalogue - Ahmedabad.pdf';
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-
-        // Show success notification
-        if (window.showNotification) {
-            window.showNotification('SGS Catalogue download started successfully!', 'success');
-        }
+        // Open PDF in new window/tab and let user decide how to save it
+        window.open('Catalogue SGS Ahmedabad.pdf', '_blank', 'noopener,noreferrer');
     }
 
     // Initialize downloads page

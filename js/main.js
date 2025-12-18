@@ -503,7 +503,6 @@ function throttle(func, limit) {
 // Analytics helper (placeholder for future implementation)
 function trackEvent(eventName, properties = {}) {
     // This would integrate with Google Analytics, Mixpanel, etc.
-    console.log('Event tracked:', eventName, properties);
 
     // Example Google Analytics 4 tracking:
     // gtag('event', eventName, properties);
@@ -511,8 +510,6 @@ function trackEvent(eventName, properties = {}) {
 
 // Error reporting helper
 function reportError(error, context = '') {
-    console.error('Error reported:', error, context);
-
     // This would integrate with error tracking services like Sentry
     // Sentry.captureException(error, { extra: { context } });
 }
@@ -522,8 +519,6 @@ function measurePerformance(name, fn) {
     const start = performance.now();
     const result = fn();
     const end = performance.now();
-
-    console.log(`${name} took ${end - start} milliseconds.`);
 
     return result;
 }
@@ -544,3 +539,10 @@ window.trackEvent = trackEvent;
 window.reportError = reportError;
 window.measurePerformance = measurePerformance;
 window.activateHomeTab = activateHomeTab;
+
+// Global function to handle product enquiries
+window.openProductEnquiry = function(productName) {
+    // Pre-fill the enquiry form with product name and navigate to enquiry page
+    window.sessionStorage.setItem('enquiryProduct', productName);
+    showPage('enquiry');
+};

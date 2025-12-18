@@ -33,6 +33,22 @@ const translations = {
         products: {
             title: "Our Products",
             subtitle: "We supply premium surgical products and medical equipment to healthcare professionals worldwide",
+            infusionTransfusion: {
+                title: "Infusion & Transfusion",
+                description: "Complete range of infusion and transfusion products for safe fluid delivery and blood procedures"
+            },
+            anesthesiaRespiratory: {
+                title: "Anesthesia & Respiratory",
+                description: "Complete anesthesia equipment and respiratory supplies for surgical and critical care procedures"
+            },
+            urologyGastroenterology: {
+                title: "Urology & Gastroenterology",
+                description: "Specialized products for urinary tract and digestive system procedures and interventions"
+            },
+            miscellaneous: {
+                title: "Miscellaneous",
+                description: "Additional medical supplies including surgical instruments, face masks, and general medical equipment"
+            },
             infusionTherapy: {
                 title: "Infusion Therapy",
                 description: "Complete range of infusion therapy products for safe fluid delivery and medication administration.",
@@ -550,39 +566,19 @@ const translations = {
             subtitle: "Suministramos productos quirúrgicos premium y equipos médicos a profesionales de la salud en todo el mundo",
             infusionTransfusion: {
                 title: "Infusión y Transfusión",
-                description: "Gama completa de productos de infusión y transfusión para la entrega segura de fluidos y procedimientos de transfusión de sangre.",
-                ivCannula: {
-                    name: "Cánula IV",
-                    description: "Cánulas intravenosas estériles para acceso vascular seguro y administración de fluidos"
-                },
-                ivSets: {
-                    name: "Equipos de Administración IV",
-                    description: "Sistemas completos de administración de fluidos IV con mecanismos de control de flujo precisos"
-                },
-                pumps: {
-                    name: "Bombas de Infusión",
-                    description: "Bombas de infusión electrónicas para entrega precisa y controlada de medicamentos"
-                },
-                catheters: {
-                    name: "Catéteres IV",
-                    description: "Catéteres IV centrales y periféricos para diversas aplicaciones clínicas"
-                },
-                stopcocks: {
-                    name: "Llaves de Tres Vías",
-                    description: "Conectores multipuerto para manejo y control eficiente de líneas IV"
-                },
-                extensions: {
-                    name: "Líneas de Extensión",
-                    description: "Sistemas de tubería de extensión IV para atención al paciente flexible y cómoda"
-                },
-                pressureBags: {
-                    name: "Bolsas de Presión",
-                    description: "Bolsas de infusión a presión IV para entrega rápida y controlada de fluidos"
-                },
-                poles: {
-                    name: "Postes y Soportes IV",
-                    description: "Sistemas de soporte de equipos IV móviles y estacionarios"
-                }
+                description: "Gama completa de productos de infusión y transfusión para la entrega segura de fluidos y procedimientos de transfusión de sangre"
+            },
+            anesthesiaRespiratory: {
+                title: "Anestesia y Respiratorio",
+                description: "Equipos completos de anestesia y suministros respiratorios para procedimientos quirúrgicos y cuidados críticos"
+            },
+            urologyGastroenterology: {
+                title: "Urología y Gastroenterología",
+                description: "Productos especializados para procedimientos del tracto urinario y sistema digestivo e intervenciones"
+            },
+            miscellaneous: {
+                title: "Diversos",
+                description: "Suministros médicos adicionales incluyendo instrumentos quirúrgicos, mascarillas y equipos médicos generales"
             },
             surgicalInstruments: {
                 title: "Instrumentos Quirúrgicos",
@@ -770,39 +766,19 @@ const translations = {
             subtitle: "Nous fournissons des produits chirurgicaux de qualité supérieure et des équipements médicaux aux professionnels de santé du monde entier",
             infusionTransfusion: {
                 title: "Perfusion et Transfusion",
-                description: "Gamme complète de produits de perfusion et de transfusion pour l'administration sécurisée de fluides et les procédures de transfusion sanguine.",
-                ivCannula: {
-                    name: "Canule IV",
-                    description: "Canules intraveineuses stériles pour un accès vasculaire sécurisé et l'administration de fluides"
-                },
-                ivSets: {
-                    name: "Ensembles d'Administration IV",
-                    description: "Systèmes complets d'administration de fluides IV avec mécanismes de contrôle de débit précis"
-                },
-                pumps: {
-                    name: "Pompes à Perfusion",
-                    description: "Pompes à perfusion électroniques pour une administration précise et contrôlée de médicaments"
-                },
-                catheters: {
-                    name: "Cathéters IV",
-                    description: "Cathéters IV centraux et périphériques pour diverses applications cliniques"
-                },
-                stopcocks: {
-                    name: "Robinets à Trois Voies",
-                    description: "Connecteurs multi-ports pour une gestion et un contrôle efficaces des lignes IV"
-                },
-                extensions: {
-                    name: "Lignes d'Extension",
-                    description: "Systèmes de tubulure d'extension IV pour des soins aux patients flexibles et confortables"
-                },
-                pressureBags: {
-                    name: "Sacs de Pression",
-                    description: "Sacs de perfusion sous pression IV pour une administration rapide et contrôlée de fluides"
-                },
-                poles: {
-                    name: "Poteaux et Supports IV",
-                    description: "Systèmes de support d'équipement IV mobiles et stationnaires"
-                }
+                description: "Gamme complète de produits de perfusion et de transfusion pour l'administration sécurisée de fluides et les procédures de transfusion sanguine"
+            },
+            anesthesiaRespiratory: {
+                title: "Anesthésie et Respiratoire",
+                description: "Équipements d'anesthésie complets et fournitures respiratoires pour les procédures chirurgicales et de soins critiques"
+            },
+            urologyGastroenterology: {
+                title: "Urologie et Gastro-entérologie",
+                description: "Produits spécialisés pour les procédures du tractus urinaire et du système digestif et interventions"
+            },
+            miscellaneous: {
+                title: "Divers",
+                description: "Fournitures médicales supplémentaires comprenant des instruments chirurgicaux, des masques et des équipements médicaux généraux"
             },
             surgicalInstruments: {
                 title: "Instruments Chirurgicaux",
@@ -972,6 +948,10 @@ const translations = {
             contactUs: "Kontakt aufnehmen",
             infusionTransfusion: "Infusion und Transfusion"
         },
+        brand: {
+            name: "Shri Gurukrupa",
+            type: "Chirurgisch"
+        },
         search: {
             placeholder: "Suchen..."
         },
@@ -980,205 +960,135 @@ const translations = {
             subtitle: "Ein Vermächtnis der Qualität Seit 1992"
         },
         hero: {
-            title: "Ihre Gesundheit ist Unsere Priorität",
-            subtitle: "Umfassende Gesundheitsdienste mit modernsten Einrichtungen und erfahrenen medizinischen Fachkräften.",
-            bookAppointment: "Termin buchen",
+            title: "Qualitätschirurgische Produkte für Exzellenz im Gesundheitswesen",
+            subtitle: "Bereitstellung von Premium-Chirurgieinstrumenten und medizinischen Geräten für Gesundheitsexperten weltweit mit unvergleichlichen Qualitätsstandards.",
+            contactUs: "Kontakt aufnehmen",
             learnMore: "Mehr erfahren"
         },
         products: {
             title: "Unsere Produkte",
-            subtitle: "Wir liefern hochwertige chirurgische Produkte und medizinische Geräte an Gesundheitsfachkräfte weltweit",
+            subtitle: "Wir liefern Premium-Chirurgieprodukte und medizinische Geräte an Gesundheitsexperten weltweit",
             infusionTransfusion: {
                 title: "Infusion und Transfusion",
-                description: "Vollständiges Sortiment von Infusions- und Transfusionsprodukten für sichere Flüssigkeitsverabreichung und Bluttransfusionsverfahren.",
-                ivCannula: {
-                    name: "IV-Kanüle",
-                    description: "Sterile intravenöse Kanülen für sicheren Gefäßzugang und Flüssigkeitsverabreichung"
-                },
-                ivSets: {
-                    name: "IV-Verabreichungssets",
-                    description: "Vollständige IV-Flüssigkeitsverabreichungssysteme mit präzisen Flusskontrollmechanismen"
-                },
-                pumps: {
-                    name: "Infusionspumpen",
-                    description: "Elektronische Infusionspumpen für präzise und kontrollierte Medikamentenverabreichung"
-                },
-                catheters: {
-                    name: "IV-Katheter",
-                    description: "Zentrale und periphere IV-Katheter für verschiedene klinische Anwendungen"
-                },
-                stopcocks: {
-                    name: "Dreiweg-Hähne",
-                    description: "Mehrfach-Port-Verbinder für effiziente IV-Leitungsmanagement und -kontrolle"
-                },
-                extensions: {
-                    name: "Verlängerungsleitungen",
-                    description: "IV-Verlängerungsschlauchsysteme für flexible und komfortable Patientenversorgung"
-                },
-                pressureBags: {
-                    name: "Druckbeutel",
-                    description: "IV-Druckinfusionsbeutel für schnelle und kontrollierte Flüssigkeitsverabreichung"
-                },
-                poles: {
-                    name: "IV-Stangen und Ständer",
-                    description: "Mobile und stationäre IV-Geräte-Unterstützungssysteme"
-                }
+                description: "Vollständiges Sortiment von Infusions- und Transfusionsprodukten für sichere Flüssigkeitsverabreichung und Blutverfahren"
+            },
+            anesthesiaRespiratory: {
+                title: "Anästhesie und Atemwegsprodukte",
+                description: "Komplette Anästhesie-Ausrüstung und Atemwegsprodukte für chirurgische und kritische Pflegeverfahren"
+            },
+            urologyGastroenterology: {
+                title: "Urologie und Gastroenterologie",
+                description: "Spezialisierte Produkte für Harnwege- und Verdauungssystem-Verfahren und Interventionen"
+            },
+            miscellaneous: {
+                title: "Verschiedenes",
+                description: "Zusätzliche medizinische Verbrauchsmaterialien einschließlich chirurgischer Instrumente, Gesichtsmasken und allgemeiner medizinischer Geräte"
             },
             surgicalInstruments: {
                 title: "Chirurgische Instrumente",
-                description: "Hochwertige chirurgische Instrumente, die für Präzision und Zuverlässigkeit in medizinischen Verfahren entwickelt wurden.",
-                forceps: {
-                    name: "Chirurgische Pinzetten",
-                    description: "Präzisions-Chirurgpinzetten zum Greifen, Halten und Manipulieren von Geweben"
-                },
-                scissors: {
-                    name: "Chirurgische Scheren",
-                    description: "Hochwertige chirurgische Scheren zum präzisen Schneiden von Geweben und Nähten"
-                },
-                scalpels: {
-                    name: "Skalpelle und Klingen",
-                    description: "Scharfe und sterile Skalpelle mit Einwegklingen für chirurgische Einschnitte"
-                },
-                retractors: {
-                    name: "Chirurgische Retraktoren",
-                    description: "Selbsthaltende und handbetätigte Retraktoren für optimale chirurgische Feldexposition"
-                },
-                clamps: {
-                    name: "Chirurgische Klemmen",
-                    description: "Hämostatische und Gewebeklemmen für Blutungskontrolle und Gewebemanagement"
-                },
-                needleHolders: {
-                    name: "Nadelhalter",
-                    description: "Präzisions-Nadelhalter für sicheren Griff und Kontrolle von Nahtnadeln"
-                }
+                description: "Hochwertige chirurgische Instrumente für präzise Operationen und medizinische Verfahren."
             },
-            disposables: {
-                title: "Einwegartikel",
-                description: "Einweg-Medizinprodukte für den einmaligen Gebrauch, die Hygiene und Sicherheit in Gesundheitsumgebungen gewährleisten.",
-                syringes: {
-                    name: "Einwegspritzen",
-                    description: "Sterile Einwegspritzen in verschiedenen Größen für sichere Medikamentenverabreichung"
-                },
-                gloves: {
-                    name: "Medizinische Handschuhe",
-                    description: "Latex- und Nitril-Untersuchungshandschuhe für Infektionskontrolle und Sicherheit"
-                },
-                masks: {
-                    name: "Chirurgische Masken",
-                    description: "Dreischichtige chirurgische Masken mit bakterieller und partikulärer Filtration"
-                },
-                gowns: {
-                    name: "Chirurgische Kittel",
-                    description: "Einweg-Chirurgiekittel bieten Schutz und sterile Barriere"
-                },
-                caps: {
-                    name: "Chirurgische Hauben",
-                    description: "Einweg-Chirurgiehauben für Haarbedeckung und Kontaminationsprävention"
-                },
-                gauze: {
-                    name: "Gaze und Verbände",
-                    description: "Sterile Gazekompressen und Verbände für Wundversorgung und Verbände"
-                }
+            medicalEquipment: {
+                title: "Medizinische Geräte",
+                description: "Hochmoderne medizinische Geräte für Krankenhäuser und Gesundheitseinrichtungen."
             },
-            orthopedic: {
-                title: "Orthopädie",
-                description: "Spezialisierte orthopädische Implantate und Instrumente für Knochen- und Gelenkchirurgie.",
-                implants: {
-                    name: "Orthopädische Implantate",
-                    description: "Titan- und Edelstahlimplantate für Knochenrekonstruktion und Gelenkersatz"
-                },
-                plates: {
-                    name: "Knochenplatten",
-                    description: "Orthopädische Platten für Frakturfixierung und Knochenstabilisierungsverfahren"
-                },
-                screws: {
-                    name: "Orthopädische Schrauben",
-                    description: "Chirurgische Schrauben in verschiedenen Größen für sichere Knochenfixierung und Heilung"
-                },
-                nails: {
-                    name: "Marknägel",
-                    description: "IM-Nägel für Langknochen-Frakturen und interne Fixierungsverfahren"
-                },
-                pins: {
-                    name: "Orthopädische Stifte",
-                    description: "Chirurgische Stifte und Drähte für Knochenausrichtung und temporäre Fixierung"
-                },
-                wires: {
-                    name: "Chirurgische Drähte",
-                    description: "Edelstahldrähte für Knochenfixierung und orthopädische Anwendungen"
-                }
-            }
-        },
-        services: {
-            title: "Unsere Dienstleistungen",
-            subtitle: "Wir bieten umfassende Gesundheitsdienste für alle Ihre medizinischen Bedürfnisse",
-            emergency: {
-                title: "Notfallbetreuung",
-                description: "24/7 medizinische Notfalldienste mit schneller Reaktion und fachkundiger Betreuung."
-            },
-            surgery: {
-                title: "Chirurgie",
-                description: "Fortgeschrittene chirurgische Verfahren mit modernster Ausrüstung und erfahrenen Chirurgen."
-            },
-            pediatrics: {
-                title: "Kinderheilkunde",
-                description: "Spezialisierte Betreuung für Kinder vom Säuglingsalter bis zur Adoleszenz."
-            },
-            cardiology: {
-                title: "Kardiologie",
-                description: "Umfassende Herzpflegedienste einschließlich Diagnose und Behandlung."
+            disposableMedical: {
+                title: "Einweg-Medizinprodukte",
+                description: "Sterile Einwegprodukte für Infektionskontrolle und Patientensicherheit."
             }
         },
         about: {
-            title: "Über Shri Gurukrupa Surgical",
-            subtitle: "Ein Vermächtnis der Qualität Seit 1992",
-            description1: "Shri Gurukrupa Surgical ist seit über 25 Jahren ein vertrauenswürdiger Lieferant von Premium-Chirurgieprodukten, der sich dafür einsetzt, Gesundheitsfachkräfte mit hochwertigen Geräten und Instrumenten zu unterstützen.",
-            description2: "Unsere hochmoderne Produktionsanlage ist mit der neuesten Technologie ausgestattet, und unser Team erfahrener Fachkräfte widmet sich der Aufrechterhaltung höchster Qualitätsstandards für alle unsere Produkte.",
-            learnMore: "Mehr Erfahren"
+            title: "Über Uns",
+            subtitle: "Ein Vermächtnis der Exzellenz im Gesundheitswesen",
+            ourStory: {
+                title: "Unsere Geschichte",
+                description: "Seit 1992 ist Shri Gurukrupa Surgical ein vertrauenswürdiger Name in der medizinischen Industrie und liefert hochwertige chirurgische Produkte und medizinische Geräte."
+            },
+            mission: {
+                title: "Unsere Mission",
+                description: "Innovation von Gesundheitslösungen durch qualitativ hochwertige, zuverlässige medizinische Produkte, die Leben verbessern und Gesundheitsexperten weltweit unterstützen."
+            },
+            vision: {
+                title: "Unsere Vision",
+                description: "Ein weltweit führender Anbieter von chirurgischen und medizinischen Produkten zu werden, bekannt für Qualität, Innovation und Kundenservice."
+            },
+            whyChooseUs: {
+                title: "Warum uns wählen",
+                quality: "Qualität",
+                qualityDesc: "Premium-medizinische Produkte mit internationalen Qualitätsstandards und Zertifizierungen.",
+                innovation: "Innovation",
+                innovationDesc: "Kontinuierliche Forschung und Entwicklung für modernste medizinische Lösungen.",
+                service: "Service",
+                serviceDesc: "Außergewöhnlicher Kundenservice mit technischer Unterstützung und pünktlicher Lieferung.",
+                trust: "Vertrauen",
+                trustDesc: "Über 30 Jahre Erfahrung und Tausende zufriedene Kunden weltweit."
+            }
         },
         contact: {
-            title: "Kontakt Aufnehmen",
-            subtitle: "Kontaktieren Sie uns für Anfragen oder Geschäftsanfragen",
-            getInTouch: "In Kontakt Treten",
-            description: "Wir würden gerne von Ihnen hören. Kontaktieren Sie uns auf eine der folgenden Arten:",
-            office: "Unser Büro",
-            callUs: "Rufen Sie uns an",
-            emailUs: "Senden Sie uns eine E-Mail",
+            title: "Kontakt aufnehmen",
+            subtitle: "Kontaktieren Sie uns für Ihre medizinischen Bedürfnisse",
+            getInTouch: "Kontakt aufnehmen",
+            address: "Adresse",
+            phone: "Telefon",
+            email: "E-Mail",
             businessHours: "Geschäftszeiten",
-            hours: "Montag - Freitag: 9:00 - 18:00 Uhr",
-            saturday: "Samstag: 9:00 - 14:00 Uhr",
+            mondayToFriday: "Montag bis Freitag: 9:00 - 18:00",
+            saturday: "Samstag: 9:00 - 14:00",
             sunday: "Sonntag: Geschlossen",
-            followUs: "Folgen Sie uns",
-            needQuote: "Benötigen Sie ein Angebot?",
-            quoteText: "Senden Sie eine detaillierte Anfrage für spezifische Produktanforderungen und Preise.",
-            submitEnquiry: "Anfrage Senden",
-            findUsHere: "Finden Sie uns Hier",
-            getDirections: "Wegbeschreibung",
-            fastDelivery: "Schnelle Lieferung",
-            deliveryText: "Schneller Versand in ganz Indien und international.",
-            support247: "24/7 Support",
-            supportText: "Rund-um-die-Uhr-Kundensupport für alle Ihre Fragen.",
-            qualityAssured: "Qualität Gesichert",
-            qualityText: "ISO-zertifizierte Produkte mit internationalen Qualitätsstandards."
+            sendMessage: "Nachricht senden",
+            fullName: "Vollständiger Name",
+            emailAddress: "E-Mail-Adresse",
+            phoneNumber: "Telefonnummer",
+            subject: "Betreff",
+            message: "Nachricht",
+            submitMessage: "Nachricht senden"
         },
-        common: {
-            getQuote: "Angebot Erhalten",
-            viewProducts: "Produkte Anzeigen",
-            goHome: "Zur Startseite",
-            pageNotFound: "Seite Nicht Gefunden",
-            pageNotFoundText: "Die gesuchte Seite existiert nicht.",
-            close: "Schließen",
-            needQuote: "Benötigen Sie ein Angebot?",
-            contactForPricing: "Kontaktieren Sie uns für detaillierte Preisinformationen und Großbestellungen."
+        enquiry: {
+            title: "Produktanfrage",
+            subtitle: "Kontaktieren Sie uns für detaillierte Produktinformationen und Preise",
+            productName: "Produktname",
+            fullName: "Vollständiger Name",
+            emailAddress: "E-Mail-Adresse",
+            phoneNumber: "Telefonnummer",
+            companyName: "Firmenname",
+            quantity: "Menge",
+            message: "Nachricht",
+            submitEnquiry: "Anfrage senden",
+            selectProduct: "Produkt auswählen"
+        },
+        downloads: {
+            title: "Downloads",
+            subtitle: "Laden Sie unseren umfassenden SGS-Produktkatalog herunter"
         },
         footer: {
-            about: "Über Shri Gurukrupa Surgical",
-            description: "Wir liefern hochwertige chirurgische Produkte und medizinische Geräte an Gesundheitsfachkräfte weltweit.",
-            products: "Unsere Produkte",
+            about: "Über uns",
             quickLinks: "Schnelle Links",
-            contact: "Kontaktinformationen",
-            address: "4, Amardeep Estate, Gegenüber Anupam Cinema, Neben Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India",
-            rights: "Alle Rechte vorbehalten."
+            products: "Produkte",
+            services: "Dienstleistungen",
+            contact: "Kontakt",
+            followUs: "Folgen Sie uns",
+            copyright: "© 2024 Shri Gurukrupa Surgical. Alle Rechte vorbehalten.",
+            privacyPolicy: "Datenschutzrichtlinie",
+            termsOfService: "Nutzungsbedingungen"
+        },
+        common: {
+            learnMore: "Mehr erfahren",
+            contactUs: "Kontakt aufnehmen",
+            readMore: "Mehr lesen",
+            viewAll: "Alle anzeigen",
+            getQuote: "Angebot erhalten",
+            needQuote: "Benötigen Sie ein Angebot?",
+            contactForPricing: "Kontaktieren Sie uns für detaillierte Preisinformationen und Großbestellungen.",
+            loading: "Lädt...",
+            error: "Fehler",
+            success: "Erfolg",
+            tryAgain: "Erneut versuchen"
+        },
+        chatbot: {
+            welcome: "Hallo! Ich bin Ihr SGS-Assistent. Wie kann ich Ihnen helfen?",
+            placeholder: "Geben Sie Ihre Nachricht ein...",
+            send: "Senden",
+            typing: "Tippt..."
         }
     },
     hi: {
@@ -1212,6 +1122,22 @@ const translations = {
         products: {
             title: "हमारे उत्पाद",
             subtitle: "हम दुनिया भर के स्वास्थ्य सेवा पेशेवरों को प्रीमियम सर्जिकल उत्पाद और मेडिकल उपकरण की आपूर्ति करते हैं",
+            infusionTransfusion: {
+                title: "इन्फ्यूजन और ट्रांसफ्यूजन",
+                description: "सुरक्षित द्रव वितरण और रक्त प्रक्रियाओं के लिए इन्फ्यूजन और ट्रांसफ्यूजन उत्पादों की पूर्ण श्रृंखला"
+            },
+            anesthesiaRespiratory: {
+                title: "एनेस्थीसिया और श्वसन",
+                description: "सर्जिकल और क्रिटिकल केयर प्रक्रियाओं के लिए पूर्ण एनेस्थीसिया उपकरण और श्वसन आपूर्ति"
+            },
+            urologyGastroenterology: {
+                title: "यूरोलॉजी और गैस्ट्रोएंटरोलॉजी",
+                description: "मूत्र पथ और पाचन तंत्र की प्रक्रियाओं और हस्तक्षेपों के लिए विशेष उत्पाद"
+            },
+            miscellaneous: {
+                title: "विविध",
+                description: "सर्जिकल उपकरण, फेस मास्क और सामान्य मेडिकल उपकरण सहित अतिरिक्त मेडिकल आपूर्ति"
+            },
             surgicalInstruments: {
                 title: "सर्जिकल उपकरण",
                 description: "सटीक ऑपरेशन और चिकित्सा प्रक्रियाओं के लिए उच्च गुणवत्ता वाले सर्जिकल उपकरण।"
@@ -1341,6 +1267,22 @@ const translations = {
         products: {
             title: "અમારા ઉત્પાદનો",
             subtitle: "અમે વિશ્વભરના આરોગ્ય સેવા વ્યાવસાયિકોને પ્રીમિયમ સર્જિકલ ઉત્પાદનો અને મેડિકલ સાધનોની પૂરવઠો કરીએ છીએ",
+            infusionTransfusion: {
+                title: "ઇન્ફ્યુઝન અને ટ્રાન્સફ્યુઝન",
+                description: "સુરક્ષિત પ્રવાહી વિતરણ અને લોહી પ્રક્રિયાઓ માટે ઇન્ફ્યુઝન અને ટ્રાન્સફ્યુઝન ઉત્પાદનોની સંપૂર્ણ શ્રેણી"
+            },
+            anesthesiaRespiratory: {
+                title: "એનેસ્થેસિયા અને શ્વસન",
+                description: "સર્જિકલ અને ક્રિટિકલ કેર પ્રક્રિયાઓ માટે સંપૂર્ણ એનેસ્થેસિયા સાધનો અને શ્વસન પુરવઠો"
+            },
+            urologyGastroenterology: {
+                title: "યુરોલોજી અને ગેસ્ટ્રોએન્ટેરોલોજી",
+                description: "મૂત્રમાર્ગ અને પાચન તંત્રની પ્રક્રિયાઓ અને હસ્તક્ષેપો માટે વિશિષ્ટ ઉત્પાદનો"
+            },
+            miscellaneous: {
+                title: "વિવિધ",
+                description: "સર્જિકલ સાધનો, ફેસ માસ્ક અને સામાન્ય મેડિકલ સાધનો સહિત વધારાના મેડિકલ પુરવઠો"
+            },
             surgicalInstruments: {
                 title: "સર્જિકલ સાધનો",
                 description: "ચોક્કસ ઓપરેશન અને મેડિકલ પ્રક્રિયાઓ માટે ઉચ્ચ ગુણવત્તાવાળા સર્જિકલ સાધનો."
