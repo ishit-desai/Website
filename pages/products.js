@@ -19,7 +19,7 @@ class ProductsPage {
                 category: 'infusionTransfusion',
                 title: 'Infusion & Transfusion',
                 description: 'Complete range of infusion and transfusion products for safe fluid delivery and blood procedures',
-                image: 'assets/products/infusion-transfusion.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 subcategories: [
                     {
                         name: 'Infusion Therapy',
@@ -42,7 +42,7 @@ class ProductsPage {
                 category: 'anesthesiaRespiratory',
                 title: 'Anesthesia & Respiratory',
                 description: 'Complete anesthesia equipment and respiratory supplies for surgical and critical care procedures',
-                image: 'assets/products/anesthesia-respiratory.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 subcategories: [
                     {
                         name: 'Anesthesia Equipment',
@@ -69,7 +69,7 @@ class ProductsPage {
                 category: 'urologyGastroenterology',
                 title: 'Urology & Gastroenterology',
                 description: 'Specialized products for urinary tract and digestive system procedures and interventions',
-                image: 'assets/products/urology-gastroenterology.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 subcategories: [
                     {
                         name: 'Urology',
@@ -101,7 +101,7 @@ class ProductsPage {
                 category: 'miscellaneous',
                 title: 'Miscellaneous',
                 description: 'Additional medical supplies including surgical instruments, face masks, and general medical equipment',
-                image: 'assets/products/miscellaneous.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 subcategories: [
                     {
                         name: 'Surgery',

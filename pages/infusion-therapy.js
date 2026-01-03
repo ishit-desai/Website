@@ -16,39 +16,39 @@ class InfusionTherapyPage {
         return [
             {
                 key: 'infusionSetsEconomy',
-                image: 'assets/products/infusion-sets-economy.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'infusionSetsPremium',
-                image: 'assets/products/infusion-sets-premium.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'infusionSetsUltra',
-                image: 'assets/products/infusion-sets-ultra.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'infusionSetsLuerLock',
-                image: 'assets/products/infusion-sets-luer-lock.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'infusionSetsAirvented',
-                image: 'assets/products/infusion-sets-airvented.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'buretteSet',
-                image: 'assets/products/burette-set.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'extensionLine',
-                image: 'assets/products/extension-line.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'pressureMonitoringLines',
-                image: 'assets/products/pressure-monitoring-lines.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'threeWayStopcock',
-                image: 'assets/products/three-way-stopcock.jpg'
+                image: 'assets/products/coming_soon.jpg'
             }
         ];
     }

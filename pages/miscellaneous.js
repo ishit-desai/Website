@@ -19,7 +19,7 @@ class MiscellaneousPage {
                 id: 'latex-examination-gloves',
                 name: 'Latex Examination Gloves',
                 description: 'High-quality latex examination gloves for medical procedures and patient examination',
-                image: 'assets/products/latex-examination-gloves.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['Natural latex material', 'Powder-free options', 'Ambidextrous design', 'Various sizes available', 'Excellent tactile sensitivity']
             },
@@ -28,7 +28,7 @@ class MiscellaneousPage {
                 id: 'latex-surgical-gloves',
                 name: 'Latex Surgical Gloves',
                 description: 'Sterile latex surgical gloves designed for surgical procedures and operations',
-                image: 'assets/products/latex-surgical-gloves.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['Sterile surgical grade', 'Superior puncture resistance', 'Anatomical fit', 'Enhanced grip texture', 'Single use disposable']
             },
@@ -37,7 +37,7 @@ class MiscellaneousPage {
                 id: 'head-rest-n95-face-mask',
                 name: 'Head Rest N-95 Face Mask',
                 description: 'N-95 respirator mask with head rest straps for secure fit and maximum protection',
-                image: 'assets/products/head-rest-n95-face-mask.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['95% particle filtration efficiency', 'Head rest strap design', 'Secure facial seal', 'Comfortable long-term wear', 'NIOSH approved']
             },
@@ -46,7 +46,7 @@ class MiscellaneousPage {
                 id: 'ear-loop-n95-face-mask',
                 name: 'Ear Loop N-95 Face Mask',
                 description: 'N-95 respirator mask with convenient ear loop design for easy wearing and removal',
-                image: 'assets/products/ear-loop-n95-face-mask.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['95% particle filtration efficiency', 'Convenient ear loop design', 'Easy to wear and remove', 'Comfortable ear straps', 'High-quality filtration']
             },
@@ -55,7 +55,7 @@ class MiscellaneousPage {
                 id: 'head-rest-n95-face-mask-v2',
                 name: 'Head Rest N-95 Face Mask',
                 description: 'Premium N-95 respirator mask with adjustable head rest straps for enhanced comfort and protection',
-                image: 'assets/products/head-rest-n95-face-mask-v2.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['Premium filtration material', 'Adjustable head straps', 'Enhanced comfort padding', 'Superior breathability', 'Extended wear design']
             },
@@ -64,7 +64,7 @@ class MiscellaneousPage {
                 id: '3-ply-mask-face',
                 name: '3 Ply Mask Face',
                 description: '3-layer disposable face mask providing effective protection for everyday use',
-                image: 'assets/products/3-ply-mask-face.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Miscellaneous Products',
                 specifications: ['3-layer protection system', 'Fluid resistant outer layer', 'Comfortable ear loops', 'Disposable single use', 'Breathable design']
             }

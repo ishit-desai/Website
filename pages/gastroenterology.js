@@ -14,9 +14,9 @@ class GastroenterologyPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'feedingTube', image: 'assets/products/feeding-tube.jpg' },
-            { key: 'rylesTube', image: 'assets/products/ryles-tube.jpg' },
-            { key: 'yanakaurSuctionSet', image: 'assets/products/yankaur-suction-set.jpg' }
+            { key: 'feedingTube', image: 'assets/products/coming_soon.jpg' },
+            { key: 'rylesTube', image: 'assets/products/coming_soon.jpg' },
+            { key: 'yanakaurSuctionSet', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

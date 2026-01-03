@@ -14,8 +14,8 @@ class SurgeryPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'closedWoundSuctionUnit', image: 'assets/products/closed-wound-suction-unit.jpg' },
-            { key: 'skinStapler', image: 'assets/products/skin-stapler.jpg' }
+            { key: 'closedWoundSuctionUnit', image: 'assets/products/coming_soon.jpg' },
+            { key: 'skinStapler', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

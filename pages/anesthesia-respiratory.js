@@ -19,7 +19,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'nebulizer-kit',
                 name: 'Nebulizer Kit',
                 description: 'Complete nebulizer kit for efficient medication delivery and respiratory therapy treatments',
-                image: 'assets/products/nebulizer-kit.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Complete nebulizer system', 'Efficient medication delivery', 'Easy to assemble', 'Sterile and disposable', 'Compatible with standard medications']
             },
@@ -28,7 +28,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'hi-concentration-mask',
                 name: 'Hi-Concentration Mask',
                 description: 'High-concentration oxygen mask designed for maximum oxygen delivery in critical care situations',
-                image: 'assets/products/hi-concentration-mask.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['High oxygen concentration delivery', 'Non-rebreathing design', 'Reservoir bag included', 'One-way valve system', 'Transparent clear mask']
             },
@@ -37,7 +37,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'multiflow-venturi-mask',
                 name: 'Multiflow Venturi Mask',
                 description: 'Precision oxygen delivery mask with multiple flow settings for controlled oxygen concentration',
-                image: 'assets/products/multiflow-venturi-mask.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Multiple concentration settings', 'Accurate oxygen mixing', 'Color-coded valves', 'Clear visual markings', 'Precise flow control']
             },
@@ -46,7 +46,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'guedel-airway',
                 name: 'Guedel Airway',
                 description: 'Oropharyngeal airways for effective airway management and patient ventilation support',
-                image: 'assets/products/guedel-airway.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Color-coded sizing system', 'Smooth rounded edges', 'Radio-opaque line', 'Various sizes available', 'Easy insertion design']
             },
@@ -55,7 +55,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'catheter-mount',
                 name: 'Catheter Mount',
                 description: 'Flexible catheter mount connector for secure and reliable ventilation circuit connections',
-                image: 'assets/products/catheter-mount.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Flexible design', 'Secure connections', 'Low dead space', 'Kink-resistant material', 'Standard fittings']
             },
@@ -64,7 +64,7 @@ class AnesthesiaRespiratoryPage {
                 id: 't-oxygenator',
                 name: 'T-Oxygenator',
                 description: 'T-piece oxygen delivery system for controlled oxygen administration and ventilation support',
-                image: 'assets/products/t-oxygenator.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['T-piece design', 'Controlled oxygen delivery', 'Minimal dead space', 'Easy connectivity', 'Precise gas flow']
             },
@@ -73,7 +73,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'bvf-filter',
                 name: 'BVF Filter',
                 description: 'Bacterial and viral filtration filter for protection and clean air delivery in respiratory systems',
-                image: 'assets/products/bvf-filter.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Bacterial filtration', 'Viral filtration', 'Low resistance design', 'High efficiency filtration', 'Compact size']
             },
@@ -82,7 +82,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'hme-filter',
                 name: 'HME Filter',
                 description: 'Heat and moisture exchanger filter for optimal humidity and temperature control in breathing circuits',
-                image: 'assets/products/hme-filter.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Heat and moisture exchange', 'Low dead space volume', 'Hydrophobic membrane', 'Bacterial filtration', 'Optimal humidity control']
             },
@@ -91,7 +91,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'hme-bvf-filter',
                 name: 'HME-BVF Filter',
                 description: 'Combined heat moisture exchanger and bacterial viral filter for complete respiratory protection',
-                image: 'assets/products/hme-bvf-filter.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Heat and moisture exchange', 'Bacterial and viral filtration', 'Dual function design', 'Low resistance', 'Compact integrated unit']
             },
@@ -100,7 +100,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'nasal-oxygen-cannula',
                 name: 'Nasal Oxygen Cannula',
                 description: 'Comfortable nasal oxygen cannula for continuous oxygen therapy and patient comfort',
-                image: 'assets/products/nasal-oxygen-cannula.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Soft nasal prongs', 'Adjustable headstrap', 'Kink-resistant tubing', 'Patient comfort design', 'Various sizes available']
             },
@@ -109,7 +109,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'oxygen-tubing',
                 name: 'Oxygen Tubing',
                 description: 'Standard oxygen tubing for reliable oxygen delivery and connection in medical oxygen systems',
-                image: 'assets/products/oxygen-tubing.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Medical grade PVC', 'Kink-resistant design', 'Standard connectors', 'Various lengths available', 'Clear transparent tubing']
             },
@@ -118,7 +118,7 @@ class AnesthesiaRespiratoryPage {
                 id: 'oxygen-tubing-coiled',
                 name: 'Oxygen Tubing Coiled',
                 description: 'Coiled oxygen tubing design for space-saving and flexible oxygen delivery applications',
-                image: 'assets/products/oxygen-tubing-coiled.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Anesthesia & Respiratory Products',
                 specifications: ['Coiled space-saving design', 'Flexible and extendable', 'Prevents tangling', 'Standard fittings', 'Durable construction']
             }

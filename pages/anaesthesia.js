@@ -16,55 +16,55 @@ class AnaesthesiaPage {
         return [
             {
                 key: 'nasalOxygenCatheter',
-                image: 'assets/products/nasal-oxygen-catheter.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'oxygenMaskNonRebreathing',
-                image: 'assets/products/oxygen-mask-non-rebreathing.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'nasalOxygenCannula',
-                image: 'assets/products/nasal-oxygen-cannula.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'guedelAirways',
-                image: 'assets/products/guedel-airways.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'nebulizerMaskTubing',
-                image: 'assets/products/nebulizer-mask-tubing.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'venturiMask',
-                image: 'assets/products/venturi-mask.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'manualResuscitationAmbuBag',
-                image: 'assets/products/manual-resuscitation-ambu-bag.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'bainCircuit',
-                image: 'assets/products/bain-circuit.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'breathingCircuitVentilatorHME',
-                image: 'assets/products/breathing-circuit-ventilator-hme.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'ventilatorCircuit',
-                image: 'assets/products/ventilator-circuit.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'hmeFilterBVFilter',
-                image: 'assets/products/hme-filter-bv-filter.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'nebulizerKitTMouth',
-                image: 'assets/products/nebulizer-kit-t-mouth.jpg'
+                image: 'assets/products/coming_soon.jpg'
             },
             {
                 key: 'highConcentrationOxygenMask',
-                image: 'assets/products/high-concentration-oxygen-mask.jpg'
+                image: 'assets/products/coming_soon.jpg'
             }
         ];
     }

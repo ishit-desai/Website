@@ -19,7 +19,7 @@ class UrologyGastroenterologyPage {
                 id: 'cord-clamp',
                 name: 'Cord Clamp',
                 description: 'Medical cord clamp for secure clamping and cutting of umbilical cords during delivery procedures',
-                image: 'assets/products/cord-clamp.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Secure clamping mechanism', 'Safe cutting design', 'Sterile single use', 'Easy application', 'Medical grade materials']
             },
@@ -28,7 +28,7 @@ class UrologyGastroenterologyPage {
                 id: 'yankauer-suction-set',
                 name: 'Yankauer Suction Set',
                 description: 'Professional suction set designed for effective oral and pharyngeal suctioning in medical procedures',
-                image: 'assets/products/yankauer-suction-set.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Curved tip design', 'Large bore opening', 'Thumb control valve', 'Rigid construction', 'Effective suction performance']
             },
@@ -37,7 +37,7 @@ class UrologyGastroenterologyPage {
                 id: 'urine-collection-container',
                 name: 'Urine Collection Container',
                 description: 'Sterile collection container for urine sample collection and laboratory analysis procedures',
-                image: 'assets/products/urine-collection-container.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Sterile collection system', 'Leak-proof design', 'Clear volume markings', 'Secure lid closure', 'Laboratory compatible']
             },
@@ -46,7 +46,7 @@ class UrologyGastroenterologyPage {
                 id: 'mucus-extractor',
                 name: 'Mucus Extractor',
                 description: 'Medical device for safe and effective extraction of mucus from airways and respiratory passages',
-                image: 'assets/products/mucus-extractor.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Safe suction control', 'Flexible catheter design', 'Easy operation', 'Sterile disposable', 'Effective mucus removal']
             },
@@ -55,7 +55,7 @@ class UrologyGastroenterologyPage {
                 id: 'urine-bag-delux',
                 name: 'Urine Bag DELUX',
                 description: 'Deluxe urine collection bag with enhanced features for extended patient comfort and reliability',
-                image: 'assets/products/urine-bag-delux.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Enhanced comfort design', 'Anti-reflux valve', 'Large capacity', 'Secure attachment', 'Quality drainage system']
             },
@@ -64,7 +64,7 @@ class UrologyGastroenterologyPage {
                 id: 'urine-bag-premium',
                 name: 'Urine Bag PREMIUM',
                 description: 'Premium grade urine collection bag offering superior quality and advanced features for optimal performance',
-                image: 'assets/products/urine-bag-premium.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Urology & Gastroenterology Products',
                 specifications: ['Premium quality materials', 'Advanced anti-reflux system', 'Maximum capacity', 'Superior attachment system', 'Professional grade construction']
             }

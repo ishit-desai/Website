@@ -14,16 +14,16 @@ class UrologyPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'urinaryCatheters', image: 'assets/products/urinary-catheters.jpg' },
-            { key: 'urologyStents', image: 'assets/products/urology-stents.jpg' },
-            { key: 'nephrostomySets', image: 'assets/products/nephrostomy-sets.jpg' },
-            { key: 'cystitisSets', image: 'assets/products/cystitis-sets.jpg' },
-            { key: 'urodynamics', image: 'assets/products/urodynamics.jpg' },
-            { key: 'biopsyNeedles', image: 'assets/products/biopsy-needles.jpg' },
-            { key: 'urologyLaser', image: 'assets/products/urology-laser.jpg' },
-            { key: 'cystoscopes', image: 'assets/products/cystoscopes.jpg' },
-            { key: 'lithotripsy', image: 'assets/products/lithotripsy.jpg' },
-            { key: 'urologyBaskets', image: 'assets/products/urology-baskets.jpg' }
+            { key: 'urinaryCatheters', image: 'assets/products/coming_soon.jpg' },
+            { key: 'urologyStents', image: 'assets/products/coming_soon.jpg' },
+            { key: 'nephrostomySets', image: 'assets/products/coming_soon.jpg' },
+            { key: 'cystitisSets', image: 'assets/products/coming_soon.jpg' },
+            { key: 'urodynamics', image: 'assets/products/coming_soon.jpg' },
+            { key: 'biopsyNeedles', image: 'assets/products/coming_soon.jpg' },
+            { key: 'urologyLaser', image: 'assets/products/coming_soon.jpg' },
+            { key: 'cystoscopes', image: 'assets/products/coming_soon.jpg' },
+            { key: 'lithotripsy', image: 'assets/products/coming_soon.jpg' },
+            { key: 'urologyBaskets', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

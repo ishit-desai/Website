@@ -14,8 +14,8 @@ class DialysisPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'haemodialysisCatheter', image: 'assets/products/haemodialysis-catheter.jpg' },
-            { key: 'bloodLineHaemodialysis', image: 'assets/products/blood-line-haemodialysis.jpg' }
+            { key: 'haemodialysisCatheter', image: 'assets/products/coming_soon.jpg' },
+            { key: 'bloodLineHaemodialysis', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

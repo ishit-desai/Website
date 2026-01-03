@@ -20,7 +20,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set - CAREWELL™',
                 subtitle: 'Economic',
                 description: 'Cost-effective IV infusion set designed for basic fluid delivery with reliable performance',
-                image: 'assets/products/iv-set-carewell-economic.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Sterile and pyrogen-free', 'Latex-free construction', 'Standard drip chamber', 'Roller clamp for flow control', 'Luer slip connector']
             },
@@ -30,7 +30,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set - BLESSING®',
                 subtitle: 'Economic',
                 description: 'Reliable and affordable IV set from BLESSING® range for routine infusion procedures',
-                image: 'assets/products/iv-set-blessing-economic.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Single use disposable', 'Non-toxic PVC tubing', 'Drop size: 20 drops/ml', 'Standard spike', 'Safe and effective']
             },
@@ -40,7 +40,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set - BLESSING®',
                 subtitle: 'Delux - Paper Pouch',
                 description: 'Premium IV set from BLESSING® range with enhanced packaging and superior quality components',
-                image: 'assets/products/iv-set-blessing-delux.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Premium paper pouch packaging', 'Enhanced sterility assurance', 'Improved flow regularity', 'Kink-resistant tubing', 'Quality tested components']
             },
@@ -50,7 +50,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set - Sayft-NV®',
                 subtitle: 'Super Delux',
                 description: 'Top-tier IV set with advanced safety features and superior performance characteristics',
-                image: 'assets/products/iv-set-sayft-nv-super-delux.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Advanced needle safety features', 'Ultra-smooth flow control', 'Premium grade materials', 'Enhanced patient comfort', 'Superior durability']
             },
@@ -59,7 +59,7 @@ class InfusionTransfusionPage {
                 id: 'blood-transfusion-set',
                 name: 'Blood Transfusion Set',
                 description: 'Specialized set designed for safe and efficient blood transfusion procedures',
-                image: 'assets/products/blood-transfusion-set.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Blood compatible materials', 'Inline filter for safety', 'Precise flow control', 'Anti-hemolysis design', 'Sterile and ready to use']
             },
@@ -69,7 +69,7 @@ class InfusionTransfusionPage {
                 name: 'Measured Volume Set',
                 subtitle: 'Doctor Super Delux',
                 description: 'Precision volume control set ideal for pediatric care and critical dosing applications',
-                image: 'assets/products/measured-volume-set-doctor.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['100ml/150ml graduated chamber', 'Precise volume measurement', 'Child-safe design', 'Doctor recommended quality', 'Ultra-clear chamber visibility']
             },
@@ -79,7 +79,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set',
                 subtitle: 'Vented',
                 description: 'Vented IV set designed for efficient air elimination and smooth fluid flow',
-                image: 'assets/products/iv-set-vented.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Built-in air vent', 'Prevents air locks', 'Smooth continuous flow', 'Standard connections', 'Reliable performance']
             },
@@ -89,7 +89,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set',
                 subtitle: 'Vented with Luer Lock',
                 description: 'Advanced vented IV set with secure Luer Lock connection for enhanced safety',
-                image: 'assets/products/iv-set-vented-luer-lock.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Built-in air venting system', 'Secure Luer Lock connector', 'Enhanced connection safety', 'Prevents accidental disconnection', 'Professional grade quality']
             },
@@ -99,7 +99,7 @@ class InfusionTransfusionPage {
                 name: 'IV Set',
                 subtitle: 'Vented with Luer Lock with \'Y\' connection',
                 description: 'Multi-port IV set with Y-connection for simultaneous medication administration',
-                image: 'assets/products/iv-set-vented-luer-y.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Y-injection port included', 'Dual medication capability', 'Secure Luer Lock system', 'Vented for optimal flow', 'Multi-functional design']
             },
@@ -108,7 +108,7 @@ class InfusionTransfusionPage {
                 id: 'microdrip-set',
                 name: 'Microdrip Set',
                 description: 'Precision microdrip infusion set for accurate low-volume fluid delivery',
-                image: 'assets/products/microdrip-set.jpg',
+                image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['60 drops/ml precision', 'Microdrip chamber design', 'Accurate low-volume delivery', 'Ideal for pediatric use', 'Superior flow control']
             }

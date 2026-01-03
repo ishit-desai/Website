@@ -14,9 +14,9 @@ class GeneralPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'infantMucusExtractor', image: 'assets/products/infant-mucus-extractor.jpg' },
-            { key: 'umbilicalCordClamp', image: 'assets/products/umbilical-cord-clamp.jpg' },
-            { key: 'respiratoryExerciser', image: 'assets/products/respiratory-exerciser.jpg' }
+            { key: 'infantMucusExtractor', image: 'assets/products/coming_soon.jpg' },
+            { key: 'umbilicalCordClamp', image: 'assets/products/coming_soon.jpg' },
+            { key: 'respiratoryExerciser', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

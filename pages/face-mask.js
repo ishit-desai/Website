@@ -14,8 +14,8 @@ class FaceMaskPage {
     // Get products data for this category
     getProductsData() {
         return [
-            { key: 'earLoopMask', image: 'assets/products/ear-loop-mask.jpg' },
-            { key: 'n95FaceMask', image: 'assets/products/n95-face-mask.jpg' }
+            { key: 'earLoopMask', image: 'assets/products/coming_soon.jpg' },
+            { key: 'n95FaceMask', image: 'assets/products/coming_soon.jpg' }
         ];
     }
 

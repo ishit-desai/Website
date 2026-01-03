@@ -4545,3 +4545,220 @@ body.modal-open {
 .chat-messages::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8;
 }
+
+/* About Section Carousel Styles */
+.about-image .carousel-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: #f8fafc;
+}
+
+.carousel-track {
+    display: flex;
+    width: 700%;
+    height: 100%;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carousel-slide {
+    width: 14.285714%; /* 100% / 7 slides */
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 15px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.carousel-slide.active img {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Navigation Arrows */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #146b8c;
+    transition: all 0.3s ease;
+    z-index: 15;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    backdrop-filter: blur(5px);
+}
+
+.carousel-nav:hover {
+    background: rgba(25, 140, 179, 0.95);
+    color: white;
+    border-color: rgba(25, 140, 179, 0.8);
+    transform: translateY(-50%) scale(1.15);
+    box-shadow: 0 8px 25px rgba(25, 140, 179, 0.5), 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-prev {
+    left: 20px;
+}
+
+.carousel-next {
+    right: 20px;
+}
+
+.carousel-nav:hover {
+    background: rgba(25, 140, 179, 0.9);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-nav:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+/* Dot Indicators */
+.carousel-indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 15;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 2px 6px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 1);
+    transform: scale(1.2);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6), 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.indicator.active {
+    background: #198cb3;
+    border-color: #ffffff;
+    transform: scale(1.4);
+    box-shadow: 0 6px 20px rgba(25, 140, 179, 0.6), 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive Design for About Section Carousel */
+@media (max-width: 768px) {
+    .about-image .carousel-wrapper {
+        height: 300px;
+    }
+
+    .carousel-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .carousel-prev {
+        left: 10px;
+    }
+
+    .carousel-next {
+        right: 10px;
+    }
+
+    .carousel-indicators {
+        bottom: 15px;
+        gap: 8px;
+    }
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image .carousel-wrapper {
+        height: 250px;
+    }
+
+    .carousel-nav {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .carousel-prev {
+        left: 8px;
+    }
+
+    .carousel-next {
+        right: 8px;
+    }
+
+    .carousel-indicators {
+        bottom: 10px;
+        gap: 6px;
+    }
+
+    .indicator {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+/* Loading animation for images */
+.carousel-slide img {
+    transition: opacity 0.3s ease;
+}
+
+.carousel-slide img[src*="test.jpg"] {
+    filter: brightness(1.1) contrast(1.05);
+}
