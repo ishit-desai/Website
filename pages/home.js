@@ -27,7 +27,7 @@ class HomePage {
                 <div class="container">
                     <div class="about-content">
                         <div class="about-text">
-                            <h2 data-translate="about.title">About Shri Gurukrupa Surgical</h2>
+                            <h2 data-translate="home.aboutSection">About</h2>
                             <p data-translate="about.description1">Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.</p>
                             <p data-translate="about.description2">Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.</p>
 

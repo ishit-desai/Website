@@ -61,20 +61,20 @@ class AchievementsPage {
 
                             <div class="achievement-item">
                                 <div class="achievement-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h3 data-translate="achievements.iso8000">${t.achievements?.iso8000 || 'ISO 8000 Certification'}</h3>
+                                <p data-translate="achievements.iso8000Desc">${t.achievements?.iso8000Desc || 'Data quality management system certification ensuring accurate and reliable data management in all our operations.'}</p>
+                                <div class="achievement-year" data-translate="achievements.iso8000Year">${t.achievements?.iso8000Year || 'Certified 2020'}</div>
+                            </div>
+
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
                                     <i class="fas fa-award"></i>
                                 </div>
                                 <h3 data-translate="achievements.exportExcellence">${t.achievements?.exportExcellence || 'Export Excellence Award'}</h3>
                                 <p data-translate="achievements.exportDesc">${t.achievements?.exportDesc || 'Recognition for outstanding export performance and quality products in international markets.'}</p>
                                 <div class="achievement-year" data-translate="achievements.exportYear">${t.achievements?.exportYear || 'Received 2023'}</div>
-                            </div>
-
-                            <div class="achievement-item">
-                                <div class="achievement-icon">
-                                    <i class="fas fa-check-shield"></i>
-                                </div>
-                                <h3 data-translate="achievements.ce">${t.achievements?.ce || 'CE Marking Compliance'}</h3>
-                                <p data-translate="achievements.ceDesc">${t.achievements?.ceDesc || 'European Conformity marking for medical devices ensuring compliance with EU safety and health requirements.'}</p>
-                                <div class="achievement-year" data-translate="achievements.ceYear">${t.achievements?.ceYear || 'Approved 2020'}</div>
                             </div>
 
                             <div class="achievement-item">
@@ -132,15 +132,22 @@ class AchievementsPage {
                                 <div class="timeline-item">
                                     <div class="timeline-year">2018</div>
                                     <div class="timeline-content">
-                                        <h4 data-translate="achievements.milestone4">${t.achievements?.milestone4 || 'ISO Certification Achieved'}</h4>
+                                        <h4 data-translate="achievements.milestone4">${t.achievements?.milestone4 || 'ISO 9001:2015 Certification Achieved'}</h4>
                                         <p data-translate="achievements.milestone4Desc">${t.achievements?.milestone4Desc || 'Obtained ISO 9001:2015 certification for quality management.'}</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-year">2020</div>
+                                    <div class="timeline-content">
+                                        <h4 data-translate="achievements.milestone5">${t.achievements?.milestone5 || 'ISO 8000 Certification Achieved'}</h4>
+                                        <p data-translate="achievements.milestone5Desc">${t.achievements?.milestone5Desc || 'Obtained ISO 8000 certification for data quality management systems.'}</p>
                                     </div>
                                 </div>
                                 <div class="timeline-item">
                                     <div class="timeline-year">2025</div>
                                     <div class="timeline-content">
-                                        <h4 data-translate="achievements.milestone5">${t.achievements?.milestone5 || 'Digital Transformation'}</h4>
-                                        <p data-translate="achievements.milestone5Desc">${t.achievements?.milestone5Desc || 'Launched digital platform and modernized operations for enhanced customer experience.'}</p>
+                                        <h4 data-translate="achievements.milestone6">${t.achievements?.milestone6 || 'Digital Transformation'}</h4>
+                                        <p data-translate="achievements.milestone6Desc">${t.achievements?.milestone6Desc || 'Launched digital platform and modernized operations for enhanced customer experience.'}</p>
                                     </div>
                                 </div>
                             </div>

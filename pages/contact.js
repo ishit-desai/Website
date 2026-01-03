@@ -89,13 +89,21 @@ class ContactPage {
                                         <i class="fab fa-whatsapp"></i>
                                         <span>WhatsApp</span>
                                     </a>
-                                    <a href="https://www.linkedin.com/company/shrigurukrupa-surgical" target="_blank" class="social-link linkedin">
+                                    <a href="https://www.linkedin.com/company/shri-gurukrupa-surgical-ahmedabad/" target="_blank" class="social-link linkedin">
                                         <i class="fab fa-linkedin-in"></i>
                                         <span>LinkedIn</span>
                                     </a>
                                     <a href="https://www.instagram.com/shrigurukrupasurgical" target="_blank" rel="noopener" class="social-link instagram">
                                         <i class="fab fa-instagram"></i>
                                         <span>Instagram</span>
+                                    </a>
+                                    <a href="https://www.youtube.com/@ShriGurukrupaSurgical" target="_blank" class="social-link youtube">
+                                        <i class="fab fa-youtube"></i>
+                                        <span>YouTube</span>
+                                    </a>
+                                    <a href="https://www.indiamart.com/shri-gurukrupa-surgical/" target="_blank" class="social-link indiamart">
+                                        <img src="assets/indiamart.jpg" alt="IndiaMART" class="indiamart-logo">
+                                        <span>IndiaMART</span>
                                     </a>
                                 </div>
                             </div>
@@ -219,7 +227,7 @@ class ContactPage {
         socialLinks.forEach(link => {
             link.addEventListener('click', (e) => {
                 const platform = e.currentTarget.className.split(' ').find(c =>
-                    ['facebook', 'whatsapp', 'linkedin'].includes(c)
+                    ['facebook', 'whatsapp', 'linkedin', 'instagram', 'youtube'].includes(c)
                 );
                 if (window.trackEvent) {
                     window.trackEvent('social_media_click', { platform });
