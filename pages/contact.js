@@ -102,7 +102,7 @@ class ContactPage {
                                         <span>YouTube</span>
                                     </a>
                                     <a href="https://www.indiamart.com/shri-gurukrupa-surgical/" target="_blank" class="social-link indiamart">
-                                        <img src="assets/indiamart.jpg" alt="IndiaMART" class="indiamart-logo">
+                                        <img src="assets/indiamart.jpg" alt="IndiaMART - Shri Gurukrupa Surgical Official Business Profile - India's Leading B2B Marketplace" class="indiamart-logo">
                                         <span>IndiaMART</span>
                                     </a>
                                 </div>

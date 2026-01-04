@@ -17,7 +17,7 @@ class AboutPage {
             <div class="page-header">
                 <div class="container">
                     <h1 data-translate="about.title">${t.about?.title || 'About Shri Gurukrupa Surgical'}</h1>
-                    <p data-translate="about.subtitle">${t.about?.subtitle || 'A Legacy of Quality Since 1992'}</p>
+                    <p data-translate="about.subtitle">${t.about?.subtitle || 'Your Trusted Partner in Advanced Surgical Solutions & Medical Excellence'}</p>
                 </div>
             </div>
             <section class="page-section">
@@ -42,7 +42,7 @@ class AboutPage {
                             </div>
                         </div>
                         <div class="about-image">
-                            <img src="assets/company-facility.jpg" alt="Shri Gurukrupa Surgical Manufacturing Facility" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" style="max-width: 100%; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+                            <img src="assets/company-facility.jpg" alt="Shri Gurukrupa Surgical State-of-the-Art Manufacturing Facility in Ahmedabad - ISO Certified Medical Equipment Production" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" style="max-width: 100%; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
                             <div class="image-fallback" style="display: none; background: linear-gradient(135deg, #198cb3, #146b8c); color: white; height: 400px; border-radius: 15px; align-items: center; justify-content: center; font-size: 24px; font-weight: 600; text-align: center;">
                                 <div>
                                     <i class="fas fa-industry" style="font-size: 48px; margin-bottom: 20px; display: block;"></i>
@@ -78,7 +78,7 @@ class AboutPage {
 
                             <!-- Make in India Logo Section -->
                             <div style="margin-top: 30px; text-align: center;">
-                                <img src="assets/Make In India logo.jpeg" alt="Make in India - Supporting Indian Manufacturing" style="max-width: 320px; height: auto; margin: 0 auto; display: block;">
+                                <img src="assets/Make In India logo.jpeg" alt="Make in India Logo - Supporting Indian Manufacturing Excellence - Shri Gurukrupa Surgical Proud Indian Medical Equipment Manufacturer" style="max-width: 320px; height: auto; margin: 0 auto; display: block;">
                             </div>
                         </div>
                     </div>

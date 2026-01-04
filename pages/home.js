@@ -14,6 +14,13 @@ class HomePage {
     getContent() {
         const t = this.getTranslation();
         return `
+            <div class="page-header">
+                <div class="container">
+                    <h1 data-translate="home.title">Welcome to Shri Gurukrupa Surgical</h1>
+                    <p data-translate="home.subtitle">Premium surgical products and medical equipment for healthcare professionals worldwide</p>
+                </div>
+            </div>
+
             <!-- About Section -->
             <section class="about page-section">
                 <div class="container">
@@ -32,25 +39,25 @@ class HomePage {
                             <div class="carousel-wrapper">
                                 <div class="carousel-track" id="carouselTrack">
                                     <div class="carousel-slide active">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 1">
+                                        <img src="assets/products/test.jpg" alt="Premium Surgical Instruments - Shri Gurukrupa Surgical Medical Equipment Collection">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 2">
+                                        <img src="assets/products/test.jpg" alt="Medical Infusion Sets & IV Equipment - High Quality Healthcare Supplies">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 3">
+                                        <img src="assets/products/test.jpg" alt="Anesthesia Equipment & Respiratory Supplies - Professional Medical Devices">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 4">
+                                        <img src="assets/products/test.jpg" alt="Urology & Gastroenterology Medical Instruments - Specialized Healthcare Equipment">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 5">
+                                        <img src="assets/products/test.jpg" alt="ISO Certified Medical Equipment Manufacturing - Shri Gurukrupa Surgical Facility">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 6">
+                                        <img src="assets/products/test.jpg" alt="Quality Medical Supplies & Surgical Tools - Trusted Healthcare Solutions">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Shri Gurukrupa Surgical - Image 7">
+                                        <img src="assets/products/test.jpg" alt="Export Quality Medical Equipment - International Healthcare Product Standards">
                                     </div>
                                 </div>
 

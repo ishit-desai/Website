@@ -1,0 +1,52 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories
+Disallow: /js/
+Disallow: /css/
+Disallow: /pages/
+
+# Allow specific important files
+Allow: /js/main.js
+Allow: /css/style.css
+
+# Sitemap location
+Sitemap: https://shrigurukrupa-surgical.com/sitemap.xml
+
+# Crawl delay (optional - 1 second)
+Crawl-delay: 1
+
+# Allow common search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
