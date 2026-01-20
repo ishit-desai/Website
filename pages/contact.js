@@ -61,7 +61,7 @@ class ContactPage {
                                     </div>
                                     <div class="contact-content">
                                         <h3 data-translate="contact.emailUs">${t.contact?.emailUs || 'Email Us'}</h3>
-                                        <p><a href="mailto:shrigurukrupa@yahoo.co.uk" style="color: inherit; text-decoration: none;">shrigurukrupa@yahoo.co.uk</a></p>
+                                        <p><a href="mailto:shrigurukrupa54@gmail.com" style="color: inherit; text-decoration: none;">shrigurukrupa54@gmail.com</a></p>
                                     </div>
                                 </div>
 
@@ -81,7 +81,7 @@ class ContactPage {
                             <div class="social-media-section">
                                 <h3 data-translate="contact.followUs">${t.contact?.followUs || 'Follow Us'}</h3>
                                 <div class="social-media-links">
-                                    <a href="https://www.facebook.com/shrigurukrupa" target="_blank" class="social-link facebook">
+                                    <a href="https://www.facebook.com/profile.php?id=61584998815678&mibextid=ZbWKwL" target="_blank" class="social-link facebook">
                                         <i class="fab fa-facebook-f"></i>
                                         <span>Facebook</span>
                                     </a>

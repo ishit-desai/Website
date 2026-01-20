@@ -19,7 +19,7 @@ class InfusionTransfusionPage {
                 id: 'iv-set-carewell-economic',
                 name: 'IV Set - CAREWELL™',
                 subtitle: 'Economic',
-                description: 'Cost-effective IV infusion set designed for basic fluid delivery with reliable performance',
+                description: 'Cost-effective disposable IV infusion set with sterile medical grade tubing, gravity feed mechanism, and reliable drip chamber for basic intravenous fluid delivery and parenteral therapy',
                 image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Sterile and pyrogen-free', 'Latex-free construction', 'Standard drip chamber', 'Roller clamp for flow control', 'Luer slip connector']
@@ -58,7 +58,7 @@ class InfusionTransfusionPage {
             {
                 id: 'blood-transfusion-set',
                 name: 'Blood Transfusion Set',
-                description: 'Specialized set designed for safe and efficient blood transfusion procedures',
+                description: 'Specialized BT set (Blood Transfusion Set) designed for safe and efficient blood administration procedures with inline filters, anti-hemolysis tubing, and precise flow control for hospital blood banks',
                 image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['Blood compatible materials', 'Inline filter for safety', 'Precise flow control', 'Anti-hemolysis design', 'Sterile and ready to use']
@@ -68,7 +68,7 @@ class InfusionTransfusionPage {
                 id: 'measured-volume-set-doctor-super-delux',
                 name: 'Measured Volume Set',
                 subtitle: 'Doctor Super Delux',
-                description: 'Precision volume control set ideal for pediatric care and critical dosing applications',
+                description: 'Precision MV set (Measured Volume Set) with graduated burette chamber ideal for pediatric infusion, critical dosing applications, and controlled volume administration in ICU and NICU settings',
                 image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['100ml/150ml graduated chamber', 'Precise volume measurement', 'Child-safe design', 'Doctor recommended quality', 'Ultra-clear chamber visibility']
@@ -107,7 +107,7 @@ class InfusionTransfusionPage {
             {
                 id: 'microdrip-set',
                 name: 'Microdrip Set',
-                description: 'Precision microdrip infusion set for accurate low-volume fluid delivery',
+                description: 'Precision microdrip infusion set (60 drops/ml) with micro drip chamber for accurate low-volume fluid delivery, ideal for pediatric sets and critical care applications requiring controlled infusion rates',
                 image: 'assets/products/coming_soon.jpg',
                 category: 'Infusion & Transfusion Products',
                 specifications: ['60 drops/ml precision', 'Microdrip chamber design', 'Accurate low-volume delivery', 'Ideal for pediatric use', 'Superior flow control']
@@ -127,6 +127,11 @@ class InfusionTransfusionPage {
             </div>
             <section class="page-section">
                 <div class="container">
+                    <div class="seo-content-block">
+                        <h2>Professional Medical Infusion & Transfusion Solutions</h2>
+                        <p>Our medical grade infusion and transfusion products are designed for healthcare professionals requiring reliable, sterile, and safe fluid delivery systems. From basic gravity feed IV sets to sophisticated measured volume burette sets, we provide comprehensive solutions for intravenous therapy, blood administration, and parenteral drug delivery.</p>
+                    </div>
+
                     ${this.renderAllProducts()}
                 </div>
             </section>
@@ -142,12 +147,36 @@ class InfusionTransfusionPage {
         `;
     }
 
+    // Generate SEO-optimized alt text for product images
+    generateSEOAltText(product) {
+        let altText = product.name;
+        if (product.subtitle) {
+            altText += ` ${product.subtitle}`;
+        }
+
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('iv set')) {
+            altText += ' - Disposable IV infusion set with sterile medical grade tubing for intravenous therapy';
+        } else if (product.name.toLowerCase().includes('blood transfusion')) {
+            altText += ' - BT set for blood administration procedures with inline filters and anti-hemolysis design';
+        } else if (product.name.toLowerCase().includes('measured volume')) {
+            altText += ' - MV set with graduated burette chamber for pediatric infusion and controlled dosing';
+        } else if (product.name.toLowerCase().includes('microdrip')) {
+            altText += ' - Precision microdrip infusion set (60 drops/ml) for accurate low-volume fluid delivery';
+        } else {
+            altText += ' - Medical equipment for infusion and transfusion procedures';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer';
+        return altText;
+    }
+
     // Render individual product card
     renderProductCard(product) {
         return `
             <div class="product-item-card">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${product.name}" class="product-image"
+                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>

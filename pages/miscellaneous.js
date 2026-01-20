@@ -98,12 +98,37 @@ class MiscellaneousPage {
         `;
     }
 
+    // Generate SEO-optimized alt text for product images
+    generateSEOAltText(product) {
+        let altText = product.name;
+
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('gloves')) {
+            altText += ' - Medical examination and surgical gloves for healthcare procedures and patient safety';
+        } else if (product.name.toLowerCase().includes('mask') || product.name.toLowerCase().includes('face')) {
+            altText += ' - Medical face masks for infection control and respiratory protection';
+        } else if (product.name.toLowerCase().includes('stapler')) {
+            altText += ' - Medical skin stapler for wound closure and surgical procedures';
+        } else if (product.name.toLowerCase().includes('syringe')) {
+            altText += ' - Medical disposable syringes for injection and medication administration';
+        } else if (product.name.toLowerCase().includes('needle')) {
+            altText += ' - Medical needles for injection, blood collection and medical procedures';
+        } else if (product.name.toLowerCase().includes('bandage') || product.name.toLowerCase().includes('gauze')) {
+            altText += ' - Medical bandages and gauze for wound care and dressing applications';
+        } else {
+            altText += ' - Medical supplies and surgical instruments for healthcare facilities';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer Ahmedabad';
+        return altText;
+    }
+
     // Render individual product card
     renderProductCard(product) {
         return `
             <div class="product-item-card">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${product.name}" class="product-image"
+                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>

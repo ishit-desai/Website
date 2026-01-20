@@ -98,12 +98,37 @@ class UrologyGastroenterologyPage {
         `;
     }
 
+    // Generate SEO-optimized alt text for product images
+    generateSEOAltText(product) {
+        let altText = product.name;
+
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('catheter')) {
+            altText += ' - Medical urinary catheter for urology procedures and bladder management';
+        } else if (product.name.toLowerCase().includes('feeding tube') || product.name.toLowerCase().includes('ryle')) {
+            altText += ' - Medical feeding tube for enteral nutrition and gastroenterology procedures';
+        } else if (product.name.toLowerCase().includes('suction')) {
+            altText += ' - Medical suction equipment for fluid removal and surgical procedures';
+        } else if (product.name.toLowerCase().includes('drainage')) {
+            altText += ' - Medical drainage system for post-operative and therapeutic fluid management';
+        } else if (product.name.toLowerCase().includes('collection')) {
+            altText += ' - Medical collection container for laboratory sample collection and analysis';
+        } else if (product.name.toLowerCase().includes('extractor')) {
+            altText += ' - Medical mucus extractor for airway clearance and respiratory care';
+        } else {
+            altText += ' - Urology and gastroenterology medical equipment for specialized healthcare procedures';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer Ahmedabad';
+        return altText;
+    }
+
     // Render individual product card
     renderProductCard(product) {
         return `
             <div class="product-item-card">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${product.name}" class="product-image"
+                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>

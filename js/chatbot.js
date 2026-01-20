@@ -709,7 +709,7 @@ class Chatbot {
         }
         // Contact information
         else if (lowerMessage.includes('contact') || lowerMessage.includes('phone') || lowerMessage.includes('address') || lowerMessage.includes('email')) {
-            responseText = "Here's how you can reach us: 📞\n\n🏢 **Address:**\n4, Amardeep Estate, Opposite Anupam Cinema\nKhokhara Road, Ahmedabad - 380021\nGujarat, India\n\n📞 **Phone:** +91 (982) 504-8962\n📧 **Email:** shrigurukrupa@yahoo.co.uk\n\n⏰ **Business Hours:**\nMon-Fri: 9:00 AM - 6:00 PM\nSaturday: 9:00 AM - 2:00 PM\nSunday: Closed";
+            responseText = "Here's how you can reach us: 📞\n\n🏢 **Address:**\n4, Amardeep Estate, Opposite Anupam Cinema\nKhokhara Road, Ahmedabad - 380021\nGujarat, India\n\n📞 **Phone:** +91 (982) 504-8962\n📧 **Email:** shrigurukrupa54@gmail.com\n\n⏰ **Business Hours:**\nMon-Fri: 9:00 AM - 6:00 PM\nSaturday: 9:00 AM - 2:00 PM\nSunday: Closed";
         }
         // Catalogue/Downloads
         else if (lowerMessage.includes('catalogue') || lowerMessage.includes('download') || lowerMessage.includes('brochure')) {

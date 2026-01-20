@@ -9,7 +9,7 @@ Shri Gurukrupa Surgical is a leading supplier of premium surgical products and m
 **Company Details:**
 - **Address**: 4, Amardeep Estate, Opposite Anupam Cinema, Besides Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India
 - **Phone**: +91 (982) 504-8962
-- **Email**: shrigurukrupa@yahoo.co.uk
+- **Email**: shrigurukrupa54@gmail.com
 - **Certifications**: ISO 9001:2015 Certified Medical Equipment Supplier
 - **Experience**: 30+ Years of Excellence in Medical Industry
 
@@ -341,7 +341,7 @@ translations.en.newSection = {
 - **Company**: Shrigurukrupa Surgical
 - **Address**: 4, Amardeep Estate, Opposite Anupam Cinema, Besides Bhagar Dhana Dal Estate, Khokhara Road, Ahmedabad - 380021, Gujarat, India
 - **Phone**: +91 (982) 504-8962
-- **Email**: shrigurukrupa@yahoo.co.uk
+- **Email**: shrigurukrupa54@gmail.com
 - **Website**: Professional medical products supplier since 1992
 
 ### **Emergency Contacts**

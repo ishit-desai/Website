@@ -152,12 +152,37 @@ class AnesthesiaRespiratoryPage {
         `;
     }
 
+    // Generate SEO-optimized alt text for product images
+    generateSEOAltText(product) {
+        let altText = product.name;
+
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('nebulizer')) {
+            altText += ' - Medical nebulizer kit for respiratory therapy and medication delivery';
+        } else if (product.name.toLowerCase().includes('oxygen mask') || product.name.toLowerCase().includes('concentration mask')) {
+            altText += ' - High-concentration oxygen mask for critical care and anesthesia procedures';
+        } else if (product.name.toLowerCase().includes('venturi')) {
+            altText += ' - Precision venturi mask for controlled oxygen concentration delivery';
+        } else if (product.name.toLowerCase().includes('airway') || product.name.toLowerCase().includes('guedel')) {
+            altText += ' - Oropharyngeal airway device for airway management and ventilation support';
+        } else if (product.name.toLowerCase().includes('circuit') || product.name.toLowerCase().includes('breathing')) {
+            altText += ' - Medical breathing circuit for anesthesia and respiratory support systems';
+        } else if (product.name.toLowerCase().includes('catheter')) {
+            altText += ' - Nasal oxygen catheter for continuous oxygen therapy and respiratory care';
+        } else {
+            altText += ' - Anesthesia and respiratory medical equipment for healthcare facilities';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer Ahmedabad';
+        return altText;
+    }
+
     // Render individual product card
     renderProductCard(product) {
         return `
             <div class="product-item-card">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${product.name}" class="product-image"
+                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>
