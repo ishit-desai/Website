@@ -226,7 +226,7 @@ _This message was auto-generated from shrigurukrupasurgical.com_`;
             }, 1000);
 
         } catch (error) {
-            console.error('Error:', error);
+            // Error downloading file - show error message
             alert('There was an error processing your request. Please try again.');
 
             // Reset button

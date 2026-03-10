@@ -181,7 +181,6 @@ class Chatbot {
         this.userDetails = null;
         this.waitingForUserDetails = false;
         this.pendingQuestion = null;
-        console.log('New chat session started at:', this.sessionStartTime);
     }
 
     requestUserDetails(userQuestion) {
@@ -350,87 +349,21 @@ class Chatbot {
 
             // Open WhatsApp in new tab
             window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
-            console.log('Chat conversation sent to WhatsApp successfully');
         } catch (error) {
-            console.error('Error sending conversation to WhatsApp:', error);
+            // Error opening WhatsApp - silently fail
         }
     }
 
     sendConversationSilently() {
-        if (this.conversationLog.length <= 1 || !this.userDetails) return;
+        // Chat logging removed for privacy compliance
+        // Conversation data is not stored locally or sent to any service
+        // If you need to implement chat logging in the future:
+        // 1. Add proper user consent mechanism
+        // 2. Implement secure backend API endpoint
+        // 3. Add data retention and privacy policies
 
-        const conversationData = {
-            userDetails: this.userDetails,
-            sessionInfo: {
-                startTime: this.sessionStartTime,
-                endTime: new Date(),
-                duration: Math.round((new Date() - this.sessionStartTime) / 1000 / 60),
-                messageCount: this.conversationLog.length
-            },
-            conversation: this.conversationLog,
-            formatted: this.formatConversationData()
-        };
-
-        // Log to console for debugging
-        console.log('Chat conversation logged silently:', conversationData);
-
-        // Option 1: Store in localStorage for later retrieval
-        try {
-            const existingChats = JSON.parse(localStorage.getItem('chatLogs') || '[]');
-            existingChats.push({
-                id: Date.now(),
-                timestamp: new Date().toISOString(),
-                data: conversationData
-            });
-            // Keep only last 50 chats
-            if (existingChats.length > 50) {
-                existingChats.splice(0, existingChats.length - 50);
-            }
-            localStorage.setItem('chatLogs', JSON.stringify(existingChats));
-            console.log('Chat saved to localStorage');
-        } catch (error) {
-            console.error('Error saving to localStorage:', error);
-        }
-
-        // Option 2: Send to your backend API (uncomment when ready)
-        /*
-        try {
-            fetch('/api/chat-logs', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(conversationData)
-            }).then(response => {
-                if (response.ok) {
-                    console.log('Chat conversation sent to backend successfully');
-                } else {
-                    console.error('Failed to send conversation to backend');
-                }
-            });
-        } catch (error) {
-            console.error('Error sending conversation to backend:', error);
-        }
-        */
-
-        // Option 3: Send to WhatsApp silently using a background service
-        // This would require a backend service to send WhatsApp messages
-        /*
-        try {
-            fetch('/api/send-whatsapp', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    phone: '919925648962',
-                    message: conversationData.formatted
-                })
-            });
-        } catch (error) {
-            console.error('Error sending to WhatsApp service:', error);
-        }
-        */
+        // Chat continues to work normally without storing user data
+        return;
     }
 
     formatConversationData() {
@@ -618,8 +551,6 @@ class Chatbot {
                 }
             }
         }
-
-        console.log('User details extracted:', this.userDetails);
     }
 
     sendQuickReply(messageType) {
@@ -767,41 +698,25 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatbot = new Chatbot();
 });
 
-// Utility function to retrieve stored chat logs
+// Utility function to retrieve stored chat logs - DEPRECATED
+// Chat logging has been removed for privacy compliance
 window.getChatLogs = function() {
-    try {
-        const logs = JSON.parse(localStorage.getItem('chatLogs') || '[]');
-        console.log('Retrieved chat logs:', logs);
-        return logs;
-    } catch (error) {
-        console.error('Error retrieving chat logs:', error);
-        return [];
-    }
+    // Chat logs are no longer stored
+    return [];
 };
 
-// Utility function to clear chat logs
+// Utility function to clear chat logs - DEPRECATED
+// Chat logging has been removed for privacy compliance
 window.clearChatLogs = function() {
-    try {
-        localStorage.removeItem('chatLogs');
-        console.log('Chat logs cleared');
-        return true;
-    } catch (error) {
-        console.error('Error clearing chat logs:', error);
-        return false;
-    }
+    // No chat logs to clear
+    return true;
 };
 
-// Utility function to export chat logs as WhatsApp messages
+// Utility function to export chat logs as WhatsApp messages - DEPRECATED
+// Chat logging has been removed for privacy compliance
 window.exportChatLogsToWhatsApp = function() {
-    const logs = window.getChatLogs();
-    logs.forEach((log, index) => {
-        setTimeout(() => {
-            const whatsappNumber = '919925648962';
-            const encodedMessage = encodeURIComponent(log.data.formatted);
-            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
-        }, index * 2000); // 2 second delay between each WhatsApp window
-    });
+    // No chat logs to export
+    return false;
 };
 
 // Make chatbot available globally
