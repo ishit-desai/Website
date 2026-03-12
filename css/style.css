@@ -1229,7 +1229,7 @@ body {
 .product-enquiry-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
 }
 
 .search-box {
@@ -1305,7 +1305,7 @@ body {
 }
 
 .appointment-btn:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
 }
@@ -2476,7 +2476,7 @@ textarea:focus {
 }
 
 .download-btn:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 140, 66, 0.4);
 }
@@ -2718,7 +2718,7 @@ textarea:focus {
 }
 
 .product-card .btn:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 140, 66, 0.4);
 }
@@ -2927,7 +2927,7 @@ textarea:focus {
 }
 
 .modal-footer .btn-primary:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 140, 66, 0.4);
 }
@@ -3296,7 +3296,7 @@ body.modal-open {
 }
 
 .category-cta .btn:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 140, 66, 0.4);
 }
@@ -3396,13 +3396,13 @@ body.modal-open {
 .download-icon-large {
     width: 120px;
     height: 120px;
-    background: linear-gradient(135deg, #ef4444, #dc2626);
+    background: linear-gradient(135deg, #FF8C42, #FF6B1A);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3);
+    box-shadow: 0 8px 25px rgba(255, 140, 66, 0.3);
 }
 
 .download-icon-large i {
@@ -3475,7 +3475,7 @@ body.modal-open {
 }
 
 .download-btn-primary:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(255, 140, 66, 0.4);
 }
@@ -4553,7 +4553,7 @@ body.modal-open {
 }
 
 .chat-send-btn:hover {
-    background: linear-gradient(135deg, #FF6B1A, #0f5a73);
+    background: linear-gradient(135deg, #FF9D5C, #FF6B1A);
     transform: scale(1.05);
 }
 
