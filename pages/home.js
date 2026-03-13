@@ -84,6 +84,126 @@ class HomePage {
                     </div>
                 </div>
             </section>
+
+            <!-- Reviews Section -->
+            <section class="reviews-section page-section">
+                <div class="container">
+                    <div class="reviews-header">
+                        <h2 data-translate="reviews.title">What Our Customers Say</h2>
+                        <p data-translate="reviews.subtitle">Trusted by healthcare professionals across India</p>
+                    </div>
+
+                    <div class="reviews-stats">
+                        <div class="review-stat-item">
+                            <i class="fab fa-google"></i>
+                            <div class="stat-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <div class="rating-text">5.0/5.0</div>
+                                <div class="review-count" data-translate="reviews.googleReviews">10 Google Reviews</div>
+                            </div>
+                        </div>
+                        <div class="review-stat-item">
+                            <img src="assets/indiamart.jpg" alt="IndiaMART" class="indiamart-icon">
+                            <div class="stat-content">
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                                <div class="rating-text">5.0/5.0</div>
+                                <div class="review-count" data-translate="reviews.indiamartReviews">7 Verified Reviews</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-grid">
+                        <!-- Google Reviews -->
+                        <div class="review-card google-review">
+                            <div class="review-header">
+                                <i class="fab fa-google"></i>
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Hitesh Ghanshyani</div>
+                                    <div class="review-date">3 weeks ago</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-text">
+                                I buy blood transfusions set from them for my personal use. The quality was up to the mark and product was so good that I would recommend them for any products.
+                            </div>
+                        </div>
+
+                        <div class="review-card google-review">
+                            <div class="review-header">
+                                <i class="fab fa-google"></i>
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Deveshwer Sharma</div>
+                                    <div class="review-date">23 hours ago</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-text">
+                                We are extremely satisfied with the products and services provided by Shri Guru Kripa Surgicals. Their commitment to quality, reliability, and professional service is truly commendable. The products meet excellent standards, and the team ensures timely delivery with great attention to customer requirements.
+                            </div>
+                        </div>
+
+                        <div class="review-card google-review">
+                            <div class="review-header">
+                                <i class="fab fa-google"></i>
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Emmanuvel Joy</div>
+                                    <div class="review-date">1 month ago</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-text">
+                                Good service and quality products...
+                            </div>
+                        </div>
+
+                        <!-- IndiaMART Reviews -->
+                        <div class="review-card indiamart-review">
+                            <div class="review-header">
+                                <img src="assets/indiamart.jpg" alt="IndiaMART" class="review-platform-icon">
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Curelix Healthcare</div>
+                                    <div class="review-location">Palanpur, Gujarat</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-product"><span data-translate="reviews.product">Product:</span> Infusion Sets</div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i> <span data-translate="reviews.verifiedBuyer">Verified Buyer</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card indiamart-review">
+                            <div class="review-header">
+                                <img src="assets/indiamart.jpg" alt="IndiaMART" class="review-platform-icon">
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Dr Mukilan D</div>
+                                    <div class="review-location">Salem, Tamil Nadu</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-product"><span data-translate="reviews.product">Product:</span> Infusion Sets</div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i> <span data-translate="reviews.verifiedBuyer">Verified Buyer</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card indiamart-review">
+                            <div class="review-header">
+                                <img src="assets/indiamart.jpg" alt="IndiaMART" class="review-platform-icon">
+                                <div class="reviewer-info">
+                                    <div class="reviewer-name">Milankumar Savaliya</div>
+                                    <div class="review-location">Ahmedabad, Gujarat</div>
+                                </div>
+                                <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                            <div class="review-product"><span data-translate="reviews.product">Product:</span> Ringer Lactate Injection</div>
+                            <div class="verified-badge">
+                                <i class="fas fa-check-circle"></i> <span data-translate="reviews.verifiedBuyer">Verified Buyer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         `;
     }
 

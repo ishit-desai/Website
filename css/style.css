@@ -4983,3 +4983,400 @@ body.modal-open {
         border-color: #b71c1c;
     }
 }
+
+/* ===================================
+   REVIEWS SECTION
+   =================================== */
+
+.reviews-section {
+    background: linear-gradient(135deg, #FAFAFA 0%, #FFFFFF 100%);
+    padding: 80px 0;
+    position: relative;
+}
+
+.reviews-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #FF6B1A 0%, #FF8C42 50%, #FF9D5C 100%);
+}
+
+.reviews-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.reviews-header h2 {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.reviews-header p {
+    font-size: 18px;
+    color: #666666;
+}
+
+/* Reviews Stats */
+.reviews-stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.review-stat-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 25px 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.review-stat-item:hover {
+    border-color: #FF8C42;
+    box-shadow: 0 8px 30px rgba(255, 140, 66, 0.2);
+    transform: translateY(-5px);
+}
+
+.review-stat-item .fab.fa-google {
+    font-size: 48px;
+    color: #4285F4;
+}
+
+.review-stat-item .indiamart-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.stat-content {
+    text-align: left;
+}
+
+.stat-content .stars {
+    font-size: 16px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.stat-content .rating-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF8C42;
+    margin-bottom: 5px;
+}
+
+.stat-content .review-count {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Reviews Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 2px solid #F5F5F5;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-card:hover {
+    border-color: #FF8C42;
+    box-shadow: 0 8px 30px rgba(255, 140, 66, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Google Review Styling */
+.google-review {
+    border-left: 4px solid #4285F4;
+}
+
+.google-review:hover {
+    border-left-color: #4285F4;
+}
+
+/* IndiaMART Review Styling */
+.indiamart-review {
+    border-left: 4px solid #FF8C42;
+}
+
+.indiamart-review:hover {
+    border-left-color: #FF6B1A;
+}
+
+/* Review Header */
+.review-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.review-header .fab.fa-google {
+    font-size: 28px;
+    color: #4285F4;
+    flex-shrink: 0;
+}
+
+.review-header .review-platform-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.reviewer-info {
+    flex: 1;
+}
+
+.reviewer-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.review-date {
+    font-size: 13px;
+    color: #999999;
+}
+
+.review-location {
+    font-size: 13px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.review-location::before {
+    content: "📍";
+    font-size: 12px;
+}
+
+.review-stars {
+    font-size: 14px;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+}
+
+/* Review Text */
+.review-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333333;
+    font-style: italic;
+}
+
+/* Review Product */
+.review-product {
+    font-size: 14px;
+    color: #FF8C42;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: rgba(255, 140, 66, 0.1);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* Verified Badge */
+.verified-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #4CAF50;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: rgba(76, 175, 80, 0.1);
+    border-radius: 8px;
+    display: inline-flex;
+    margin-top: auto;
+}
+
+.verified-badge i {
+    font-size: 14px;
+}
+
+/* Reviews CTA */
+.reviews-cta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reviews-cta .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.reviews-cta .btn-secondary {
+    background: white;
+    color: #000000;
+    border: 2px solid #FF8C42;
+}
+
+.reviews-cta .btn-secondary:hover {
+    background: linear-gradient(135deg, #FF6B1A, #FF8C42);
+    color: white;
+    border-color: #FF6B1A;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 140, 66, 0.3);
+}
+
+.reviews-cta .btn .fab.fa-google {
+    font-size: 20px;
+    color: #4285F4;
+}
+
+.reviews-cta .btn-secondary:hover .fab.fa-google {
+    color: white;
+}
+
+.reviews-cta .btn .btn-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN - REVIEWS
+   =================================== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .reviews-stats {
+        gap: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .reviews-section {
+        padding: 60px 0;
+    }
+
+    .reviews-header h2 {
+        font-size: 28px;
+    }
+
+    .reviews-header p {
+        font-size: 16px;
+    }
+
+    .reviews-stats {
+        flex-direction: column;
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    .review-stat-item {
+        padding: 20px 25px;
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .review-card {
+        padding: 25px;
+    }
+
+    .review-header .fab.fa-google,
+    .review-header .review-platform-icon {
+        font-size: 24px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .reviewer-name {
+        font-size: 15px;
+    }
+
+    .review-text {
+        font-size: 14px;
+    }
+
+    .reviews-cta {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .reviews-cta .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .reviews-section {
+        padding: 40px 0;
+    }
+
+    .reviews-header {
+        margin-bottom: 35px;
+    }
+
+    .reviews-header h2 {
+        font-size: 24px;
+    }
+
+    .review-stat-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .stat-content {
+        text-align: center;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .review-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .review-stars {
+        align-self: flex-start;
+    }
+}

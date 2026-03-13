@@ -25,6 +25,16 @@ const translations = {
             subtitle: "A Legacy of Quality Since 1992",
             aboutSection: "About"
         },
+        reviews: {
+            title: "What Our Customers Say",
+            subtitle: "Trusted by healthcare professionals across India",
+            googleReviews: "10 Google Reviews",
+            indiamartReviews: "7 Verified Reviews",
+            product: "Product:",
+            verifiedBuyer: "Verified Buyer",
+            viewGoogleReviews: "View All Google Reviews",
+            viewIndiamartReviews: "View IndiaMART Reviews"
+        },
         hero: {
             title: "Quality Surgical Products for Healthcare Excellence",
             subtitle: "Supplying premium surgical instruments and medical equipment to healthcare professionals worldwide with uncompromising quality standards.",
@@ -572,6 +582,16 @@ const translations = {
             subtitle: "Un Legado de Calidad Desde 1992",
             aboutSection: "Acerca de"
         },
+        reviews: {
+            title: "Lo Que Dicen Nuestros Clientes",
+            subtitle: "Confiado por profesionales de la salud en toda India",
+            googleReviews: "10 Reseñas de Google",
+            indiamartReviews: "7 Reseñas Verificadas",
+            product: "Producto:",
+            verifiedBuyer: "Comprador Verificado",
+            viewGoogleReviews: "Ver Todas las Reseñas de Google",
+            viewIndiamartReviews: "Ver Reseñas de IndiaMART"
+        },
         hero: {
             title: "Productos Quirúrgicos de Calidad para la Excelencia en el Cuidado de la Salud",
             subtitle: "Suministrando instrumentos quirúrgicos premium y equipos médicos a profesionales de la salud en todo el mundo con estándares de calidad sin compromiso.",
@@ -915,6 +935,16 @@ const translations = {
             subtitle: "Un Héritage de Qualité Depuis 1992",
             aboutSection: "À propos"
         },
+        reviews: {
+            title: "Ce Que Disent Nos Clients",
+            subtitle: "Approuvé par les professionnels de santé en Inde",
+            googleReviews: "10 Avis Google",
+            indiamartReviews: "7 Avis Vérifiés",
+            product: "Produit:",
+            verifiedBuyer: "Acheteur Vérifié",
+            viewGoogleReviews: "Voir Tous les Avis Google",
+            viewIndiamartReviews: "Voir les Avis IndiaMART"
+        },
         hero: {
             title: "Votre Santé est Notre Priorité",
             subtitle: "Fournir des services de santé complets avec des installations de pointe et des professionnels médicaux expérimentés.",
@@ -1253,6 +1283,16 @@ const translations = {
             subtitle: "Ein Vermächtnis der Qualität Seit 1992",
             aboutSection: "Über uns"
         },
+        reviews: {
+            title: "Was Unsere Kunden Sagen",
+            subtitle: "Vertraut von Gesundheitsexperten in ganz Indien",
+            googleReviews: "10 Google-Bewertungen",
+            indiamartReviews: "7 Verifizierte Bewertungen",
+            product: "Produkt:",
+            verifiedBuyer: "Verifizierter Käufer",
+            viewGoogleReviews: "Alle Google-Bewertungen Ansehen",
+            viewIndiamartReviews: "IndiaMART-Bewertungen Ansehen"
+        },
         hero: {
             title: "Qualitätschirurgische Produkte für Exzellenz im Gesundheitswesen",
             subtitle: "Bereitstellung von Premium-Chirurgieinstrumenten und medizinischen Geräten für Gesundheitsexperten weltweit mit unvergleichlichen Qualitätsstandards.",
@@ -1407,6 +1447,16 @@ const translations = {
             title: "श्री गुरुकृपा सर्जिकल में आपका स्वागत है",
             subtitle: "1992 से गुणवत्ता की विरासत",
             aboutSection: "हमारे बारे में"
+        },
+        reviews: {
+            title: "हमारे ग्राहक क्या कहते हैं",
+            subtitle: "भारत भर के स्वास्थ्य पेशेवरों द्वारा विश्वसनीय",
+            googleReviews: "10 गूगल समीक्षाएं",
+            indiamartReviews: "7 सत्यापित समीक्षाएं",
+            product: "उत्पाद:",
+            verifiedBuyer: "सत्यापित खरीदार",
+            viewGoogleReviews: "सभी गूगल समीक्षाएं देखें",
+            viewIndiamartReviews: "इंडियामार्ट समीक्षाएं देखें"
         },
         hero: {
             title: "स्वास्थ्य सेवा में उत्कृष्टता के लिए गुणवत्तापूर्ण सर्जिकल उत्पाद",
@@ -1667,6 +1717,16 @@ const translations = {
             title: "શ્રી ગુરુકૃપા સર્જિકલમાં આપનું સ્વાગત છે",
             subtitle: "1992 થી ગુણવત્તાનો વારસો",
             aboutSection: "અમારા વિશે"
+        },
+        reviews: {
+            title: "અમારા ગ્રાહકો શું કહે છે",
+            subtitle: "સમગ્ર ભારતમાં આરોગ્ય વ્યાવસાયિકો દ્વારા વિશ્વસનીય",
+            googleReviews: "10 ગૂગલ સમીક્ષાઓ",
+            indiamartReviews: "7 ચકાસાયેલ સમીક્ષાઓ",
+            product: "ઉત્પાદન:",
+            verifiedBuyer: "ચકાસાયેલ ખરીદદાર",
+            viewGoogleReviews: "બધી ગૂગલ સમીક્ષાઓ જુઓ",
+            viewIndiamartReviews: "ઇન્ડિયામાર્ટ સમીક્ષાઓ જુઓ"
         },
         hero: {
             title: "આરોગ્ય સેવામાં ઉત્કૃષ્ટતા માટે ગુણવત્તાયુક્ત સર્જિકલ ઉત્પાદનો",
