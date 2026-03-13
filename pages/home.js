@@ -90,7 +90,6 @@ class HomePage {
                 <div class="container">
                     <div class="reviews-header">
                         <h2 data-translate="reviews.title">What Our Customers Say</h2>
-                        <p data-translate="reviews.subtitle">Trusted by healthcare professionals across India</p>
                     </div>
 
                     <div class="reviews-stats">

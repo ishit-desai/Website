@@ -5156,6 +5156,9 @@ body.modal-open {
     font-weight: 600;
     color: #000000;
     margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .review-date {
@@ -5169,6 +5172,8 @@ body.modal-open {
     display: flex;
     align-items: center;
     gap: 5px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .review-location::before {
