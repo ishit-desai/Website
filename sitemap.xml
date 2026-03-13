@@ -9,7 +9,7 @@
 
     <!-- Homepage -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/</loc>
+        <loc>https://shrigurukrupasurgical.com/</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -17,31 +17,31 @@
 
     <!-- About Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#about</loc>
+        <loc>https://shrigurukrupasurgical.com/#about</loc>
         <lastmod>2026-03-12</lastmod>
-        <changefreq>quarterly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Infrastructure Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#infrastructure</loc>
+        <loc>https://shrigurukrupasurgical.com/#infrastructure</loc>
         <lastmod>2026-03-12</lastmod>
-        <changefreq>quarterly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Achievements Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#achievements</loc>
+        <loc>https://shrigurukrupasurgical.com/#achievements</loc>
         <lastmod>2026-03-12</lastmod>
-        <changefreq>quarterly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <!-- Products Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#products</loc>
+        <loc>https://shrigurukrupasurgical.com/#products</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -49,28 +49,28 @@
 
     <!-- Product Categories -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#infusion-transfusion</loc>
+        <loc>https://shrigurukrupasurgical.com/#infusion-transfusion</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#anesthesia-respiratory</loc>
+        <loc>https://shrigurukrupasurgical.com/#anesthesia-respiratory</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#urology-gastroenterology</loc>
+        <loc>https://shrigurukrupasurgical.com/#urology-gastroenterology</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#miscellaneous</loc>
+        <loc>https://shrigurukrupasurgical.com/#miscellaneous</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -78,7 +78,7 @@
 
     <!-- Downloads Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#downloads</loc>
+        <loc>https://shrigurukrupasurgical.com/#downloads</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -86,7 +86,7 @@
 
     <!-- Enquiry Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#enquiry</loc>
+        <loc>https://shrigurukrupasurgical.com/#enquiry</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -94,7 +94,7 @@
 
     <!-- Contact Page -->
     <url>
-        <loc>https://shrigurukrupa-surgical.com/#contact</loc>
+        <loc>https://shrigurukrupasurgical.com/#contact</loc>
         <lastmod>2026-03-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
