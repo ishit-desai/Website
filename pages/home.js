@@ -37,27 +37,20 @@ class HomePage {
                         <div class="about-image">
                             <!-- Image Carousel -->
                             <div class="carousel-wrapper">
-                                <div class="carousel-track" id="carouselTrack">
-                                    <div class="carousel-slide active">
-                                        <img src="assets/Blessing delux paper pouch.jpeg" alt="BLESSING® Infusion Set - Premium Medical IV Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Blood Transfusion Set.jpeg" alt="Doctor Super Deluxe Blood Transfusion Set - Medical IV Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Carewell Infusion Set.jpeg" alt="CAREWELL™ Infusion Set - Disposable Medical IV Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Infusion Set with Vented Chamber.jpeg" alt="BLESSING® Infusion Set with Built-in Airvent & Latex - Premium Medical Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Measure Volume Set.jpeg" alt="BLESSING® Measured Volume Set - Precision Medical Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Precision Infusion Set With Regulator.jpeg" alt="Sayft® Infusion Set with Dial Flow Regulator - Advanced Medical Equipment by Shri Gurukrupa Surgical™">
-                                    </div>
-                                    <div class="carousel-slide">
-                                        <img src="assets/Sayft Super Delux Infusion Set.jpeg" alt="Sayft-NV® Super Deluxe Infusion Set - Premium Medical Equipment by Shri Gurukrupa Surgical™">
+                                <div class="carousel-viewport">
+                                    <div class="carousel-track" id="carouselTrack">
+                                        <div class="carousel-slide active">
+                                            <img src="assets/Precision Infusion Set.jpeg" alt="Precision Infusion Set - Medical IV Equipment by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Veterinary Infusion Set.jpeg" alt="Veterinary Infusion Set - Medical IV Equipment by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Micro Drip Infusion Set.jpeg" alt="Micro Drip Infusion Set - Medical IV Equipment by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Extension Line+ 3 way.jpeg" alt="Extension Line+ 3 Way - Medical IV Equipment by Shri Gurukrupa Surgical™">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -75,9 +68,6 @@ class HomePage {
                                     <button class="indicator" data-slide="1"></button>
                                     <button class="indicator" data-slide="2"></button>
                                     <button class="indicator" data-slide="3"></button>
-                                    <button class="indicator" data-slide="4"></button>
-                                    <button class="indicator" data-slide="5"></button>
-                                    <button class="indicator" data-slide="6"></button>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +204,7 @@ class HomePage {
     // Initialize carousel functionality
     initCarousel() {
         this.currentSlide = 0;
-        this.totalSlides = 7;
+        this.totalSlides = 4;
         this.autoSlideInterval = null;
 
         // Get carousel elements
