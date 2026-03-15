@@ -163,7 +163,7 @@ class Chatbot {
     addWelcomeMessage() {
         const t = this.getTranslation();
         const welcomeMessage = {
-            text: t.chat?.welcome || "👋 Hello! Welcome to Shri Gurukrupa Surgical. How can I help you today?",
+            text: t.chat?.welcome || "👋 Hello! Welcome to Shri Gurukrupa Surgical™. How can I help you today?",
             sender: 'bot',
             timestamp: new Date()
         };
@@ -247,7 +247,7 @@ class Chatbot {
 
         const t = this.getTranslation();
         const timeoutMessage = {
-            text: t.chat?.inactivityTimeout || "⏰ This chat session has been automatically ended due to inactivity. Thank you for visiting Shri Gurukrupa Surgical! Feel free to start a new chat anytime.",
+            text: t.chat?.inactivityTimeout || "⏰ This chat session has been automatically ended due to inactivity. Thank you for visiting Shri Gurukrupa Surgical™! Feel free to start a new chat anytime.",
             sender: 'bot',
             timestamp: new Date()
         };
@@ -271,7 +271,7 @@ class Chatbot {
         if (!autoEnded) {
             const t = this.getTranslation();
             const endMessage = {
-                text: t.chat?.chatEnded || "Thank you for chatting with Shri Gurukrupa Surgical! 👋 Your conversation has been ended. Have a great day!",
+                text: t.chat?.chatEnded || "Thank you for chatting with Shri Gurukrupa Surgical™! 👋 Your conversation has been ended. Have a great day!",
                 sender: 'bot',
                 timestamp: new Date()
             };
@@ -660,7 +660,7 @@ class Chatbot {
         }
         // Greetings
         else if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
-            responseText = "Hello! 👋 Welcome to Shri Gurukrupa Surgical!\n\nWe're a leading supplier of premium surgical products and medical equipment. How can I assist you today?";
+            responseText = "Hello! 👋 Welcome to Shri Gurukrupa Surgical™!\n\nWe're a leading supplier of premium surgical products and medical equipment. How can I assist you today?";
         }
         // Default response
         else {

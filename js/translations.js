@@ -21,7 +21,7 @@ const translations = {
             placeholder: "Search..."
         },
         home: {
-            title: "Welcome to Shri Gurukrupa Surgical",
+            title: "Welcome to Shri Gurukrupa Surgical™",
             subtitle: "A Legacy of Quality Since 1992",
             aboutSection: "About"
         },
@@ -270,9 +270,9 @@ const translations = {
             }
         },
         about: {
-            title: "About Shri Gurukrupa Surgical",
+            title: "About Shri Gurukrupa Surgical™",
             subtitle: "Your Trusted Partner in Advanced Surgical Solutions & Medical Excellence",
-            description1: "Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.",
+            description1: "Shri Gurukrupa Surgical™ has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.",
             description2: "Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.",
             learnMore: "Learn More",
             story: "Our Story",

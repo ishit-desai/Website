@@ -254,9 +254,20 @@ body {
     }
 
     .logo-image {
-        max-height: 44px;
-        max-width: 44px;
-        padding: 3px;
+        max-height: 70px;
+        max-width: 70px;
+        padding: 0;
+        filter: drop-shadow(0 3px 10px rgba(255, 140, 66, 0.3));
+    }
+
+    .logo-image[src$=".png"] {
+        height: 70px !important;
+        width: 70px !important;
+        max-height: 70px !important;
+        max-width: 70px !important;
+        min-height: 70px !important;
+        min-width: 70px !important;
+    }
     }
 
     /* PNG logo on mobile */
@@ -362,20 +373,24 @@ body {
         font-size: 9px;
         right: 3px;
     }
-}
 
     .logo-image {
-        max-height: 40px;
-        max-width: 40px;
-        padding: 2px;
+        max-height: 60px;
+        max-width: 60px;
+        padding: 0;
+        filter: drop-shadow(0 2px 8px rgba(255, 140, 66, 0.3));
     }
 
     /* PNG logo on small mobile */
     .logo-image[src$=".png"] {
-        height: 40px !important;
-        width: 40px !important;
-        max-height: 40px !important;
-        max-width: 40px !important;
+        height: 60px !important;
+        width: 60px !important;
+        max-height: 60px !important;
+        max-width: 60px !important;
+        min-height: 60px !important;
+        min-width: 60px !important;
+    }
+}
         min-height: 40px !important;
         min-width: 40px !important;
         background: transparent !important;
@@ -419,11 +434,11 @@ body {
 
 /* Logo Image Styling - Optimized for Medical Cross Design */
 .logo-image {
-    max-height: 85px;
+    max-height: 120px;
     width: auto;
-    max-width: 85px;
+    max-width: 120px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0 4px 12px rgba(255, 140, 66, 0.3));
     object-fit: contain;
     cursor: pointer;
     animation: logoEntrance 0.8s ease-out;
@@ -446,24 +461,24 @@ body {
 
 /* Logo styling for PNG with transparency */
 .logo-image[src$=".png"] {
-    height: 85px !important;
-    width: 85px !important;
-    max-height: 85px !important;
-    max-width: 85px !important;
-    min-height: 85px !important;
-    min-width: 85px !important;
+    height: 120px !important;
+    width: 120px !important;
+    max-height: 120px !important;
+    max-width: 120px !important;
+    min-height: 120px !important;
+    min-width: 120px !important;
     object-fit: contain !important;
     object-position: center !important;
     background: transparent !important;
-    filter: none !important;
+    filter: drop-shadow(0 4px 15px rgba(255, 140, 66, 0.4)) !important;
     transform: scale(1.0) !important;
     image-rendering: crisp-edges !important;
 }
 
 /* PNG hover effect */
 .logo-image[src$=".png"]:hover {
-    transform: scale(1.05) translateY(-1px) !important;
-    filter: drop-shadow(0 4px 15px rgba(255, 140, 66, 0.4)) !important;
+    transform: scale(1.08) translateY(-2px) !important;
+    filter: drop-shadow(0 6px 20px rgba(255, 140, 66, 0.5)) !important;
 }
 
 /* Advanced logo background removal */
@@ -5383,5 +5398,37 @@ body.modal-open {
 
     .review-stars {
         align-self: flex-start;
+    }
+}
+
+/* ===================================
+   TRADEMARK SYMBOL STYLING
+   =================================== */
+
+/* Trademark symbol (™) styling */
+h1:contains("™"),
+h2:contains("™"),
+.page-header h1:contains("™"),
+title:contains("™") {
+    /* Trademark already in text, just ensure it's visible */
+}
+
+/* Make trademark symbol slightly smaller and superscript */
+sup {
+    font-size: 0.6em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+/* Ensure trademark doesn't break layout on mobile */
+@media (max-width: 768px) {
+    sup {
+        font-size: 0.55em;
+    }
+}
+
+@media (max-width: 480px) {
+    sup {
+        font-size: 0.5em;
     }
 }
