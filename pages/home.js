@@ -39,25 +39,25 @@ class HomePage {
                             <div class="carousel-wrapper">
                                 <div class="carousel-track" id="carouselTrack">
                                     <div class="carousel-slide active">
-                                        <img src="assets/products/test.jpg" alt="Premium Surgical Instruments - Shri Gurukrupa Surgical Medical Equipment Collection">
+                                        <img src="assets/Blessing delux paper pouch.jpeg" alt="BLESSING® Infusion Set - Premium Medical IV Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Medical Infusion Sets & IV Equipment - High Quality Healthcare Supplies">
+                                        <img src="assets/Blood Transfusion Set.jpeg" alt="Doctor Super Deluxe Blood Transfusion Set - Medical IV Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Anesthesia Equipment & Respiratory Supplies - Professional Medical Devices">
+                                        <img src="assets/Carewell Infusion Set.jpeg" alt="CAREWELL™ Infusion Set - Disposable Medical IV Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Urology & Gastroenterology Medical Instruments - Specialized Healthcare Equipment">
+                                        <img src="assets/Infusion Set with Vented Chamber.jpeg" alt="BLESSING® Infusion Set with Built-in Airvent & Latex - Premium Medical Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="ISO Certified Medical Equipment Manufacturing - Shri Gurukrupa Surgical Facility">
+                                        <img src="assets/Measure Volume Set.jpeg" alt="BLESSING® Measured Volume Set - Precision Medical Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Quality Medical Supplies & Surgical Tools - Trusted Healthcare Solutions">
+                                        <img src="assets/Precision Infusion Set With Regulator.jpeg" alt="Sayft® Infusion Set with Dial Flow Regulator - Advanced Medical Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                     <div class="carousel-slide">
-                                        <img src="assets/products/test.jpg" alt="Export Quality Medical Equipment - International Healthcare Product Standards">
+                                        <img src="assets/Sayft Super Delux Infusion Set.jpeg" alt="Sayft-NV® Super Deluxe Infusion Set - Premium Medical Equipment by Shri Gurukrupa Surgical™">
                                     </div>
                                 </div>
 
