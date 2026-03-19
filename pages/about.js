@@ -84,6 +84,17 @@ class AboutPage {
                     </div>
                 </div>
             </section>
+
+            <!-- Team and Founder Section -->
+            <section class="team-section page-section" style="background: linear-gradient(135deg, #f8fafc 0%, #e8f4f8 100%);">
+                <div class="container">
+                    <div class="team-image-container" style="max-width: 1000px; margin: 0 auto;">
+                        <div class="team-image-wrapper" style="border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);">
+                            <img src="assets/Team and Founder.jpeg" alt="Shri Gurukrupa Surgical Founder and Team" style="width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                </div>
+            </section>
         `;
     }
 

@@ -1493,8 +1493,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    align-items: center;
-    overflow: hidden;
+    align-items: start;
+    overflow: visible;
 }
 
 .about-text h2 {
@@ -5550,4 +5550,112 @@ sup {
 /* Carousel slides - no watermark */
 .carousel-slide {
     position: relative;
+}
+
+
+/* Team and Founder Section Styles */
+.team-section {
+    padding: 80px 0;
+}
+
+.team-image-wrapper {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-image-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 70px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Responsive styles for Team Section */
+@media (max-width: 768px) {
+    .team-section {
+        padding: 60px 0;
+    }
+
+    .team-header h2 {
+        font-size: 2rem !important;
+    }
+
+    .team-header p {
+        font-size: 1rem !important;
+        padding: 0 20px;
+    }
+
+    .team-image-wrapper {
+        padding: 15px !important;
+    }
+
+    .team-overlay h3 {
+        font-size: 1.2rem !important;
+    }
+
+    .team-overlay p {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-section {
+        padding: 40px 0;
+    }
+
+    .team-header {
+        margin-bottom: 30px !important;
+    }
+
+    .team-header h2 {
+        font-size: 1.75rem !important;
+        margin-bottom: 10px !important;
+    }
+
+    .team-header p {
+        font-size: 0.95rem !important;
+    }
+
+    .team-image-wrapper {
+        padding: 10px !important;
+        border-radius: 15px !important;
+    }
+
+    .team-image-wrapper img {
+        border-radius: 8px !important;
+    }
+
+    .team-overlay {
+        padding: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .team-overlay h3 {
+        font-size: 1.1rem !important;
+        margin-bottom: 8px !important;
+    }
+
+    .team-overlay p {
+        font-size: 0.85rem !important;
+    }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 400px) {
+    .team-section {
+        padding: 30px 0;
+    }
+
+    .team-header h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .team-header p {
+        font-size: 0.9rem !important;
+    }
+
+    .team-overlay h3 {
+        font-size: 1rem !important;
+    }
+
+    .team-overlay p {
+        font-size: 0.8rem !important;
+    }
 }
