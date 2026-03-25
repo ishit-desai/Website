@@ -51,6 +51,21 @@ class HomePage {
                                         <div class="carousel-slide">
                                             <img src="assets/Extension Line+ 3 way.jpeg" alt="Extension Line+ 3 Way - Medical IV Equipment by Shri Gurukrupa Surgical™">
                                         </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/3-ball Spirometer.jpeg" alt="3-Ball Spirometer - Respiratory Therapy Equipment for Lung Function Testing by Shri Gurukrupa Surgical™ Ahmedabad">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Cathemeter.jpeg" alt="Cathemeter - Medical Measurement Device for Healthcare Professionals by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Mucus Extractor.jpeg" alt="Mucus Extractor - Neonatal and Infant Airway Clearance Device by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Nebulizer Mask Kit.jpeg" alt="Nebulizer Mask Kit - Complete Respiratory Therapy Set with Mask and Tubing by Shri Gurukrupa Surgical™">
+                                        </div>
+                                        <div class="carousel-slide">
+                                            <img src="assets/Oxygen Mask Kit.jpeg" alt="Oxygen Mask Kit - Medical Grade Oxygen Delivery System for Patient Care by Shri Gurukrupa Surgical™">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -68,6 +83,11 @@ class HomePage {
                                     <button class="indicator" data-slide="1"></button>
                                     <button class="indicator" data-slide="2"></button>
                                     <button class="indicator" data-slide="3"></button>
+                                    <button class="indicator" data-slide="4"></button>
+                                    <button class="indicator" data-slide="5"></button>
+                                    <button class="indicator" data-slide="6"></button>
+                                    <button class="indicator" data-slide="7"></button>
+                                    <button class="indicator" data-slide="8"></button>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +112,7 @@ class HomePage {
                             </div>
                         </div>
                         <div class="review-stat-item">
-                            <img src="assets/indiamart.jpg" alt="IndiaMART" class="indiamart-icon">
+                            <img src="assets/indiamart.jpg" alt="IndiaMART - India's Largest B2B Marketplace" class="indiamart-icon">
                             <div class="stat-content">
                                 <div class="stars">⭐⭐⭐⭐⭐</div>
                                 <div class="rating-text">5.0/5.0</div>
@@ -204,7 +224,7 @@ class HomePage {
     // Initialize carousel functionality
     initCarousel() {
         this.currentSlide = 0;
-        this.totalSlides = 4;
+        this.totalSlides = 9; // Updated for 9 product images
         this.autoSlideInterval = null;
 
         // Get carousel elements

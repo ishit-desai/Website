@@ -1981,3 +1981,5 @@ window.translations = translations;
 window.currentLanguage = currentLanguage;
 window.changeLanguage = changeLanguage;
 window.updatePageText = updatePageText;
+// Note: Customer review texts are kept in original English as authentic testimonials
+// Only UI elements, dates, and labels are translated

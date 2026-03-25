@@ -37,48 +37,48 @@ class AboutPage {
                             <h2 data-translate="about.commitment">${t.about?.commitment || 'Our Commitment'}</h2>
                             <p data-translate="about.commitmentText">${t.about?.commitmentText || 'We are committed to continuous improvement, investing in advanced manufacturing technologies, and maintaining strict quality control processes to ensure our products meet international standards.'}</p>
 
-                            <div style="margin-top: 40px;">
+                            <div class="about-cta-container">
                                 <a href="javascript:void(0)" onclick="showPage('enquiry')" class="btn btn-primary" data-translate="nav.contactUs">${t.nav?.contactUs || 'Get in Touch'}</a>
                             </div>
                         </div>
                         <div class="about-image">
-                            <img src="assets/company-facility.jpg" alt="Shri Gurukrupa Surgical State-of-the-Art Manufacturing Facility in Ahmedabad - ISO Certified Medical Equipment Production" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" style="max-width: 100%; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
-                            <div class="image-fallback" style="display: none; background: linear-gradient(135deg, #198cb3, #146b8c); color: white; height: 400px; border-radius: 15px; align-items: center; justify-content: center; font-size: 24px; font-weight: 600; text-align: center;">
+                            <img src="assets/company-facility.jpg" alt="Shri Gurukrupa Surgical State-of-the-Art Manufacturing Facility in Ahmedabad - ISO Certified Medical Equipment Production" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="about-facility-image">
+                            <div class="about-image-fallback">
                                 <div>
-                                    <i class="fas fa-industry" style="font-size: 48px; margin-bottom: 20px; display: block;"></i>
+                                    <i class="fas fa-industry"></i>
                                     Modern Manufacturing<br>Facility
                                 </div>
                             </div>
 
-                            <div style="margin-top: 30px; background: #f8fafc; padding: 30px; border-radius: 12px; border-left: 4px solid #198cb3;">
-                                <h3 style="color: #146b8c; margin-bottom: 20px;" data-translate="about.whyChoose">${t.about?.whyChoose || 'Why Choose Us?'}</h3>
-                                <ul style="list-style: none; padding: 0;">
-                                    <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                                        <i class="fas fa-check-circle" style="color: #198cb3; margin-right: 10px;"></i>
+                            <div class="about-why-choose-box">
+                                <h3 data-translate="about.whyChoose">${t.about?.whyChoose || 'Why Choose Us?'}</h3>
+                                <ul class="about-why-choose-list">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
                                         <span data-translate="about.experience">${t.about?.experience || '25+ Years of Experience'}</span>
                                     </li>
-                                    <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                                        <i class="fas fa-check-circle" style="color: #198cb3; margin-right: 10px;"></i>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
                                         <span data-translate="about.quality">${t.about?.quality || 'Premium Quality Products'}</span>
                                     </li>
-                                    <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                                        <i class="fas fa-check-circle" style="color: #198cb3; margin-right: 10px;"></i>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
                                         <span data-translate="about.trusted">${t.about?.trusted || 'Trusted by Healthcare Professionals'}</span>
                                     </li>
-                                    <li style="margin-bottom: 12px; display: flex; align-items: center;">
-                                        <i class="fas fa-check-circle" style="color: #198cb3; margin-right: 10px;"></i>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
                                         <span data-translate="about.pricing">${t.about?.pricing || 'Competitive Pricing'}</span>
                                     </li>
-                                    <li style="display: flex; align-items: center;">
-                                        <i class="fas fa-check-circle" style="color: #198cb3; margin-right: 10px;"></i>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
                                         <span data-translate="about.service">${t.about?.service || 'Excellent Customer Service'}</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <!-- Make in India Logo Section -->
-                            <div style="margin-top: 30px; text-align: center;">
-                                <img src="assets/Make In India logo.jpeg" alt="Make in India Logo - Supporting Indian Manufacturing Excellence - Shri Gurukrupa Surgical Proud Indian Medical Equipment Manufacturer" style="max-width: 320px; height: auto; margin: 0 auto; display: block;">
+                            <div class="about-logo-container">
+                                <img src="assets/Make In India logo.jpeg" alt="Make in India Logo - Supporting Indian Manufacturing Excellence - Shri Gurukrupa Surgical Proud Indian Medical Equipment Manufacturer" class="about-logo-image">
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,13 @@ class AboutPage {
             </section>
 
             <!-- Team and Founder Section -->
-            <section class="team-section page-section" style="background: linear-gradient(135deg, #f8fafc 0%, #e8f4f8 100%);">
+            <section class="team-section page-section team-section-gradient">
                 <div class="container">
-                    <div class="team-image-container" style="max-width: 1000px; margin: 0 auto;">
-                        <div class="team-image-wrapper" style="border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);">
-                            <img src="assets/Team and Founder.jpeg" alt="Shri Gurukrupa Surgical Founder and Team" style="width: 100%; height: auto; display: block;">
+                    <div class="team-image-container">
+                        <div class="team-image-wrapper">
+                            <img src="assets/Team and Founder.jpeg" alt="Shri Gurukrupa Surgical Founder with Professional Team - 30+ Years of Medical Equipment Manufacturing Excellence in Ahmedabad, Gujarat" class="team-image">
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
