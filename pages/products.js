@@ -142,7 +142,7 @@ class ProductsPage {
             </div>
             <section class="page-section">
                 <div class="container">
-                    <div class="products-grid">
+                    <div class="products-overview-grid">
                         ${this.products.map(product => this.renderProductCard(product, t)).join('')}
                     </div>
                 </div>

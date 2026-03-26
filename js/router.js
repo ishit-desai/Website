@@ -191,6 +191,10 @@ class Router {
             contact: 'Contact Us - Shrigurukrupa Surgical',
             downloads: 'Downloads - Shrigurukrupa Surgical',
             enquiry: 'Product Enquiry - Shrigurukrupa Surgical',
+            'infusion-transfusion': 'IV Sets, Infusion Sets, Blood Transfusion Sets | Shri Gurukrupa Surgical',
+            'anesthesia-respiratory': 'Spirometer, Catheter Mount, Anesthesia Equipment | Shri Gurukrupa Surgical',
+            'urology-gastroenterology': 'Mucus Extractor, Urine Bag, Urology Products | Shri Gurukrupa Surgical',
+            'miscellaneous': 'Yankauer Suction Set, Medical Supplies | Shri Gurukrupa Surgical',
             'surgical-instruments': 'Surgical Instruments - Shrigurukrupa Surgical',
             'medical-equipment': 'Medical Equipment - Shrigurukrupa Surgical',
             'disposables': 'Disposables - Shrigurukrupa Surgical',
@@ -198,6 +202,21 @@ class Router {
         };
 
         document.title = pageTitles[page] || 'Shrigurukrupa Surgical - Surgical Products & Equipment';
+
+        // Update meta description dynamically for product pages
+        const pageDescriptions = {
+            'infusion-transfusion': 'Buy IV infusion sets, blood transfusion sets, microdrip sets from ISO certified manufacturer in Ahmedabad. CAREWELL, BLESSING, Sayft-NV premium medical grade infusion products.',
+            'anesthesia-respiratory': 'Medical grade 3-ball spirometer, catheter mount, anesthesia and respiratory equipment. ISO certified manufacturer in Ahmedabad, Gujarat.',
+            'urology-gastroenterology': 'Neonatal mucus extractor, graduated urine collection bag, urology and gastroenterology medical products from ISO certified manufacturer.',
+            'miscellaneous': 'Yankauer suction set with Y-port control, surgical instruments and medical supplies from ISO certified manufacturer in Ahmedabad.'
+        };
+
+        if (pageDescriptions[page]) {
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) {
+                metaDesc.setAttribute('content', pageDescriptions[page]);
+            }
+        }
     }
 
     // Load default routes

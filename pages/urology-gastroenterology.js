@@ -14,59 +14,41 @@ class UrologyGastroenterologyPage {
     // Get products data for Urology & Gastroenterology category
     getProductsData() {
         return [
-            // Cord Clamp
-            {
-                id: 'cord-clamp',
-                name: 'Cord Clamp',
-                description: 'Medical cord clamp for secure clamping and cutting of umbilical cords during delivery procedures',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Urology & Gastroenterology Products',
-                specifications: ['Secure clamping mechanism', 'Safe cutting design', 'Sterile single use', 'Easy application', 'Medical grade materials']
-            },
-            // Yankauer Suction Set
-            {
-                id: 'yankauer-suction-set',
-                name: 'Yankauer Suction Set',
-                description: 'Professional suction set designed for effective oral and pharyngeal suctioning in medical procedures',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Urology & Gastroenterology Products',
-                specifications: ['Curved tip design', 'Large bore opening', 'Thumb control valve', 'Rigid construction', 'Effective suction performance']
-            },
-            // Urine Collection Container
-            {
-                id: 'urine-collection-container',
-                name: 'Urine Collection Container',
-                description: 'Sterile collection container for urine sample collection and laboratory analysis procedures',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Urology & Gastroenterology Products',
-                specifications: ['Sterile collection system', 'Leak-proof design', 'Clear volume markings', 'Secure lid closure', 'Laboratory compatible']
-            },
-            // Mucus Extractor
             {
                 id: 'mucus-extractor',
                 name: 'Mucus Extractor',
-                description: 'Medical device for safe and effective extraction of mucus from airways and respiratory passages',
-                image: 'assets/products/coming_soon.jpg',
+                subtitle: '',
+                description: 'Neonatal and infant mucus extractor with graduated collection chamber (0-20ml) for safe and effective airway clearance and suction procedures',
+                image: 'assets/products/Urology and Gastroenterology/Mucus Extractor.jpeg',
                 category: 'Urology & Gastroenterology Products',
-                specifications: ['Safe suction control', 'Flexible catheter design', 'Easy operation', 'Sterile disposable', 'Effective mucus removal']
+                specifications: [
+                    'Graduated collection chamber (0-20ml markings)',
+                    'Green color-coded design',
+                    'Clear measurement visibility',
+                    'Soft suction catheter tip',
+                    'Safe for neonatal use',
+                    'Gentle airway clearance',
+                    'Single-use sterile',
+                    'Non-toxic medical grade'
+                ]
             },
-            // Urine Bag DELUX
             {
-                id: 'urine-bag-delux',
-                name: 'Urine Bag DELUX',
-                description: 'Deluxe urine collection bag with enhanced features for extended patient comfort and reliability',
-                image: 'assets/products/coming_soon.jpg',
+                id: 'urine-bag',
+                name: 'Urine Bag',
+                subtitle: '',
+                description: 'Graduated urine collection bag with clear measurement markings for accurate urine output monitoring in catheterized patients',
+                image: 'assets/products/Urology and Gastroenterology/Urine Bag.jpeg',
                 category: 'Urology & Gastroenterology Products',
-                specifications: ['Enhanced comfort design', 'Anti-reflux valve', 'Large capacity', 'Secure attachment', 'Quality drainage system']
-            },
-            // Urine Bag PREMIUM
-            {
-                id: 'urine-bag-premium',
-                name: 'Urine Bag PREMIUM',
-                description: 'Premium grade urine collection bag offering superior quality and advanced features for optimal performance',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Urology & Gastroenterology Products',
-                specifications: ['Premium quality materials', 'Advanced anti-reflux system', 'Maximum capacity', 'Superior attachment system', 'Professional grade construction']
+                specifications: [
+                    'Clear graduated volume markings',
+                    'Accurate measurement scale',
+                    'Sterile and single-use',
+                    'Secure tube connections',
+                    'Drainage valve included',
+                    'Transparent for easy monitoring',
+                    'Standard catheter compatibility',
+                    'Leak-proof design'
+                ]
             }
         ];
     }
@@ -83,7 +65,13 @@ class UrologyGastroenterologyPage {
             </div>
             <section class="page-section">
                 <div class="container">
+                    <div class="seo-content-block">
+                        <h2>Professional Medical Urology & Gastroenterology Solutions</h2>
+                        <p>Our medical grade urology and gastroenterology products are designed for healthcare professionals requiring reliable, sterile, and safe solutions for urinary and digestive system procedures. From neonatal mucus extraction to urinary catheter systems, we provide comprehensive solutions for clinical care.</p>
+                    </div>
+
                     ${this.renderAllProducts()}
+                    ${this.renderProductModal()}
                 </div>
             </section>
         `;
@@ -101,34 +89,37 @@ class UrologyGastroenterologyPage {
     // Generate SEO-optimized alt text for product images
     generateSEOAltText(product) {
         let altText = product.name;
-
-        // Add relevant medical keywords based on product type
-        if (product.name.toLowerCase().includes('catheter')) {
-            altText += ' - Medical urinary catheter for urology procedures and bladder management';
-        } else if (product.name.toLowerCase().includes('feeding tube') || product.name.toLowerCase().includes('ryle')) {
-            altText += ' - Medical feeding tube for enteral nutrition and gastroenterology procedures';
-        } else if (product.name.toLowerCase().includes('suction')) {
-            altText += ' - Medical suction equipment for fluid removal and surgical procedures';
-        } else if (product.name.toLowerCase().includes('drainage')) {
-            altText += ' - Medical drainage system for post-operative and therapeutic fluid management';
-        } else if (product.name.toLowerCase().includes('collection')) {
-            altText += ' - Medical collection container for laboratory sample collection and analysis';
-        } else if (product.name.toLowerCase().includes('extractor')) {
-            altText += ' - Medical mucus extractor for airway clearance and respiratory care';
-        } else {
-            altText += ' - Urology and gastroenterology medical equipment for specialized healthcare procedures';
+        if (product.subtitle) {
+            altText += ` ${product.subtitle}`;
         }
 
-        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer Ahmedabad';
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('mucus extractor')) {
+            altText += ' - Neonatal and infant mucus extractor with graduated chamber for safe airway clearance';
+        } else if (product.name.toLowerCase().includes('urine bag')) {
+            altText += ' - Graduated urine collection bag with measurement markings for catheterized patients';
+        } else {
+            altText += ' - Medical equipment for urology and gastroenterology procedures';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer';
         return altText;
     }
 
     // Render individual product card
     renderProductCard(product) {
+        const hasImage = product.image && !product.image.includes('coming_soon');
+        const productId = product.id || product.name.replace(/\s+/g, '-').toLowerCase();
+
         return `
-            <div class="product-item-card">
+            <div class="product-item-card ${hasImage ? 'has-real-image' : ''}" onclick="window.openUrologyProductModal('${productId}')">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
+                    <img src="${product.image}"
+                         alt="${this.generateSEOAltText(product)}"
+                         class="product-image"
+                         width="350"
+                         height="350"
+                         loading="lazy"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>
@@ -137,16 +128,42 @@ class UrologyGastroenterologyPage {
                         <h3 class="product-name">${product.name}</h3>
                         ${product.subtitle ? `<p class="product-subtitle">${product.subtitle}</p>` : '<div class="product-subtitle-spacer"></div>'}
                     </div>
-                    <p class="product-description">${product.description}</p>
-                    <div class="product-specifications">
-                        <h4>Key Features:</h4>
-                        <ul>
-                            ${product.specifications.map(spec => `<li>${spec}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <button class="btn btn-primary product-enquiry-btn" onclick="openProductEnquiry('${product.name}')">
-                        <i class="fas fa-envelope"></i> Enquire Now
+                    <p class="product-description-short">${product.description}</p>
+                    <button class="btn btn-secondary product-view-btn">
+                        <i class="fas fa-eye"></i> View Details
                     </button>
+                </div>
+            </div>
+        `;
+    }
+
+    // Render product modal
+    renderProductModal() {
+        return `
+            <div id="urologyProductModal" class="product-modal">
+                <div class="product-modal-content">
+                    <button class="product-modal-close" onclick="window.closeUrologyProductModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="product-modal-body">
+                        <div class="product-modal-image-section">
+                            <img id="urologyModalProductImage" src="" alt="" class="product-modal-image">
+                        </div>
+                        <div class="product-modal-info-section">
+                            <h2 id="urologyModalProductName" class="product-modal-name"></h2>
+                            <p id="urologyModalProductSubtitle" class="product-modal-subtitle"></p>
+                            <p id="urologyModalProductDescription" class="product-modal-description"></p>
+
+                            <div class="product-modal-specifications">
+                                <h3>Key Features:</h3>
+                                <ul id="urologyModalProductSpecs"></ul>
+                            </div>
+
+                            <button class="btn btn-primary product-modal-enquiry-btn" onclick="window.closeUrologyProductModal(); window.openProductEnquiry(document.getElementById('urologyModalProductName').textContent);">
+                                <i class="fas fa-envelope"></i> Enquire Now
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         `;
@@ -158,6 +175,50 @@ class UrologyGastroenterologyPage {
         if (window.updatePageText) {
             setTimeout(() => window.updatePageText(), 100);
         }
+
+        // Store products data globally for modal access
+        window.urologyProducts = this.products;
+
+        // Add global modal functions
+        window.openUrologyProductModal = (productId) => {
+            const product = this.products.find(p => (p.id || p.name.replace(/\s+/g, '-').toLowerCase()) === productId);
+            if (!product) return;
+
+            // Populate modal content
+            document.getElementById('urologyModalProductImage').src = product.image;
+            document.getElementById('urologyModalProductImage').alt = this.generateSEOAltText(product);
+            document.getElementById('urologyModalProductName').textContent = product.name;
+            document.getElementById('urologyModalProductSubtitle').textContent = product.subtitle || '';
+            document.getElementById('urologyModalProductDescription').textContent = product.description;
+
+            // Populate specifications
+            const specsHtml = product.specifications.map(spec => `<li>${spec}</li>`).join('');
+            document.getElementById('urologyModalProductSpecs').innerHTML = specsHtml;
+
+            // Show modal
+            document.getElementById('urologyProductModal').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        };
+
+        window.closeUrologyProductModal = () => {
+            document.getElementById('urologyProductModal').style.display = 'none';
+            document.body.style.overflow = '';
+        };
+
+        // Close modal on outside click
+        document.addEventListener('click', (e) => {
+            const modal = document.getElementById('urologyProductModal');
+            if (e.target === modal) {
+                window.closeUrologyProductModal();
+            }
+        });
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                window.closeUrologyProductModal();
+            }
+        });
     }
 }
 

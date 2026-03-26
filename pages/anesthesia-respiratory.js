@@ -14,113 +14,41 @@ class AnesthesiaRespiratoryPage {
     // Get products data for Anesthesia & Respiratory category
     getProductsData() {
         return [
-            // Nebulizer Kit
             {
-                id: 'nebulizer-kit',
-                name: 'Nebulizer Kit',
-                description: 'Complete nebulizer kit for efficient medication delivery and respiratory therapy treatments',
-                image: 'assets/products/coming_soon.jpg',
+                id: '3-ball-spirometer',
+                name: '3-Ball Spirometer',
+                subtitle: '',
+                description: 'Three-chamber incentive spirometer with blue, yellow, and red balls for lung function testing, respiratory therapy, and breathing exercises to improve pulmonary capacity',
+                image: 'assets/products/Anesthesia and Respiratory/3-Ball Spirometer.jpeg',
                 category: 'Anesthesia & Respiratory Products',
-                specifications: ['Complete nebulizer system', 'Efficient medication delivery', 'Easy to assemble', 'Sterile and disposable', 'Compatible with standard medications']
+                specifications: [
+                    '3 color-coded balls (blue, yellow, red)',
+                    'Visual feedback for breathing exercises',
+                    'Corrugated flexible tube with mouthpiece',
+                    'Clear graduated chambers',
+                    'Encourages deep breathing and lung expansion',
+                    'Ideal for post-operative recovery',
+                    'Easy to use and clean',
+                    'Portable and lightweight'
+                ]
             },
-            // Hi-Concentration Mask
-            {
-                id: 'hi-concentration-mask',
-                name: 'Hi-Concentration Mask',
-                description: 'High-concentration oxygen mask designed for maximum oxygen delivery in critical care situations',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['High oxygen concentration delivery', 'Non-rebreathing design', 'Reservoir bag included', 'One-way valve system', 'Transparent clear mask']
-            },
-            // Multiflow Venturi Mask
-            {
-                id: 'multiflow-venturi-mask',
-                name: 'Multiflow Venturi Mask',
-                description: 'Precision oxygen delivery mask with multiple flow settings for controlled oxygen concentration',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Multiple concentration settings', 'Accurate oxygen mixing', 'Color-coded valves', 'Clear visual markings', 'Precise flow control']
-            },
-            // Guedel Airway
-            {
-                id: 'guedel-airway',
-                name: 'Guedel Airway',
-                description: 'Oropharyngeal airways for effective airway management and patient ventilation support',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Color-coded sizing system', 'Smooth rounded edges', 'Radio-opaque line', 'Various sizes available', 'Easy insertion design']
-            },
-            // Catheter Mount
             {
                 id: 'catheter-mount',
                 name: 'Catheter Mount',
-                description: 'Flexible catheter mount connector for secure and reliable ventilation circuit connections',
-                image: 'assets/products/coming_soon.jpg',
+                subtitle: '',
+                description: 'Flexible turquoise catheter mount connector with corrugated design for secure and reliable ventilation circuit connections in anesthesia and critical care',
+                image: 'assets/products/Anesthesia and Respiratory/Catheter Mount.jpeg',
                 category: 'Anesthesia & Respiratory Products',
-                specifications: ['Flexible design', 'Secure connections', 'Low dead space', 'Kink-resistant material', 'Standard fittings']
-            },
-            // T-Oxygenator
-            {
-                id: 't-oxygenator',
-                name: 'T-Oxygenator',
-                description: 'T-piece oxygen delivery system for controlled oxygen administration and ventilation support',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['T-piece design', 'Controlled oxygen delivery', 'Minimal dead space', 'Easy connectivity', 'Precise gas flow']
-            },
-            // BVF Filter
-            {
-                id: 'bvf-filter',
-                name: 'BVF Filter',
-                description: 'Bacterial and viral filtration filter for protection and clean air delivery in respiratory systems',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Bacterial filtration', 'Viral filtration', 'Low resistance design', 'High efficiency filtration', 'Compact size']
-            },
-            // HME Filter
-            {
-                id: 'hme-filter',
-                name: 'HME Filter',
-                description: 'Heat and moisture exchanger filter for optimal humidity and temperature control in breathing circuits',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Heat and moisture exchange', 'Low dead space volume', 'Hydrophobic membrane', 'Bacterial filtration', 'Optimal humidity control']
-            },
-            // HME-BVF Filter
-            {
-                id: 'hme-bvf-filter',
-                name: 'HME-BVF Filter',
-                description: 'Combined heat moisture exchanger and bacterial viral filter for complete respiratory protection',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Heat and moisture exchange', 'Bacterial and viral filtration', 'Dual function design', 'Low resistance', 'Compact integrated unit']
-            },
-            // Nasal Oxygen Cannula
-            {
-                id: 'nasal-oxygen-cannula',
-                name: 'Nasal Oxygen Cannula',
-                description: 'Comfortable nasal oxygen cannula for continuous oxygen therapy and patient comfort',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Soft nasal prongs', 'Adjustable headstrap', 'Kink-resistant tubing', 'Patient comfort design', 'Various sizes available']
-            },
-            // Oxygen Tubing
-            {
-                id: 'oxygen-tubing',
-                name: 'Oxygen Tubing',
-                description: 'Standard oxygen tubing for reliable oxygen delivery and connection in medical oxygen systems',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Medical grade PVC', 'Kink-resistant design', 'Standard connectors', 'Various lengths available', 'Clear transparent tubing']
-            },
-            // Oxygen Tubing Coiled
-            {
-                id: 'oxygen-tubing-coiled',
-                name: 'Oxygen Tubing Coiled',
-                description: 'Coiled oxygen tubing design for space-saving and flexible oxygen delivery applications',
-                image: 'assets/products/coming_soon.jpg',
-                category: 'Anesthesia & Respiratory Products',
-                specifications: ['Coiled space-saving design', 'Flexible and extendable', 'Prevents tangling', 'Standard fittings', 'Durable construction']
+                specifications: [
+                    'Flexible corrugated design',
+                    'Turquoise medical-grade material',
+                    'Swivel connections for easy positioning',
+                    'Low dead space',
+                    'Kink-resistant material',
+                    'Standard 15mm/22mm fittings',
+                    'Secure connections',
+                    'Single-use disposable'
+                ]
             }
         ];
     }
@@ -132,12 +60,18 @@ class AnesthesiaRespiratoryPage {
             <div class="page-header">
                 <div class="container">
                     <h1>Anesthesia & Respiratory Products</h1>
-                    <p>Complete anesthesia equipment and respiratory supplies for surgical and critical care procedures</p>
+                    <p>Complete range of anesthesia and respiratory products for surgical and critical care procedures</p>
                 </div>
             </div>
             <section class="page-section">
                 <div class="container">
+                    <div class="seo-content-block">
+                        <h2>Professional Anesthesia & Respiratory Solutions</h2>
+                        <p>Our medical grade anesthesia and respiratory products are designed for healthcare professionals requiring reliable equipment for surgical procedures, critical care, and respiratory therapy. From incentive spirometers to ventilation connectors, we provide comprehensive solutions for patient care.</p>
+                    </div>
+
                     ${this.renderAllProducts()}
+                    ${this.renderProductModal()}
                 </div>
             </section>
         `;
@@ -155,34 +89,37 @@ class AnesthesiaRespiratoryPage {
     // Generate SEO-optimized alt text for product images
     generateSEOAltText(product) {
         let altText = product.name;
-
-        // Add relevant medical keywords based on product type
-        if (product.name.toLowerCase().includes('nebulizer')) {
-            altText += ' - Medical nebulizer kit for respiratory therapy and medication delivery';
-        } else if (product.name.toLowerCase().includes('oxygen mask') || product.name.toLowerCase().includes('concentration mask')) {
-            altText += ' - High-concentration oxygen mask for critical care and anesthesia procedures';
-        } else if (product.name.toLowerCase().includes('venturi')) {
-            altText += ' - Precision venturi mask for controlled oxygen concentration delivery';
-        } else if (product.name.toLowerCase().includes('airway') || product.name.toLowerCase().includes('guedel')) {
-            altText += ' - Oropharyngeal airway device for airway management and ventilation support';
-        } else if (product.name.toLowerCase().includes('circuit') || product.name.toLowerCase().includes('breathing')) {
-            altText += ' - Medical breathing circuit for anesthesia and respiratory support systems';
-        } else if (product.name.toLowerCase().includes('catheter')) {
-            altText += ' - Nasal oxygen catheter for continuous oxygen therapy and respiratory care';
-        } else {
-            altText += ' - Anesthesia and respiratory medical equipment for healthcare facilities';
+        if (product.subtitle) {
+            altText += ` ${product.subtitle}`;
         }
 
-        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer Ahmedabad';
+        // Add relevant medical keywords based on product type
+        if (product.name.toLowerCase().includes('spirometer')) {
+            altText += ' - Incentive spirometer for lung function testing and respiratory therapy exercises';
+        } else if (product.name.toLowerCase().includes('catheter mount')) {
+            altText += ' - Flexible catheter mount connector for ventilation circuit connections in anesthesia';
+        } else {
+            altText += ' - Medical equipment for anesthesia and respiratory therapy';
+        }
+
+        altText += ' | Shri Gurukrupa Surgical - ISO certified medical device manufacturer';
         return altText;
     }
 
     // Render individual product card
     renderProductCard(product) {
+        const hasImage = product.image && !product.image.includes('coming_soon');
+        const productId = product.id || product.name.replace(/\s+/g, '-').toLowerCase();
+
         return `
-            <div class="product-item-card">
+            <div class="product-item-card ${hasImage ? 'has-real-image' : ''}" onclick="window.openAnesthesiaProductModal('${productId}')">
                 <div class="product-image-container">
-                    <img src="${product.image}" alt="${this.generateSEOAltText(product)}" class="product-image"
+                    <img src="${product.image}"
+                         alt="${this.generateSEOAltText(product)}"
+                         class="product-image"
+                         width="350"
+                         height="350"
+                         loading="lazy"
                          onload="this.parentElement.classList.add('has-image')"
                          onerror="this.src='assets/products/medical-placeholder.svg'; this.parentElement.classList.add('no-image')">
                 </div>
@@ -191,16 +128,42 @@ class AnesthesiaRespiratoryPage {
                         <h3 class="product-name">${product.name}</h3>
                         ${product.subtitle ? `<p class="product-subtitle">${product.subtitle}</p>` : '<div class="product-subtitle-spacer"></div>'}
                     </div>
-                    <p class="product-description">${product.description}</p>
-                    <div class="product-specifications">
-                        <h4>Key Features:</h4>
-                        <ul>
-                            ${product.specifications.map(spec => `<li>${spec}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <button class="btn btn-primary product-enquiry-btn" onclick="openProductEnquiry('${product.name}')">
-                        <i class="fas fa-envelope"></i> Enquire Now
+                    <p class="product-description-short">${product.description}</p>
+                    <button class="btn btn-secondary product-view-btn">
+                        <i class="fas fa-eye"></i> View Details
                     </button>
+                </div>
+            </div>
+        `;
+    }
+
+    // Render product modal
+    renderProductModal() {
+        return `
+            <div id="anesthesiaProductModal" class="product-modal">
+                <div class="product-modal-content">
+                    <button class="product-modal-close" onclick="window.closeAnesthesiaProductModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="product-modal-body">
+                        <div class="product-modal-image-section">
+                            <img id="anesthesiaModalProductImage" src="" alt="" class="product-modal-image">
+                        </div>
+                        <div class="product-modal-info-section">
+                            <h2 id="anesthesiaModalProductName" class="product-modal-name"></h2>
+                            <p id="anesthesiaModalProductSubtitle" class="product-modal-subtitle"></p>
+                            <p id="anesthesiaModalProductDescription" class="product-modal-description"></p>
+
+                            <div class="product-modal-specifications">
+                                <h3>Key Features:</h3>
+                                <ul id="anesthesiaModalProductSpecs"></ul>
+                            </div>
+
+                            <button class="btn btn-primary product-modal-enquiry-btn" onclick="window.closeAnesthesiaProductModal(); window.openProductEnquiry(document.getElementById('anesthesiaModalProductName').textContent);">
+                                <i class="fas fa-envelope"></i> Enquire Now
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         `;
@@ -212,6 +175,50 @@ class AnesthesiaRespiratoryPage {
         if (window.updatePageText) {
             setTimeout(() => window.updatePageText(), 100);
         }
+
+        // Store products data globally for modal access
+        window.anesthesiaProducts = this.products;
+
+        // Add global modal functions
+        window.openAnesthesiaProductModal = (productId) => {
+            const product = this.products.find(p => (p.id || p.name.replace(/\s+/g, '-').toLowerCase()) === productId);
+            if (!product) return;
+
+            // Populate modal content
+            document.getElementById('anesthesiaModalProductImage').src = product.image;
+            document.getElementById('anesthesiaModalProductImage').alt = this.generateSEOAltText(product);
+            document.getElementById('anesthesiaModalProductName').textContent = product.name;
+            document.getElementById('anesthesiaModalProductSubtitle').textContent = product.subtitle || '';
+            document.getElementById('anesthesiaModalProductDescription').textContent = product.description;
+
+            // Populate specifications
+            const specsHtml = product.specifications.map(spec => `<li>${spec}</li>`).join('');
+            document.getElementById('anesthesiaModalProductSpecs').innerHTML = specsHtml;
+
+            // Show modal
+            document.getElementById('anesthesiaProductModal').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        };
+
+        window.closeAnesthesiaProductModal = () => {
+            document.getElementById('anesthesiaProductModal').style.display = 'none';
+            document.body.style.overflow = '';
+        };
+
+        // Close modal on outside click
+        document.addEventListener('click', (e) => {
+            const modal = document.getElementById('anesthesiaProductModal');
+            if (e.target === modal) {
+                window.closeAnesthesiaProductModal();
+            }
+        });
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                window.closeAnesthesiaProductModal();
+            }
+        });
     }
 }
 
