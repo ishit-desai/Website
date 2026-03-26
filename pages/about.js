@@ -25,7 +25,7 @@ class AboutPage {
                     <div class="about-content">
                         <div class="about-text">
                             <h2 data-translate="about.story">${t.about?.story || 'Our Story'}</h2>
-                            <p data-translate="about.description1">${t.about?.description1 || 'Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.'}</p>
+                            <p data-translate="about.description1">${t.about?.description1 || 'Shri Gurukrupa Surgical has been a trusted supplier of premium surgical products for over 35 years, committed to supporting healthcare professionals with quality equipment and instruments.'}</p>
                             <p data-translate="about.description2">${t.about?.description2 || 'Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.'}</p>
 
                             <h2 data-translate="about.mission">${t.about?.mission || 'Our Mission'}</h2>
@@ -42,7 +42,7 @@ class AboutPage {
                             </div>
                         </div>
                         <div class="about-image">
-                            <img src="assets/company-facility.jpg" alt="Shri Gurukrupa Surgical State-of-the-Art Manufacturing Facility in Ahmedabad - ISO Certified Medical Equipment Production" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="about-facility-image">
+                            <img src="assets/About Page Image.jpeg" alt="Shri Gurukrupa Surgical State-of-the-Art Manufacturing Facility in Ahmedabad - ISO Certified Medical Equipment Production" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" class="about-facility-image">
                             <div class="about-image-fallback">
                                 <div>
                                     <i class="fas fa-industry"></i>
@@ -55,7 +55,7 @@ class AboutPage {
                                 <ul class="about-why-choose-list">
                                     <li>
                                         <i class="fas fa-check-circle"></i>
-                                        <span data-translate="about.experience">${t.about?.experience || '25+ Years of Experience'}</span>
+                                        <span data-translate="about.experience">${t.about?.experience || '35+ Years of Experience'}</span>
                                     </li>
                                     <li>
                                         <i class="fas fa-check-circle"></i>
@@ -90,7 +90,7 @@ class AboutPage {
                 <div class="container">
                     <div class="team-image-container">
                         <div class="team-image-wrapper">
-                            <img src="assets/Team and Founder.jpeg" alt="Shri Gurukrupa Surgical Founder with Professional Team - 30+ Years of Medical Equipment Manufacturing Excellence in Ahmedabad, Gujarat" class="team-image">
+                            <img src="assets/Team and Founder.jpeg" alt="Shri Gurukrupa Surgical Founder with Professional Team - 35+ Years of Medical Equipment Manufacturing Excellence in Ahmedabad, Gujarat" class="team-image">
                         </div>
                     </div>
                         </div>

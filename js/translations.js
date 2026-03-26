@@ -272,7 +272,7 @@ const translations = {
         about: {
             title: "About Shri Gurukrupa Surgical™",
             subtitle: "Your Trusted Partner in Advanced Surgical Solutions & Medical Excellence",
-            description1: "Shri Gurukrupa Surgical™ has been a trusted supplier of premium surgical products for over 25 years, committed to supporting healthcare professionals with quality equipment and instruments.",
+            description1: "Shri Gurukrupa Surgical™ has been a trusted supplier of premium surgical products for over 35 years, committed to supporting healthcare professionals with quality equipment and instruments.",
             description2: "Our state-of-the-art manufacturing facility is equipped with the latest technology, and our team of experienced professionals is dedicated to maintaining the highest quality standards for all our products.",
             learnMore: "Learn More",
             story: "Our Story",
@@ -283,7 +283,7 @@ const translations = {
             commitment: "Our Commitment",
             commitmentText: "We are committed to continuous improvement, investing in advanced manufacturing technologies, and maintaining strict quality control processes to ensure our products meet international standards.",
             whyChoose: "Why Choose Us?",
-            experience: "25+ Years of Experience",
+            experience: "35+ Years of Experience",
             quality: "Premium Quality Products",
             trusted: "Trusted by Healthcare Professionals",
             pricing: "Competitive Pricing",
@@ -725,7 +725,7 @@ const translations = {
         about: {
             title: "Acerca de Shri Gurukrupa Surgical",
             subtitle: "Su Socio de Confianza en Soluciones Quirúrgicas Avanzadas y Excelencia Médica",
-            description1: "Shri Gurukrupa Surgical ha sido un proveedor confiable de productos quirúrgicos premium por más de 25 años, comprometido a apoyar a profesionales de la salud con equipos e instrumentos de calidad.",
+            description1: "Shri Gurukrupa Surgical ha sido un proveedor confiable de productos quirúrgicos premium por más de 35 años, comprometido a apoyar a profesionales de la salud con equipos e instrumentos de calidad.",
             description2: "Nuestra instalación de fabricación de vanguardia está equipada con la última tecnología, y nuestro equipo de profesionales experimentados se dedica a mantener los más altos estándares de calidad para todos nuestros productos.",
             learnMore: "Saber Más"
         },
@@ -1078,7 +1078,7 @@ const translations = {
         about: {
             title: "À propos de Shri Gurukrupa Surgical",
             subtitle: "Votre Partenaire de Confiance en Solutions Chirurgicales Avancées et Excellence Médicale",
-            description1: "Shri Gurukrupa Surgical est un fournisseur de confiance de produits chirurgicaux premium depuis plus de 25 ans, engagé à soutenir les professionnels de la santé avec des équipements et instruments de qualité.",
+            description1: "Shri Gurukrupa Surgical est un fournisseur de confiance de produits chirurgicaux premium depuis plus de 35 ans, engagé à soutenir les professionnels de la santé avec des équipements et instruments de qualité.",
             description2: "Notre installation de fabrication de pointe est équipée de la dernière technologie, et notre équipe de professionnels expérimentés se consacre à maintenir les plus hauts standards de qualité pour tous nos produits.",
             learnMore: "En Savoir Plus"
         },
@@ -1503,7 +1503,7 @@ const translations = {
         about: {
             title: "श्री गुरुकृपा सर्जिकल के बारे में",
             subtitle: "उन्नत सर्जिकल समाधान और चिकित्सा उत्कृष्टता में आपका विश्वसनीय भागीदार",
-            description1: "श्री गुरुकृपा सर्जिकल 25 से अधिक वर्षों से प्रीमियम सर्जिकल उत्पादों का एक विश्वसनीय आपूर्तिकर्ता है, जो स्वास्थ्य सेवा पेशेवरों को गुणवत्तापूर्ण उपकरण और उपकरण प्रदान करने के लिए प्रतिबद्ध है।",
+            description1: "श्री गुरुकृपा सर्जिकल 35 से अधिक वर्षों से प्रीमियम सर्जिकल उत्पादों का एक विश्वसनीय आपूर्तिकर्ता है, जो स्वास्थ्य सेवा पेशेवरों को गुणवत्तापूर्ण उपकरण और उपकरण प्रदान करने के लिए प्रतिबद्ध है।",
             description2: "हमारी अत्याधुनिक विनिर्माण सुविधा नवीनतम तकनीक से लैस है, और हमारे अनुभवी पेशेवरों की टीम हमारे सभी उत्पादों के लिए उच्चतम गुणवत्ता मानकों को बनाए रखने के लिए समर्पित है।",
             learnMore: "और जानें",
             story: "हमारी कहानी",
@@ -1514,7 +1514,7 @@ const translations = {
             commitment: "हमारी प्रतिबद्धता",
             commitmentText: "निरंतर सुधार के लिए प्रतिबद्ध हैं, उन्नत तकनीकों में निवेश और अंतर्राष्ट्रीय मानकों को पूरा करना।",
             whyChoose: "हमें क्यों चुनें?",
-            experience: "25+ वर्षों का अनुभव",
+            experience: "35+ वर्षों का अनुभव",
             quality: "प्रीमियम गुणवत्ता उत्पाद",
             trusted: "स्वास्थ्य पेशेवरों द्वारा विश्वसनीय",
             pricing: "प्रतिस्पर्धी मूल्य",
@@ -1773,7 +1773,7 @@ const translations = {
         about: {
             title: "શ્રી ગુરુકૃપા સર્જિકલ વિશે",
             subtitle: "અદ્યતન સર્જિકલ સોલ્યુશન્સ અને મેડિકલ એક્સિલન્સમાં તમારો વિશ્વસનીય ભાગીદાર",
-            description1: "શ્રી ગુરુકૃપા સર્જિકલ 25 વર્ષથી વધુ સમયથી પ્રીમિયમ સર્જિકલ ઉત્પાદનોના વિશ્વસનીય પૂરવઠાકર્તા છે, જે આરોગ્ય સેવા વ્યાવસાયિકોને ગુણવત્તાયુક્ત સાધનો અને સાધનો પ્રદાન કરવા માટે પ્રતિબદ્ધ છે.",
+            description1: "શ્રી ગુરુકૃપા સર્જિકલ 35 વર્ષથી વધુ સમયથી પ્રીમિયમ સર્જિકલ ઉત્પાદનોના વિશ્વસનીય પૂરવઠાકર્તા છે, જે આરોગ્ય સેવા વ્યાવસાયિકોને ગુણવત્તાયુક્ત સાધનો અને સાધનો પ્રદાન કરવા માટે પ્રતિબદ્ધ છે.",
             description2: "અમારી અત્યાધુનિક ઉત્પાદન સુવિધા નવીનતમ તકનીકથી સજ્જ છે, અને અમારી અનુભવી વ્યાવસાયિકોની ટીમ અમારા તમામ ઉત્પાદનો માટે સર્વોચ્ચ ગુણવત્તા ધોરણો જાળવવા માટે સમર્પિત છે.",
             learnMore: "વધુ જાણો"
         },
