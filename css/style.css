@@ -6478,3 +6478,174 @@ body:not(.category-page) .products-grid:not(.product-item-card .products-grid) {
         grid-template-columns: 1fr !important;
     }
 }
+
+/* ============================================
+   PRODUCT MODAL CONTACT BUTTONS
+   ============================================ */
+
+.product-modal-contact-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #E8E8E8;
+}
+
+.product-modal-contact-section .contact-heading {
+    color: #FF6B1A;
+    font-size: 1.1rem;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-modal-contact-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.product-contact-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: 2px solid;
+    position: relative;
+    overflow: hidden;
+    min-height: 68px;
+}
+
+.product-contact-btn i {
+    font-size: 1.3rem;
+    margin-bottom: 6px;
+    transition: transform 0.3s ease;
+}
+
+.product-contact-btn span {
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+
+.product-contact-btn:hover i {
+    transform: scale(1.15);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background: linear-gradient(135deg, #25D366 0%, #20BA5A 100%);
+    color: white;
+    border-color: #25D366;
+    box-shadow: 0 3px 12px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-btn:hover {
+    background: linear-gradient(135deg, #20BA5A 0%, #1DA851 100%);
+    box-shadow: 0 5px 18px rgba(37, 211, 102, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Call Button */
+.call-btn {
+    background: linear-gradient(135deg, #2C5AA0 0%, #234A8A 100%);
+    color: white;
+    border-color: #2C5AA0;
+    box-shadow: 0 3px 12px rgba(44, 90, 160, 0.3);
+}
+
+.call-btn:hover {
+    background: linear-gradient(135deg, #234A8A 0%, #1C3D75 100%);
+    box-shadow: 0 5px 18px rgba(44, 90, 160, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Email Button */
+.email-btn {
+    background: linear-gradient(135deg, #FF6B1A 0%, #E55A0F 100%);
+    color: white;
+    border-color: #FF6B1A;
+    box-shadow: 0 3px 12px rgba(255, 107, 26, 0.3);
+}
+
+.email-btn:hover {
+    background: linear-gradient(135deg, #E55A0F 0%, #CC4E0A 100%);
+    box-shadow: 0 5px 18px rgba(255, 107, 26, 0.4);
+    transform: translateY(-2px);
+}
+
+/* IndiaMART Button - Using Contact Page Color */
+.indiamart-btn {
+    background: linear-gradient(135deg, #291970 0%, #1F1354 100%);
+    color: white;
+    border-color: #291970;
+    box-shadow: 0 3px 12px rgba(41, 25, 112, 0.3);
+}
+
+.indiamart-btn:hover {
+    background: linear-gradient(135deg, #1F1354 0%, #160D3C 100%);
+    box-shadow: 0 5px 18px rgba(41, 25, 112, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Mobile Responsive - Keep 2 Columns */
+@media (max-width: 768px) {
+    .product-modal-contact-section .contact-heading {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .product-modal-contact-buttons {
+        gap: 8px;
+    }
+
+    .product-contact-btn {
+        padding: 10px 8px;
+        min-height: 62px;
+    }
+
+    .product-contact-btn i {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .product-contact-btn span {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-modal-contact-section .contact-heading {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+
+    .product-modal-contact-buttons {
+        gap: 8px;
+    }
+
+    .product-contact-btn {
+        padding: 10px 6px;
+        min-height: 58px;
+    }
+
+    .product-contact-btn i {
+        font-size: 1.1rem;
+        margin-bottom: 4px;
+    }
+
+    .product-contact-btn span {
+        font-size: 0.7rem;
+    }
+}
+
+/* Active/Pressed State */
+.product-contact-btn:active {
+    transform: translateY(0) scale(0.98);
+}
+

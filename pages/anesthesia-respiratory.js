@@ -159,9 +159,27 @@ class AnesthesiaRespiratoryPage {
                                 <ul id="anesthesiaModalProductSpecs"></ul>
                             </div>
 
-                            <button class="btn btn-primary product-modal-enquiry-btn" onclick="window.closeAnesthesiaProductModal(); window.openProductEnquiry(document.getElementById('anesthesiaModalProductName').textContent);">
-                                <i class="fas fa-envelope"></i> Enquire Now
-                            </button>
+                            <div class="product-modal-contact-section">
+                                <h3 class="contact-heading">Contact Us About This Product</h3>
+                                <div class="product-modal-contact-buttons">
+                                    <a href="https://wa.me/919925648962?text=Hi, I'm interested in " class="product-contact-btn whatsapp-btn" id="anesthesiaModalWhatsAppBtn" target="_blank" rel="noopener">
+                                        <i class="fab fa-whatsapp"></i>
+                                        <span>WhatsApp</span>
+                                    </a>
+                                    <a href="tel:+919825048962" class="product-contact-btn call-btn">
+                                        <i class="fas fa-phone"></i>
+                                        <span>Call Now</span>
+                                    </a>
+                                    <a href="mailto:shrigurukrupa54@gmail.com?subject=Product Enquiry: " class="product-contact-btn email-btn" id="anesthesiaModalEmailBtn">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>Email</span>
+                                    </a>
+                                    <a href="https://www.indiamart.com/shri-gurukrupa-surgical/" class="product-contact-btn indiamart-btn" target="_blank" rel="noopener">
+                                        <i class="fas fa-store"></i>
+                                        <span>IndiaMART</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -194,6 +212,18 @@ class AnesthesiaRespiratoryPage {
             // Populate specifications
             const specsHtml = product.specifications.map(spec => `<li>${spec}</li>`).join('');
             document.getElementById('anesthesiaModalProductSpecs').innerHTML = specsHtml;
+
+            // Update WhatsApp and Email links with product name
+            const productName = encodeURIComponent(product.name);
+            const whatsappBtn = document.getElementById('anesthesiaModalWhatsAppBtn');
+            const emailBtn = document.getElementById('anesthesiaModalEmailBtn');
+
+            if (whatsappBtn) {
+                whatsappBtn.href = `https://wa.me/919925648962?text=Hi, I'm interested in ${productName}`;
+            }
+            if (emailBtn) {
+                emailBtn.href = `mailto:shrigurukrupa54@gmail.com?subject=Product Enquiry: ${productName}`;
+            }
 
             // Show modal
             document.getElementById('anesthesiaProductModal').style.display = 'flex';
